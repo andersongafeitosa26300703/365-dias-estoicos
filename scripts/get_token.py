@@ -58,7 +58,18 @@ def main():
     if not ig:
         sys.exit("Essa Pagina nao tem Instagram profissional vinculado. Vincule no app do Instagram e rode de novo.")
 
+    # Autoverificacao: o token da Pagina precisa conseguir ler a conta do Instagram
+    check = requests.get(
+        f"{GRAPH}/{ig['id']}",
+        params={"fields": "username", "access_token": page["access_token"]},
+        timeout=60,
+    )
+    if check.status_code >= 400:
+        sys.exit(f"Verificacao FALHOU: o token nao acessa a conta do Instagram: {check.json().get('error', check.text)}")
+    print(f"\nVerificacao OK: o token acessa @{check.json().get('username')}")
+
     print(f"\nIG_USER_ID = {ig['id']}   (@{ig['username']})")
+    print("Cadastre no GitHub: IG_USER_ID com ESSE numero e IG_ACCESS_TOKEN com o token copiado.")
     try:
         subprocess.run("clip", input=page["access_token"].encode("utf-16le"), check=True)
         print("IG_ACCESS_TOKEN copiado para a area de transferencia. Cole no GitHub agora.")

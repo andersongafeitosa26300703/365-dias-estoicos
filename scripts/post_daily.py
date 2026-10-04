@@ -82,6 +82,22 @@ def graph_get(path, **params):
     return body
 
 
+def diagnose(user_id, token):
+    """Imprime pistas sobre a falha sem expor segredos (o log de repositorio publico e publico)."""
+    print(f"[diag] IG_USER_ID: {len(user_id)} caracteres, so digitos: {user_id.isdigit()}")
+    print(f"[diag] IG_ACCESS_TOKEN: {len(token)} caracteres, comeca com EAA: {token.startswith('EAA')}")
+    r = requests.get(f"{GRAPH}/{user_id}", params={"fields": "id,username", "access_token": token}, timeout=60)
+    print(f"[diag] ler a conta {user_id[:3]}...: HTTP {r.status_code}", r.json().get("error", {}).get("message", "ok"))
+    r = requests.get(f"{GRAPH}/me", params={"fields": "id,name", "access_token": token}, timeout=60)
+    b = r.json()
+    print(f"[diag] /me: HTTP {r.status_code}", b.get("error", {}).get("message", ""))
+    if r.status_code == 200:
+        print(f"[diag] /me id == IG_USER_ID: {b.get('id') == user_id}; nome contem 'Estoic': {'Estoic' in b.get('name', '')}")
+    r = requests.get(f"{GRAPH}/me/permissions", params={"access_token": token}, timeout=60)
+    if r.status_code == 200:
+        print("[diag] permissoes:", sorted(p["permission"] for p in r.json().get("data", []) if p["status"] == "granted"))
+
+
 def resolve_day(args, cfg):
     day = args.day or today_number(cfg)
     if day < 1 or day > 365:
@@ -102,8 +118,8 @@ def cmd_publish(day, entry):
         print(f"Dia {day} ja foi publicado ({posted[str(day)]}); nada a fazer.")
         return
 
-    user_id = os.environ["IG_USER_ID"]
-    token = os.environ["IG_ACCESS_TOKEN"]
+    user_id = os.environ["IG_USER_ID"].strip()
+    token = os.environ["IG_ACCESS_TOKEN"].strip()
     caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
     url = image_url(day)
 
@@ -115,7 +131,11 @@ def cmd_publish(day, entry):
     else:
         raise RuntimeError(f"Imagem nao acessivel publicamente: {url}")
 
-    container = graph_post(f"{user_id}/media", image_url=url, caption=caption, access_token=token)["id"]
+    try:
+        container = graph_post(f"{user_id}/media", image_url=url, caption=caption, access_token=token)["id"]
+    except RuntimeError:
+        diagnose(user_id, token)
+        raise
 
     for _ in range(30):
         status = graph_get(container, fields="status_code", access_token=token)["status_code"]
