@@ -20,7 +20,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from render import render  # noqa: E402
+from render import render, render_story  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "posts"
@@ -60,10 +60,10 @@ def build_caption(entry):
     return "\n\n".join(parts)
 
 
-def image_url(day):
+def image_url(name):
     repo = os.environ["GITHUB_REPOSITORY"]
     branch = os.environ.get("GITHUB_REF_NAME", "main")
-    return f"https://raw.githubusercontent.com/{repo}/{branch}/posts/dia-{day:03d}.jpg"
+    return f"https://raw.githubusercontent.com/{repo}/{branch}/posts/{name}"
 
 
 def graph_post(path, **params):
@@ -135,36 +135,23 @@ def resolve_day(args, cfg):
 
 def cmd_prepare(day, entry):
     out = render(entry, POSTS_DIR / f"dia-{day:03d}.jpg")
+    render_story(entry, POSTS_DIR / f"story-{day:03d}.jpg")
     (POSTS_DIR / f"dia-{day:03d}.txt").write_text(build_caption(entry), encoding="utf-8")
-    print(f"Dia {day}: imagem em {out}")
+    print(f"Dia {day}: imagem em {out} (e versao Story)")
 
 
-def cmd_publish(day, entry):
-    posted = load_posted()
-    if str(day) in posted:
-        print(f"Dia {day} ja foi publicado ({posted[str(day)]}); nada a fazer.")
-        return
-
-    user_id = clean_secret(os.environ["IG_USER_ID"])
-    token = clean_secret(os.environ["IG_ACCESS_TOKEN"])
-    user_id, token = resolve_ig(user_id, token)
-    caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
-    url = image_url(day)
-
+def wait_public(url):
     # raw.githubusercontent pode demorar alguns segundos para servir o arquivo recem-enviado
     for _ in range(12):
         if requests.head(url, timeout=30).status_code == 200:
-            break
+            return
         time.sleep(10)
-    else:
-        raise RuntimeError(f"Imagem nao acessivel publicamente: {url}")
+    raise RuntimeError(f"Imagem nao acessivel publicamente: {url}")
 
-    try:
-        container = graph_post(f"{user_id}/media", image_url=url, caption=caption, access_token=token)["id"]
-    except RuntimeError:
-        diagnose(user_id, token)
-        raise
 
+def create_and_publish(user_id, token, **params):
+    """Cria o container de midia, espera ficar pronto e publica. Serve para feed e Stories."""
+    container = graph_post(f"{user_id}/media", access_token=token, **params)["id"]
     for _ in range(30):
         status = graph_get(container, fields="status_code", access_token=token)["status_code"]
         if status == "FINISHED":
@@ -174,11 +161,52 @@ def cmd_publish(day, entry):
         time.sleep(5)
     else:
         raise RuntimeError(f"Container {container} nao ficou pronto a tempo")
+    return graph_post(f"{user_id}/media_publish", creation_id=container, access_token=token)["id"]
 
-    media_id = graph_post(f"{user_id}/media_publish", creation_id=container, access_token=token)["id"]
-    posted[str(day)] = {"media_id": media_id, "at": datetime.now(TZ).isoformat(timespec="seconds")}
+
+def save_posted(posted):
     POSTED_FILE.write_text(json.dumps(posted, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Dia {day} publicado: media_id={media_id}")
+
+
+def cmd_publish(day, entry):
+    posted = load_posted()
+    rec = posted.get(str(day), {})
+    feed_done, story_done = bool(rec.get("media_id")), bool(rec.get("story_media_id"))
+    if feed_done and story_done:
+        print(f"Dia {day} ja foi publicado (feed e Story); nada a fazer.")
+        return
+
+    user_id = clean_secret(os.environ["IG_USER_ID"])
+    token = clean_secret(os.environ["IG_ACCESS_TOKEN"])
+    user_id, token = resolve_ig(user_id, token)
+
+    if not feed_done:
+        caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
+        url = image_url(f"dia-{day:03d}.jpg")
+        wait_public(url)
+        try:
+            media_id = create_and_publish(user_id, token, image_url=url, caption=caption)
+        except RuntimeError:
+            diagnose(user_id, token)
+            raise
+        rec = {"media_id": media_id, "at": datetime.now(TZ).isoformat(timespec="seconds")}
+        posted[str(day)] = rec
+        save_posted(posted)  # grava ja: o feed nunca pode ser publicado duas vezes
+        print(f"Dia {day} publicado no feed: media_id={media_id}")
+
+    if not story_done:
+        try:
+            surl = image_url(f"story-{day:03d}.jpg")
+            wait_public(surl)
+            story_id = create_and_publish(user_id, token, image_url=surl, media_type="STORIES")
+            rec["story_media_id"] = story_id
+            posted[str(day)] = rec
+            save_posted(posted)
+            print(f"Dia {day} publicado no Story: media_id={story_id}")
+        except RuntimeError as e:
+            # O feed ja saiu; falha no Story so avisa (exit 1 no fim, depois de registrar o feed)
+            print(f"[story] FALHOU (o feed do dia {day} ja foi publicado): {e}")
+            sys.exit(1)
 
 
 def main():
