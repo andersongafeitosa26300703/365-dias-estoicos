@@ -68,13 +68,19 @@ def main():
         sys.exit(f"Verificacao FALHOU: o token nao acessa a conta do Instagram: {check.json().get('error', check.text)}")
     print(f"\nVerificacao OK: o token acessa @{check.json().get('username')}")
 
-    print(f"\nIG_USER_ID = {ig['id']}   (@{ig['username']})")
-    print("Cadastre no GitHub: IG_USER_ID com ESSE numero e IG_ACCESS_TOKEN com o token copiado.")
-    try:
-        subprocess.run("clip", input=page["access_token"].encode("utf-16le"), check=True)
-        print("IG_ACCESS_TOKEN copiado para a area de transferencia. Cole no GitHub agora.")
-    except Exception:
-        print("Nao consegui copiar automaticamente. Token da Pagina:\n" + page["access_token"])
+    def copiar(texto):
+        subprocess.run("clip", input=texto.encode("utf-16le"), check=True)
+
+    print("\n=== PASSO A: IG_USER_ID ===")
+    print(f"O numero e {ig['id']}  (conta @{ig['username']}). Ele ja foi copiado para a area de transferencia.")
+    print("No GitHub: abra o segredo IG_USER_ID (lapis), cole com Ctrl+V e salve.")
+    copiar(ig["id"])
+    input("Quando tiver salvo o IG_USER_ID, volte aqui e aperte Enter... ")
+
+    print("\n=== PASSO B: IG_ACCESS_TOKEN ===")
+    copiar(page["access_token"])
+    print("Agora o TOKEN foi copiado (comeca com EAA). No GitHub: abra o segredo IG_ACCESS_TOKEN (lapis),")
+    print("cole com Ctrl+V e salve. Nao copie mais nada antes disso.")
 
 
 if __name__ == "__main__":
