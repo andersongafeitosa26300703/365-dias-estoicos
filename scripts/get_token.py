@@ -71,17 +71,22 @@ def main():
     def copiar(texto):
         subprocess.run("clip", input=texto.encode("ascii"), check=True)
 
-    print("\n=== PASSO A: IG_USER_ID ===")
-    print(f"O numero e {ig['id']}  (conta @{ig['username']}). Ele ja foi copiado para a area de transferencia.")
-    print("No GitHub: abra o segredo IG_USER_ID (lapis), cole com Ctrl+V e salve.")
-    copiar(ig["id"])
-    input("Quando tiver salvo o IG_USER_ID, volte aqui e aperte Enter... ")
+    # Mostra a validade do token da Pagina (precisa ser "nunca expira")
+    dbg = requests.get(
+        f"{GRAPH}/debug_token",
+        params={"input_token": page["access_token"], "access_token": long_user},
+        timeout=60,
+    ).json().get("data", {})
+    expira = "nunca expira" if not dbg.get("expires_at") else f"expira em {dbg['expires_at']} (timestamp)"
+    print(f"\nTipo do token: {dbg.get('type')}; {expira}")
+    if dbg.get("type") != "PAGE" or dbg.get("expires_at"):
+        sys.exit("ATENCAO: este nao e um token de Pagina permanente. Nao use. Rode de novo e me avise.")
 
-    print("\n=== PASSO B: IG_ACCESS_TOKEN ===")
     copiar(page["access_token"])
-    print("Agora o TOKEN foi copiado (comeca com EAA). No GitHub: abra o segredo IG_ACCESS_TOKEN (lapis),")
-    print("cole com Ctrl+V e salve. Nao copie mais nada antes disso.")
-
+    print("\n=== UNICA COLAGEM NECESSARIA: IG_ACCESS_TOKEN ===")
+    print(f"Conta @{ig['username']}. O token de Pagina (permanente) ja foi copiado.")
+    print("No GitHub: Settings > Secrets > Actions > IG_ACCESS_TOKEN (lapis) > cole com Ctrl+V > Update secret.")
+    print("O IG_USER_ID nao e mais necessario (o robo descobre sozinho).")
 
 if __name__ == "__main__":
     main()

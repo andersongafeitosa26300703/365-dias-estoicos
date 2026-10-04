@@ -93,10 +93,18 @@ def resolve_ig(user_id, token):
         params={"fields": "name,access_token,instagram_business_account", "access_token": token},
         timeout=60,
     )
-    if r.status_code >= 400:
-        raise RuntimeError(f"Nao foi possivel listar as Paginas com este token: {r.json().get('error', {}).get('message')}")
-    pages = [p for p in r.json().get("data", []) if p.get("instagram_business_account")]
+    pages = [p for p in r.json().get("data", []) if p.get("instagram_business_account")] if r.status_code < 400 else []
     if not pages:
+        # Token de Pagina: o proprio /me e a Pagina
+        me = requests.get(
+            f"{GRAPH}/me",
+            params={"fields": "id,name,instagram_business_account", "access_token": token},
+            timeout=60,
+        )
+        mb = me.json()
+        if me.status_code < 400 and mb.get("instagram_business_account"):
+            print(f"[resolve] token de Pagina '{mb.get('name')}'")
+            return mb["instagram_business_account"]["id"], token
         raise RuntimeError("Nenhuma Pagina com Instagram vinculado foi encontrada para este token")
     pages.sort(key=lambda p: "Estoic" not in p["name"])
     page = pages[0]
