@@ -87,7 +87,7 @@ def diagnose(user_id, token):
     print(f"[diag] IG_USER_ID: {len(user_id)} caracteres, so digitos: {user_id.isdigit()}")
     print(f"[diag] IG_ACCESS_TOKEN: {len(token)} caracteres, comeca com EAA: {token.startswith('EAA')}")
     r = requests.get(f"{GRAPH}/{user_id}", params={"fields": "id,username", "access_token": token}, timeout=60)
-    print(f"[diag] ler a conta {user_id[:3]}...: HTTP {r.status_code}", r.json().get("error", {}).get("message", "ok"))
+    print(f"[diag] ler a conta do IG: HTTP {r.status_code}", r.json().get("error", {}).get("message", "ok"))
     r = requests.get(f"{GRAPH}/me", params={"fields": "id,name", "access_token": token}, timeout=60)
     b = r.json()
     print(f"[diag] /me: HTTP {r.status_code}", b.get("error", {}).get("message", ""))
