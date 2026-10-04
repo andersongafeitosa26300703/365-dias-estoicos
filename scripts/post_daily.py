@@ -82,6 +82,11 @@ def graph_get(path, **params):
     return body
 
 
+def clean_secret(value):
+    """Remove bytes nulos, espacos e quebras de linha que a colagem pode ter trazido."""
+    return "".join(ch for ch in value if ch.isprintable() and not ch.isspace())
+
+
 def diagnose(user_id, token):
     """Imprime pistas sobre a falha sem expor segredos (o log de repositorio publico e publico)."""
     print(f"[diag] IG_USER_ID: {len(user_id)} caracteres, so digitos: {user_id.isdigit()}")
@@ -118,8 +123,8 @@ def cmd_publish(day, entry):
         print(f"Dia {day} ja foi publicado ({posted[str(day)]}); nada a fazer.")
         return
 
-    user_id = os.environ["IG_USER_ID"].strip()
-    token = os.environ["IG_ACCESS_TOKEN"].strip()
+    user_id = clean_secret(os.environ["IG_USER_ID"])
+    token = clean_secret(os.environ["IG_ACCESS_TOKEN"])
     caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
     url = image_url(day)
 

@@ -69,7 +69,7 @@ def main():
     print(f"\nVerificacao OK: o token acessa @{check.json().get('username')}")
 
     def copiar(texto):
-        subprocess.run("clip", input=texto.encode("utf-16le"), check=True)
+        subprocess.run("clip", input=texto.encode("ascii"), check=True)
 
     print("\n=== PASSO A: IG_USER_ID ===")
     print(f"O numero e {ig['id']}  (conta @{ig['username']}). Ele ja foi copiado para a area de transferencia.")
