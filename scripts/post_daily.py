@@ -209,12 +209,44 @@ def cmd_publish(day, entry):
             sys.exit(1)
 
 
+def cmd_token_info():
+    """Mostra a validade do token (sem expor o token). Sai com erro se faltarem menos de 14 dias."""
+    token = clean_secret(os.environ["IG_ACCESS_TOKEN"])
+    r = requests.get(f"{GRAPH}/debug_token", params={"input_token": token, "access_token": token}, timeout=60)
+    body = r.json()
+    if r.status_code >= 400 or "data" not in body:
+        print(f"[token] nao foi possivel inspecionar o token: {body.get('error', {}).get('message', body)}")
+        sys.exit(1)
+    d = body["data"]
+    now = datetime.now(TZ)
+
+    def when(ts):
+        if not ts:
+            return None
+        dt = datetime.fromtimestamp(ts, TZ)
+        return dt, (dt - now).days
+
+    exp, data_exp = when(d.get("expires_at")), when(d.get("data_access_expires_at"))
+    print(f"[token] tipo: {d.get('type')}; valido: {d.get('is_valid')}")
+    print("[token] expira em:", f"{exp[0]:%d/%m/%Y} (faltam {exp[1]} dias)" if exp else "nunca expira")
+    print("[token] acesso a dados expira em:", f"{data_exp[0]:%d/%m/%Y} (faltam {data_exp[1]} dias)" if data_exp else "sem data")
+    print("[token] permissoes:", ", ".join(d.get("scopes", [])))
+    left = [x[1] for x in (exp, data_exp) if x]
+    if not d.get("is_valid") or (left and min(left) < 14):
+        print("[token] ATENCAO: renove o token (rode scripts/get_token.py e atualize os segredos no GitHub)")
+        sys.exit(1)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("command", choices=["prepare", "publish", "preview"])
+    ap.add_argument("command", choices=["prepare", "publish", "preview", "token-info"])
     ap.add_argument("--day", type=int)
     args = ap.parse_args()
+
+    if args.command == "token-info":
+        cmd_token_info()
+        return
 
     cfg = load_config()
     day = resolve_day(args, cfg)
