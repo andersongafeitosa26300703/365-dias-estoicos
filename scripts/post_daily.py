@@ -239,6 +239,13 @@ def cmd_token_info():
     print("[token] expira em:", f"{exp[0]:%d/%m/%Y} (faltam {exp[1]} dias)" if exp else "nunca expira")
     print("[token] acesso a dados expira em:", f"{data_exp[0]:%d/%m/%Y} (faltam {data_exp[1]} dias)" if data_exp else "sem data")
     print("[token] permissoes:", ", ".join(d.get("scopes", [])))
+    # Testa tambem a descoberta da conta do Instagram (sem postar nada)
+    try:
+        ig_id, _ = resolve_ig(clean_secret(os.environ.get("IG_USER_ID", "")), token)
+        print(f"[token] conta do Instagram encontrada (ID com {len(ig_id)} digitos, so numeros: {ig_id.isdigit()})")
+    except RuntimeError as e:
+        print(f"[token] FALHA ao descobrir a conta do Instagram: {e}")
+        sys.exit(1)
     left = [x[1] for x in (exp, data_exp) if x]
     if not d.get("is_valid") or (left and min(left) < 14):
         print("[token] ATENCAO: renove o token (rode scripts/get_token.py e atualize os segredos no GitHub)")
