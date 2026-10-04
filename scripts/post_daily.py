@@ -82,6 +82,28 @@ def graph_get(path, **params):
     return body
 
 
+def resolve_ig(user_id, token):
+    """Aceita token de Pagina ou de usuario: se o ID cadastrado nao funcionar, descobre Pagina e Instagram pelo token."""
+    if user_id.isdigit():
+        r = requests.get(f"{GRAPH}/{user_id}", params={"fields": "id", "access_token": token}, timeout=60)
+        if r.status_code == 200:
+            return user_id, token
+    r = requests.get(
+        f"{GRAPH}/me/accounts",
+        params={"fields": "name,access_token,instagram_business_account", "access_token": token},
+        timeout=60,
+    )
+    if r.status_code >= 400:
+        raise RuntimeError(f"Nao foi possivel listar as Paginas com este token: {r.json().get('error', {}).get('message')}")
+    pages = [p for p in r.json().get("data", []) if p.get("instagram_business_account")]
+    if not pages:
+        raise RuntimeError("Nenhuma Pagina com Instagram vinculado foi encontrada para este token")
+    pages.sort(key=lambda p: "Estoic" not in p["name"])
+    page = pages[0]
+    print(f"[resolve] Instagram encontrado pela Pagina '{page['name']}'")
+    return page["instagram_business_account"]["id"], page["access_token"]
+
+
 def clean_secret(value):
     """Remove bytes nulos, espacos e quebras de linha que a colagem pode ter trazido."""
     return "".join(ch for ch in value if ch.isprintable() and not ch.isspace())
@@ -125,6 +147,7 @@ def cmd_publish(day, entry):
 
     user_id = clean_secret(os.environ["IG_USER_ID"])
     token = clean_secret(os.environ["IG_ACCESS_TOKEN"])
+    user_id, token = resolve_ig(user_id, token)
     caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
     url = image_url(day)
 
