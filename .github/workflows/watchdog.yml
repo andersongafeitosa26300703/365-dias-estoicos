@@ -1,0 +1,29 @@
+name: Conferir post do dia
+
+on:
+  schedule:
+    # 11:40 UTC = 08:40 em Brasilia (depois das execucoes de reserva das 06:30, 06:50, 07:20 e 08:10)
+    - cron: "40 11 * * *"
+    # Reserva: o GitHub as vezes atrasa ou perde disparos agendados.
+    - cron: "10 12 * * *"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Conferir um dia especifico (1-365). Vazio = dia de hoje."
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      DAY_ARG: ${{ github.event.inputs.day && format('--day {0}', github.event.inputs.day) || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Falha (e o GitHub envia e-mail) se o feed ou o Story de hoje nao tiverem sido publicados
+      - run: python scripts/check_today.py $DAY_ARG
