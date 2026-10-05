@@ -148,7 +148,7 @@ def main():
             return
     tried = "e a nova tentativa nao resolveu" if GH_TOKEN else "(o vigia nao tem token para tentar disparar)"
     notify(
-        f"Dia {day} NAO saiu",
+        f"POSTAGEM FALHOU - dia {day}",
         f"Faltando: {what}. O GitHub nao publicou {tried}. "
         f"Abra o Claude e peca para disparar o workflow, ou rode Actions > Post diario > Run workflow.",
         priority="urgent",
