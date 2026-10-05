@@ -169,7 +169,18 @@ def create_and_publish(user_id, token, **params):
         time.sleep(5)
     else:
         raise RuntimeError(f"Container {container} nao ficou pronto a tempo")
-    return graph_post(f"{user_id}/media_publish", creation_id=container, access_token=token)["id"]
+    # O Instagram as vezes marca o container como FINISHED mas ainda recusa publicar (erro 9007/2207027): tenta de novo
+    last = None
+    for _ in range(8):
+        try:
+            return graph_post(f"{user_id}/media_publish", creation_id=container, access_token=token)["id"]
+        except RuntimeError as e:
+            last = e
+            if "9007" in str(e) or "2207027" in str(e) or "not available" in str(e):
+                time.sleep(10)
+                continue
+            raise
+    raise last
 
 
 def save_posted(posted):
