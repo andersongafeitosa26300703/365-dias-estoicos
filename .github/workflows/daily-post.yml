@@ -2,13 +2,13 @@ name: Post diario 365 Dias Estoicos
 
 on:
   schedule:
-    # 09:30 UTC = 06:30 em Brasilia (UTC-3, sem horario de verao)
-    - cron: "30 9 * * *"
+    # 08:00 UTC = 05:00 em Brasilia (UTC-3, sem horario de verao)
+    - cron: "0 8 * * *"
     # Reservas: o GitHub as vezes atrasa ou perde disparos agendados. Se o post do dia ja saiu,
     # estas execucoes terminam sem fazer nada (posted.json impede duplicidade).
-    - cron: "50 9 * * *"
-    - cron: "20 10 * * *"
-    - cron: "10 11 * * *"
+    - cron: "20 8 * * *"
+    - cron: "50 8 * * *"
+    - cron: "30 9 * * *"
   workflow_dispatch:
     inputs:
       day:

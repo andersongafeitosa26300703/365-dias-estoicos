@@ -2,10 +2,10 @@ name: Conferir post do dia
 
 on:
   schedule:
-    # 11:40 UTC = 08:40 em Brasilia (depois das execucoes de reserva das 06:30, 06:50, 07:20 e 08:10)
-    - cron: "40 11 * * *"
+    # 10:00 UTC = 07:00 em Brasilia (depois das execucoes de reserva das 05:00, 05:20, 05:50 e 06:30)
+    - cron: "0 10 * * *"
     # Reserva: o GitHub as vezes atrasa ou perde disparos agendados.
-    - cron: "10 12 * * *"
+    - cron: "30 10 * * *"
   workflow_dispatch:
     inputs:
       day:
