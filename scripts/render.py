@@ -52,7 +52,65 @@ def centered(draw, y, text, font, fill):
     draw.text(((W - w) / 2, y), text, font=font, fill=fill)
 
 
+def spaced(draw, cy, text, font, fill, spacing):
+    """Texto centralizado com espacamento entre letras (rotulos em caixa alta)."""
+    widths = [draw.textlength(c, font=font) for c in text]
+    x = (W - (sum(widths) + spacing * (len(text) - 1))) / 2
+    for c, w in zip(text, widths):
+        draw.text((x, cy), c, font=font, fill=fill)
+        x += w + spacing
+
+
+def fit_block(draw, text, cands, max_w, max_h, start, stop, spacing=1.3):
+    for size in range(start, stop, -2):
+        f = load_font(cands, size)
+        lines = wrap(draw, text, f, max_w)
+        if len(lines) * int(size * spacing) <= max_h:
+            return f, lines, int(size * spacing)
+    f = load_font(cands, stop)
+    return f, wrap(draw, text, f, max_w), int(stop * spacing)
+
+
+def render_with_apply(entry, out_path):
+    """Card com a citacao original + autor e, abaixo, o complemento 'No trabalho' (aplicacao profissional)."""
+    t = THEMES["dark" if entry["day"] % 2 else "light"]
+    BG, GOLD, TEXT, MUTED = t["bg"], t["accent"], t["text"], t["muted"]
+    img = Image.new("RGB", (W, H), BG)
+    d = ImageDraw.Draw(img)
+    max_w = W - 2 * 110
+
+    d.rectangle([40, 40, W - 40, H - 40], outline=GOLD, width=2)
+    centered(d, 100, "365 DIAS ESTOICOS", load_font(FONT_CANDIDATES, 28), GOLD)
+    d.line([(W / 2 - 40, 160), (W / 2 + 40, 160)], fill=GOLD, width=2)
+
+    # 1) Citacao original
+    quote = f"“{entry['quote']}”"
+    qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 400, 66, 38, spacing=1.32)
+    top, bottom = 215, 640
+    y = top + ((bottom - top) - len(qlines) * qlh) / 2
+    for ln in qlines:
+        centered(d, y, ln, qf, TEXT)
+        y += qlh
+    centered(d, 668, entry["author"].upper(), load_font(FONT_CANDIDATES, 32), GOLD)
+
+    # 2) Complemento de impacto
+    d.line([(W / 2 - 60, 760), (W / 2 + 60, 760)], fill=GOLD, width=2)
+    spaced(d, 790, "NO TRABALHO", load_font(FONT_CANDIDATES, 26), GOLD, 7)
+    af, alines, alh = fit_block(d, entry["apply"], FONT_CANDIDATES, max_w - 20, 280, 50, 32, spacing=1.38)
+    y = 850 + (300 - len(alines) * alh) / 2
+    for ln in alines:
+        centered(d, y, ln, af, TEXT)
+        y += alh
+
+    centered(d, H - 105, HANDLE, load_font(FONT_CANDIDATES, 26), MUTED)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, "JPEG", quality=95)
+    return out_path
+
+
 def render(entry, out_path):
+    if entry.get("apply"):
+        return render_with_apply(entry, out_path)
     # dias impares: fundo escuro; pares: fundo claro (grade alternada, como os perfis grandes do nicho)
     t = THEMES["dark" if entry["day"] % 2 else "light"]
     BG, GOLD, TEXT, MUTED = t["bg"], t["accent"], t["text"], t["muted"]
@@ -102,7 +160,44 @@ def render(entry, out_path):
 SW, SH = 1080, 1920
 
 
+def render_story_with_apply(entry, out_path):
+    """Story 1080x1920 com a citacao original + autor e o complemento 'No trabalho'. Zona segura ~250px topo/base."""
+    t = THEMES["dark" if entry["day"] % 2 else "light"]
+    BG, GOLD, TEXT, MUTED = t["bg"], t["accent"], t["text"], t["muted"]
+    img = Image.new("RGB", (SW, SH), BG)
+    d = ImageDraw.Draw(img)
+    max_w = SW - 2 * 100
+
+    d.rectangle([40, 40, SW - 40, SH - 40], outline=GOLD, width=2)
+    centered(d, 300, "365 DIAS ESTOICOS", load_font(FONT_CANDIDATES, 34), GOLD)
+    d.line([(SW / 2 - 50, 365), (SW / 2 + 50, 365)], fill=GOLD, width=2)
+
+    quote = f"“{entry['quote']}”"
+    qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 520, 82, 40, spacing=1.32)
+    top, bottom = 420, 960
+    y = top + ((bottom - top) - len(qlines) * qlh) / 2
+    for ln in qlines:
+        centered(d, y, ln, qf, TEXT)
+        y += qlh
+    centered(d, 985, entry["author"].upper(), load_font(FONT_CANDIDATES, 38), GOLD)
+
+    d.line([(SW / 2 - 60, 1090), (SW / 2 + 60, 1090)], fill=GOLD, width=2)
+    spaced(d, 1125, "NO TRABALHO", load_font(FONT_CANDIDATES, 30), GOLD, 8)
+    af, alines, alh = fit_block(d, entry["apply"], FONT_CANDIDATES, max_w - 20, 330, 56, 34, spacing=1.38)
+    y = 1190 + (340 - len(alines) * alh) / 2
+    for ln in alines:
+        centered(d, y, ln, af, TEXT)
+        y += alh
+    centered(d, 1640, HANDLE, load_font(FONT_CANDIDATES, 30), MUTED)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, "JPEG", quality=95)
+    return out_path
+
+
 def render_story(entry, out_path):
+    if entry.get("apply"):
+        return render_story_with_apply(entry, out_path)
     """Versao vertical 1080x1920 para Stories. Zona segura: o Instagram cobre ~250px no topo e na base."""
     t = THEMES["dark" if entry["day"] % 2 else "light"]
     BG, GOLD, TEXT, MUTED = t["bg"], t["accent"], t["text"], t["muted"]
