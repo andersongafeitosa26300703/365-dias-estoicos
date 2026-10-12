@@ -160,65 +160,33 @@ def check_365():
 
 
 def check_resumoia():
-    """Post aprovado do ResumoIA (Issue aberta com rotulo 'aprovado' e data <= hoje) que ainda nao saiu."""
+    """Post do dia do ResumoIA (gerado as 22h e publicado pela VPS as 5h): avisa se nao saiu."""
     now = datetime.now(TZ)
     today = os.environ.get("TODAY") or now.strftime("%Y-%m-%d")
-    # So cobra depois que o publicador (5h e reserva 5h30) teve chance de rodar
-    if (now.hour, now.minute) < (5, 40) and not os.environ.get("FORCE_LATE"):
-        print("ResumoIA: cedo demais para cobrar (a publicacao e as 5h/5h30); ate as 5h40 nao confiro.")
+    # So cobra depois que o publicador (5h00, 5h20 e 5h40 na VPS) teve chance de rodar
+    if (now.hour, now.minute) < (5, 50) and not os.environ.get("FORCE_LATE"):
+        print("ResumoIA: cedo demais para cobrar; ate as 5h50 nao confiro.")
         return
-    status, body = http(
-        f"https://api.github.com/repos/{RESUMO_REPO}/issues?state=open&labels=aprovado&per_page=20",
-        headers={"Accept": "application/vnd.github+json"},
-    )
-    due = []
-    for it in json.loads(body):
-        if "pull_request" in it:
-            continue
-        m = re.search(r"(\d{4}-\d{2}-\d{2})\s*$", it.get("title", ""))
-        if m and m.group(1) <= today:
-            due.append((m.group(1), it["number"]))
-    if not due:
-        print(f"ResumoIA: nada aprovado pendente para {today}.")
+    state_file = Path(os.environ.get("RESUMO_STATE", "/var/lib/resumoia/posted.json"))
+    done = json.loads(state_file.read_text(encoding="utf-8")) if state_file.exists() else {}
+    if today in done:
+        print(f"ResumoIA: {today} publicado ({done[today].get('at')}).")
         return
-    date, num = sorted(due)[0]
-    print(f"ResumoIA: aprovado para {date} (Issue #{num}) e ainda nao publicado.")
-    triggered = STATE_DIR / f"resumoia-triggered-{today}"
-    if RESUMO_GH_TOKEN and not triggered.exists():
-        ok = False
-        try:
-            if DRY_RUN:
-                print("[dry-run] dispararia o workflow do ResumoIA agora")
-                ok = True
-            else:
-                st, _ = http(
-                    f"https://api.github.com/repos/{RESUMO_REPO}/actions/workflows/{RESUMO_WORKFLOW}/dispatches",
-                    data=json.dumps({"ref": "main"}).encode(),
-                    headers={
-                        "Authorization": f"Bearer {RESUMO_GH_TOKEN}",
-                        "Accept": "application/vnd.github+json",
-                        "X-GitHub-Api-Version": "2022-11-28",
-                        "Content-Type": "application/json",
-                    },
-                    method="POST",
-                )
-                ok = st == 204
-        except Exception as e:  # noqa: BLE001
-            print(f"[erro] disparo do ResumoIA falhou: {e}", file=sys.stderr)
-        if not DRY_RUN:
-            triggered.write_text("1")
-        if ok:
-            notify(
-                "ResumoIA: disparei a publicacao",
-                f"O post aprovado de {date} nao saiu no horario. Disparei o publicador; vou conferir de novo.",
-                priority="default",
-                tags="rocket",
-            )
-            return
+    status, body = http(f"https://raw.githubusercontent.com/{RESUMO_REPO}/main/data/posted.json")
+    if today in json.loads(body):
+        print(f"ResumoIA: {today} consta como publicado no repositorio.")
+        return
+    try:
+        http(f"https://raw.githubusercontent.com/{RESUMO_REPO}/main/drafts/{today}/caption.txt")
+        has_draft = True
+    except urllib.error.HTTPError:
+        has_draft = False
+    print(f"ResumoIA: {today} NAO publicado (rascunho {'existe' if has_draft else 'nao existe'}).")
+    why = ("O rascunho existe, mas a publicacao falhou." if has_draft
+           else "O rascunho nao foi gerado na noite anterior.")
     notify(
         "POSTAGEM FALHOU - ResumoIA",
-        f"O post aprovado de {date} (Issue #{num}) nao foi publicado. "
-        f"Abra o Claude e peca para publicar, ou rode Actions > 5 - Publicar aprovados do dia > Run workflow.",
+        f"O post de {today} nao foi publicado. {why} Abra o Claude e peca para conferir o ResumoIA na VPS (/var/log/resumoia.log).",
         priority="urgent",
         tags="rotating_light",
     )
