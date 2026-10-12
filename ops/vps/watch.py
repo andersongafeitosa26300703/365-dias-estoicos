@@ -194,7 +194,7 @@ def check_resumoia():
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    for name, fn in (("365 Dias Estoicos", check_365), ("ResumoIA", check_resumoia)):
+    for name, fn in (("365 Dias Estoicos", check_365),):  # ResumoIA desativado (projeto encerrado)
         try:
             fn()
         except Exception as e:  # noqa: BLE001  - um projeto com problema nao pode calar o outro
