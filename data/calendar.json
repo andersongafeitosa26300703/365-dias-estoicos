@@ -266,7 +266,8 @@
       "#vinganca",
       "#carater",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Cliente grosseiro ou colega ríspido não definem o seu tom. Responda com educação e resolva o problema."
   },
   {
     "day": 18,
@@ -281,7 +282,8 @@
       "#destino",
       "#aceitacao",
       "#seneca"
-    ]
+    ],
+    "apply": "Mudança de escopo que você não barra? Pare de resistir e replaneje o que ainda dá para entregar."
   },
   {
     "day": 19,
@@ -296,7 +298,8 @@
       "#papel",
       "#dever",
       "#epicteto"
-    ]
+    ],
+    "apply": "Mesmo numa função que não escolheu, entregue bem. O seu papel na equipe se mede pela atuação."
   },
   {
     "day": 20,
@@ -311,7 +314,8 @@
       "#queixa",
       "#opiniao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Em reunião, relate o fato e a solução, sem a história de injustiça. Isso destrava a conversa."
   },
   {
     "day": 21,
@@ -326,7 +330,8 @@
       "#julgamento",
       "#percepcao",
       "#epicteto"
-    ]
+    ],
+    "apply": "Atraso do fornecedor é fato; chamar de descaso é opinião. Confirme os dados antes de cobrar."
   },
   {
     "day": 22,
@@ -341,7 +346,8 @@
       "#virtude",
       "#capacidade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Cliente difícil pede paciência, prazo curto pede foco. Nomeie a força que vai usar antes de reagir."
   },
   {
     "day": 23,
@@ -356,7 +362,8 @@
       "#paz",
       "#serenidade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Entre uma reunião e outra, pare um minuto, respire e só então abra a próxima demanda."
   },
   {
     "day": 24,
@@ -371,7 +378,8 @@
       "#ansiedade",
       "#serenidade",
       "#seneca"
-    ]
+    ],
+    "apply": "Antes de se angustiar com a avaliação de amanhã, pergunte: o medo é proporcional ao risco real?"
   },
   {
     "day": 25,
@@ -386,7 +394,8 @@
       "#carater",
       "#resiliencia",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Um erro no orçamento incomoda, mas não te diminui. Corrija, assuma e mantenha o seu padrão."
   },
   {
     "day": 26,
@@ -401,7 +410,8 @@
       "#desapego",
       "#gratidao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Elogio do chefe e cargo passam. Agradeça o que veio e siga entregando sem se apegar a nada disso."
   },
   {
     "day": 27,
@@ -416,7 +426,8 @@
       "#resiliencia",
       "#forca",
       "#seneca"
-    ]
+    ],
+    "apply": "Projeto sob pressão mostra quem você é. Use a crise para provar sua consistência ao time."
   },
   {
     "day": 28,
@@ -431,7 +442,8 @@
       "#aceitacao",
       "#realidade",
       "#epicteto"
-    ]
+    ],
+    "apply": "O cliente mudou o pedido de novo. Aceite que mudou e decida qual é o próximo passo possível."
   },
   {
     "day": 29,
@@ -446,7 +458,8 @@
       "#futuro",
       "#preocupacao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Dúvida sobre o mês que vem? Anote a ação de hoje, execute e deixe o resto para a próxima reunião."
   },
   {
     "day": 30,
@@ -461,7 +474,8 @@
       "#desejo",
       "#contentamento",
       "#seneca"
-    ]
+    ],
+    "apply": "Meta batida e promoção não bastam para quem sempre quer mais. Reconheça o que já conquistou."
   },
   {
     "day": 31,
@@ -476,7 +490,8 @@
       "#perda",
       "#gratidao",
       "#epicteto"
-    ]
+    ],
+    "apply": "Perdeu uma licitação ou um cliente? Troque o lamento por: o que levo disso para a próxima proposta?"
   },
   {
     "day": 32,
@@ -491,7 +506,8 @@
       "#mementomori",
       "#finitude",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Se hoje fosse o último dia, esta reunião valeria a pena? Corte o que não merece sua atenção."
   },
   {
     "day": 33,
@@ -506,7 +522,8 @@
       "#tempo",
       "#brevidade",
       "#seneca"
-    ]
+    ],
+    "apply": "Veja onde seu tempo some: e-mails, reuniões sem pauta, retrabalho. Elimine um desses ralos hoje."
   },
   {
     "day": 34,
@@ -521,7 +538,8 @@
       "#morte",
       "#mementomori",
       "#epicteto"
-    ]
+    ],
+    "apply": "Antes de brigar por um detalhe com o colega, pergunte se isso ainda vai importar daqui a um mês."
   },
   {
     "day": 35,
@@ -536,7 +554,8 @@
       "#urgencia",
       "#bondade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Seja firme sem ser duro: dê hoje o retorno justo que você vem adiando a um colega."
   },
   {
     "day": 36,
@@ -551,7 +570,8 @@
       "#tempo",
       "#prioridades",
       "#seneca"
-    ]
+    ],
+    "apply": "Bloqueie uma hora na agenda para trabalho focado, sem chat e sem reunião. Avise a equipe."
   },
   {
     "day": 37,
@@ -566,7 +586,8 @@
       "#preparo",
       "#desapego",
       "#epicteto"
-    ]
+    ],
+    "apply": "Feche hoje a pendência que vive te perseguindo: a resposta atrasada, o relatório, a cobrança."
   },
   {
     "day": 38,
@@ -581,7 +602,8 @@
       "#presente",
       "#atencao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Na reunião, deixe o celular de lado e dê atenção total a quem fala. Presença vale mais que pressa."
   },
   {
     "day": 39,
@@ -596,7 +618,8 @@
       "#tempo",
       "#propriedade",
       "#seneca"
-    ]
+    ],
+    "apply": "Cargo e elogio vão embora, o tempo investido fica. Gaste suas horas no que desenvolve você e o time."
   },
   {
     "day": 40,
@@ -611,7 +634,8 @@
       "#medo",
       "#morte",
       "#epicteto"
-    ]
+    ],
+    "apply": "O que você teme na apresentação é a opinião que fez dela. Descreva o risco real e prepare-se."
   },
   {
     "day": 41,
@@ -626,7 +650,8 @@
       "#impermanencia",
       "#humildade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "A crítica de hoje será esquecida em semanas. Foque em entregar bem, não em parecer bem."
   },
   {
     "day": 42,
@@ -641,7 +666,8 @@
       "#preparo",
       "#finitude",
       "#seneca"
-    ]
+    ],
+    "apply": "Diga ao colega o que precisa ser dito: o alinhamento, o agradecimento, a discordância. Sem adiar."
   },
   {
     "day": 43,
@@ -656,7 +682,8 @@
       "#moderacao",
       "#presente",
       "#epicteto"
-    ]
+    ],
+    "apply": "Não brigue pelo crédito nem pela vaga. Faça bem a sua parte e comemore o que chegou ao colega."
   },
   {
     "day": 44,
@@ -671,7 +698,8 @@
       "#presente",
       "#atencao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Se a cabeça foge para o prazo do mês que vem, pergunte: qual é o próximo passo desta tarefa?"
   },
   {
     "day": 45,
@@ -686,7 +714,8 @@
       "#adiamento",
       "#procrastinacao",
       "#seneca"
-    ]
+    ],
+    "apply": "Aquele e-mail difícil ou a ligação evitada: dedique cinco minutos agora e comece."
   },
   {
     "day": 46,
@@ -701,7 +730,8 @@
       "#afeto",
       "#presenca",
       "#epicteto"
-    ]
+    ],
+    "apply": "Reunião de equipe: esteja inteiro, sem notificações. Quem se sente ouvido trabalha melhor."
   },
   {
     "day": 47,
@@ -716,7 +746,8 @@
       "#tempo",
       "#impermanencia",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Não espere o cenário perfeito para enviar a proposta. O momento passa; entregue a melhor versão hoje."
   },
   {
     "day": 48,
@@ -731,7 +762,8 @@
       "#morte",
       "#liberdade",
       "#seneca"
-    ]
+    ],
+    "apply": "Quem teme perder o emprego aceita tudo. Prepare-se, atualize-se e negocie com mais liberdade."
   },
   {
     "day": 49,
@@ -746,7 +778,8 @@
       "#controle",
       "#afeto",
       "#epicteto"
-    ]
+    ],
+    "apply": "Não exija garantia de que a equipe fica para sempre. Valorize quem está com você no projeto hoje."
   },
   {
     "day": 50,
@@ -761,7 +794,8 @@
       "#adiamento",
       "#acao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Escolha a tarefa parada há semanas e trabalhe nela por trinta minutos antes de abrir o e-mail."
   },
   {
     "day": 51,
@@ -776,7 +810,8 @@
       "#viver",
       "#proposito",
       "#seneca"
-    ]
+    ],
+    "apply": "Entre duas demandas, escolha a que entrega valor real, não a que só ocupa o seu dia."
   },
   {
     "day": 52,
@@ -791,7 +826,8 @@
       "#perda",
       "#aceitacao",
       "#epicteto"
-    ]
+    ],
+    "apply": "Perdeu um contrato? Tratar isso como parte do jogo tira a revolta e abre espaço para aprender."
   },
   {
     "day": 53,
@@ -806,7 +842,8 @@
       "#presente",
       "#tarefa",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Lista de cem pendências paralisa. Pegue a próxima tarefa, termine e só depois olhe a seguinte."
   },
   {
     "day": 54,
@@ -821,7 +858,8 @@
       "#atencao",
       "#presente",
       "#seneca"
-    ]
+    ],
+    "apply": "Numa reunião de hoje, silencie o celular e fique por inteiro. Anote só o que for decisão."
   },
   {
     "day": 55,
@@ -836,7 +874,8 @@
       "#mudanca",
       "#impermanencia",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Mercado e cliente mudam. Revise hoje um processo que só continua assim por costume."
   },
   {
     "day": 56,
@@ -851,7 +890,8 @@
       "#tempo",
       "#finitude",
       "#seneca"
-    ]
+    ],
+    "apply": "Defina de manhã as três entregas do dia, antes que e-mails e urgências alheias decidam por você."
   },
   {
     "day": 57,
@@ -866,7 +906,8 @@
       "#carater",
       "#presente",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Evite entregar pela metade: revise o relatório antes de enviar, sem pressa e sem desleixo."
   },
   {
     "day": 58,
@@ -881,7 +922,8 @@
       "#tempo",
       "#prioridades",
       "#seneca"
-    ]
+    ],
+    "apply": "Tire da agenda um compromisso recorrente que ninguém sabe para que serve e libere tempo."
   },
   {
     "day": 59,
@@ -896,7 +938,8 @@
       "#tranquilidade",
       "#prioridades",
       "#epicteto"
-    ]
+    ],
+    "apply": "O projeto de prestígio que tira o seu sono vale a pena? Pese a paz contra o status."
   },
   {
     "day": 60,
@@ -911,7 +954,8 @@
       "#gratidao",
       "#balanco",
       "#seneca"
-    ]
+    ],
+    "apply": "No fim do expediente, anote o que entregou, o que corrige e quem ajudou. Amanhã começa mais leve."
   },
   {
     "day": 61,
@@ -926,7 +970,8 @@
       "#gratidao",
       "#serenidade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Ao encerrar um projeto, agradeça a equipe pelo nome. Reconhecimento sincero fica na memória."
   },
   {
     "day": 62,
@@ -941,7 +986,8 @@
       "#integridade",
       "#verdade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Antes de enviar o relatório ou prometer o prazo, pergunte: isto é correto? isto é verdade?"
   },
   {
     "day": 63,
@@ -956,7 +1002,8 @@
       "#virtude",
       "#integridade",
       "#seneca"
-    ]
+    ],
+    "apply": "Faça o trabalho bem feito mesmo sem ninguém conferir: a medição, o detalhe da obra, o registro."
   },
   {
     "day": 64,
@@ -971,7 +1018,8 @@
       "#carater",
       "#consistencia",
       "#epicteto"
-    ]
+    ],
+    "apply": "Mantenha o mesmo padrão com o diretor e com o servente. Seu caráter não depende da plateia."
   },
   {
     "day": 65,
@@ -986,7 +1034,8 @@
       "#acao",
       "#virtude",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Em vez de debater como um bom líder age, resolva hoje um problema da equipe sem ser cobrado."
   },
   {
     "day": 66,
@@ -1001,7 +1050,8 @@
       "#temperanca",
       "#simplicidade",
       "#seneca"
-    ]
+    ],
+    "apply": "Antes de pedir mais verba ou ferramenta, veja se o que já tem resolve. O necessário costuma bastar."
   },
   {
     "day": 67,
@@ -1016,7 +1066,8 @@
       "#exemplo",
       "#acao",
       "#epicteto"
-    ]
+    ],
+    "apply": "Não pregue qualidade na reunião: entregue um trabalho exemplar e deixe a equipe copiar."
   },
   {
     "day": 68,
@@ -1031,7 +1082,8 @@
       "#dever",
       "#disciplina",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Cansaço e chuva na obra não cancelam o dever. Cumpra primeiro a tarefa que você vem enrolando."
   },
   {
     "day": 69,
@@ -1046,7 +1098,8 @@
       "#temperanca",
       "#desconforto",
       "#seneca"
-    ]
+    ],
+    "apply": "Teste um dia sem a ferramenta ou o conforto de sempre. Muitas vezes o medo era maior que a falta."
   },
   {
     "day": 70,
@@ -1061,7 +1114,8 @@
       "#responsabilidade",
       "#autonomia",
       "#epicteto"
-    ]
+    ],
+    "apply": "Quando o prazo estourar, evite culpar o cliente ou o fornecedor. Pergunte o que você pode ajustar."
   },
   {
     "day": 71,
@@ -1076,7 +1130,8 @@
       "#adversidade",
       "#forca",
       "#seneca"
-    ]
+    ],
+    "apply": "Trate o projeto problemático como treino. Quem passou por obra difícil resolve a próxima com calma."
   },
   {
     "day": 72,
@@ -1091,7 +1146,8 @@
       "#justica",
       "#respeito",
       "#seneca"
-    ]
+    ],
+    "apply": "Trate o estagiário, o terceirizado e o ajudante com o mesmo respeito que dá ao diretor."
   },
   {
     "day": 73,
@@ -1106,7 +1162,8 @@
       "#principios",
       "#coragem",
       "#epicteto"
-    ]
+    ],
+    "apply": "Se o time ri da sua exigência de qualidade ou segurança, mantenha. Princípio não depende de aplauso."
   },
   {
     "day": 74,
@@ -1121,7 +1178,8 @@
       "#insulto",
       "#emocoes",
       "#epicteto"
-    ]
+    ],
+    "apply": "Chefe falou duro? Espere um pouco antes de responder e extraia da crítica o que for útil."
   },
   {
     "day": 75,
@@ -1136,7 +1194,8 @@
       "#ira",
       "#temperanca",
       "#seneca"
-    ]
+    ],
+    "apply": "Recebeu um e-mail irritante? Deixe em rascunho, espere uma hora e só então responda."
   },
   {
     "day": 76,
@@ -1151,7 +1210,8 @@
       "#escuta",
       "#sabedoria",
       "#zenao"
-    ]
+    ],
+    "apply": "Na reunião com o cliente, deixe-o terminar o pedido antes de propor. Ouvir evita retrabalho."
   },
   {
     "day": 77,
@@ -1166,7 +1226,8 @@
       "#humildade",
       "#poder",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Se assumiu uma chefia, mantenha o trato simples de antes. Autoridade se prova ouvindo a equipe."
   },
   {
     "day": 78,
@@ -1181,7 +1242,8 @@
       "#exemplo",
       "#carater",
       "#seneca"
-    ]
+    ],
+    "apply": "Pense num profissional que você respeita e pergunte: o que ele faria nesta decisão do projeto?"
   },
   {
     "day": 79,
@@ -1196,7 +1258,8 @@
       "#coragem",
       "#criterio",
       "#epicteto"
-    ]
+    ],
+    "apply": "Na decisão de hoje, use um só teste: é o certo? Se for, siga firme, mesmo com crítica de bastidor."
   },
   {
     "day": 80,
@@ -1211,7 +1274,8 @@
       "#oficio",
       "#dedicacao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Dê um pouco mais de cuidado à rotina: o desenho conferido, a planilha limpa, o diário de obra em dia."
   },
   {
     "day": 81,
@@ -1226,7 +1290,8 @@
       "#gratidao",
       "#generosidade",
       "#seneca"
-    ]
+    ],
+    "apply": "Ajude um colega sem alarde e, na próxima reunião, credite em voz alta quem te ajudou no projeto."
   },
   {
     "day": 82,
@@ -1241,7 +1306,8 @@
       "#coragem",
       "#integridade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Pressão para entregar algo irregular? Diga não com calma. Integridade não entra na negociação."
   },
   {
     "day": 83,
@@ -1256,7 +1322,8 @@
       "#paciencia",
       "#compaixao",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Colega entregou errado? Considere que ele não sabia fazer melhor e ofereça ajuda em vez de bronca."
   },
   {
     "day": 84,
@@ -1271,7 +1338,8 @@
       "#liberdade",
       "#autocontrole",
       "#seneca"
-    ]
+    ],
+    "apply": "Resista ao impulso de checar o celular a cada minuto. Decida você quando olhar as mensagens."
   },
   {
     "day": 85,
@@ -1286,7 +1354,8 @@
       "#amorfati",
       "#destino",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Aquela reunião chata ou o cliente exigente escondem uma oportunidade. Aponte uma e aproveite."
   },
   {
     "day": 86,
@@ -1301,7 +1370,8 @@
       "#serenidade",
       "#forca",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Diante do e-mail agressivo ou da cobrança, respire por três segundos e responda com calma."
   },
   {
     "day": 87,
@@ -1316,7 +1386,8 @@
       "#pratica",
       "#filosofia",
       "#seneca"
-    ]
+    ],
+    "apply": "Escolha um princípio e aplique hoje numa situação real: uma negociação, um feedback, um prazo apertado."
   },
   {
     "day": 88,
@@ -1331,7 +1402,8 @@
       "#virtude",
       "#esforco",
       "#musonio"
-    ]
+    ],
+    "apply": "Entregar no prazo exige esforço agora; atalho vira retrabalho depois. Escolha o trabalho bem feito."
   },
   {
     "day": 89,
@@ -1346,7 +1418,8 @@
       "#cooperacao",
       "#justica",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Veja quem está sobrecarregado na equipe e ofereça ajuda antes que ele peça."
   },
   {
     "day": 90,
@@ -1361,7 +1434,8 @@
       "#integridade",
       "#coerencia",
       "#seneca"
-    ]
+    ],
+    "apply": "Registre e assine só o que você mostraria ao cliente e ao chefe. Transparência vale ouro."
   },
   {
     "day": 91,
@@ -1376,7 +1450,8 @@
       "#excelencia",
       "#comeco",
       "#epicteto"
-    ]
+    ],
+    "apply": "Pare de esperar o projeto ideal para mostrar o seu melhor. Escolha a tarefa de hoje e capriche."
   },
   {
     "day": 92,
@@ -1391,7 +1466,8 @@
       "#raiva",
       "#autocontrole",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Antes de rebater o colega no calor da discussão, calcule o custo dessa briga para o projeto."
   },
   {
     "day": 93,
@@ -1406,7 +1482,8 @@
       "#ira",
       "#serenidade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Quando um colega errar, lembre dos seus erros e corrija com a gentileza que gostaria de receber."
   },
   {
     "day": 94,
@@ -1421,7 +1498,8 @@
       "#julgamentos",
       "#mente",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes de rotular alguém de preguiçoso, pergunte o motivo do atraso. Fatos antes de julgamentos."
   },
   {
     "day": 95,
@@ -1436,7 +1514,8 @@
       "#serenidade",
       "#mentecalma",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Se um colega agir mal com você, responda ao fato, mantenha distância e registre, sem revanche."
   },
   {
     "day": 96,
@@ -1451,7 +1530,8 @@
       "#medo",
       "#ansiedade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Liste o que teme na reunião de resultados e o que de fato pode acontecer. O pior raramente chega."
   },
   {
     "day": 97,
@@ -1466,7 +1546,8 @@
       "#ansiedade",
       "#controle",
       "#epicteto"
-    ]
+    ],
+    "apply": "Separe o que depende de você no projeto, como entrega e qualidade, do que depende só do cliente."
   },
   {
     "day": 98,
@@ -1481,7 +1562,8 @@
       "#serenidade",
       "#firmeza",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Em semana de pressão, mantenha o ritmo e o tom. Prazo apertado não é motivo para perder a firmeza."
   },
   {
     "day": 99,
@@ -1496,7 +1578,8 @@
       "#medo",
       "#expectativa",
       "#seneca"
-    ]
+    ],
+    "apply": "Faça bem a proposta sem se prender à resposta do cliente. Entregue o melhor e siga para a próxima."
   },
   {
     "day": 100,
@@ -1511,7 +1594,8 @@
       "#desejo",
       "#liberdade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Vontade de comprar a ferramenta da moda? Observe e espere: muitas vezes o que resolve já existe."
   },
   {
     "day": 101,
@@ -1526,7 +1610,8 @@
       "#simplicidade",
       "#foco",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Escolha as três tarefas que movem o projeto e adie o resto, avisando a equipe do que ficou para depois."
   },
   {
     "day": 102,
@@ -1541,7 +1626,8 @@
       "#ira",
       "#autocontrole",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Sinta o aperto no maxilar quando o chefe criticar. Pare ali, respire e só depois fale."
   },
   {
     "day": 103,
@@ -1556,7 +1642,8 @@
       "#luta",
       "#realismo",
       "#seneca"
-    ]
+    ],
+    "apply": "Atrito com cliente, prazo e fornecedor faz parte do ofício. Poupe energia para o problema que importa."
   },
   {
     "day": 104,
@@ -1571,7 +1658,8 @@
       "#gratidao",
       "#virtude",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Reconheça em voz alta uma qualidade de um colega na próxima reunião. Quem é reconhecido rende mais."
   },
   {
     "day": 105,
@@ -1586,7 +1674,8 @@
       "#inveja",
       "#comparacao",
       "#seneca"
-    ]
+    ],
+    "apply": "Elogie com sinceridade o colega promovido e volte ao seu plano. Comparar não entrega projeto."
   },
   {
     "day": 106,
@@ -1601,7 +1690,8 @@
       "#perspectiva",
       "#mente",
       "#epicteto"
-    ]
+    ],
+    "apply": "Cliente reclamou? Em vez de rebater, procure o ponto que dá para resolver hoje e comece por ele."
   },
   {
     "day": 107,
@@ -1616,7 +1706,8 @@
       "#mente",
       "#calma",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Chegou um e-mail seco do chefe? É só uma impressão. Releia os fatos antes de responder."
   },
   {
     "day": 108,
@@ -1631,7 +1722,8 @@
       "#mente",
       "#autoconhecimento",
       "#seneca"
-    ]
+    ],
+    "apply": "Trocar de equipe ou de empresa não corrige o hábito que vai com você. Ajuste o seu primeiro."
   },
   {
     "day": 109,
@@ -1646,7 +1738,8 @@
       "#prazer",
       "#autocontrole",
       "#epicteto"
-    ]
+    ],
+    "apply": "Antes de aceitar o atalho na obra ou a compra que estoura o orçamento, espere dez minutos."
   },
   {
     "day": 110,
@@ -1661,7 +1754,8 @@
       "#perdao",
       "#empatia",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "O colega errou o lançamento? Pergunte o que faltou saber e corrija junto, sem humilhar."
   },
   {
     "day": 111,
@@ -1676,7 +1770,8 @@
       "#ira",
       "#razao",
       "#seneca"
-    ]
+    ],
+    "apply": "Mensagem que irrita não se responde na hora. Espere vinte minutos e escreva só os fatos."
   },
   {
     "day": 112,
@@ -1691,7 +1786,8 @@
       "#compreensao",
       "#raiva",
       "#epicteto"
-    ]
+    ],
+    "apply": "Fornecedor atrasou? Pergunte o que ele entendeu do combinado antes de cobrar. Pode ser alinhamento."
   },
   {
     "day": 113,
@@ -1706,7 +1802,8 @@
       "#ansiedade",
       "#refugiointerior",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "A ansiedade com o prazo vem do que você pensa dele. Liste só o que precisa ser entregue hoje."
   },
   {
     "day": 114,
@@ -1721,7 +1818,8 @@
       "#descanso",
       "#equilibrio",
       "#seneca"
-    ]
+    ],
+    "apply": "Faça dez minutos de pausa a cada duas horas de foco. Equipe descansada erra menos."
   },
   {
     "day": 115,
@@ -1736,7 +1834,8 @@
       "#humildade",
       "#autoconhecimento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Peça a um colega que aponte o que você ainda não domina na função. Ponto cego visto vira ganho."
   },
   {
     "day": 116,
@@ -1751,7 +1850,8 @@
       "#decisao",
       "#calma",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Decisão grande não sai no calor da reunião. Peça um dia, analise os dados e sustente o que decidir."
   },
   {
     "day": 117,
@@ -1766,7 +1866,8 @@
       "#alegria",
       "#paz",
       "#seneca"
-    ]
+    ],
+    "apply": "Comemore a entrega concluída com a equipe, com um café e um obrigado. Alegria séria vem do dever feito."
   },
   {
     "day": 118,
@@ -1781,7 +1882,8 @@
       "#coragem",
       "#opiniao",
       "#epicteto"
-    ]
+    ],
+    "apply": "Vai propor um método novo e teme a zombaria? Proponha mesmo assim, com dados e calma."
   },
   {
     "day": 119,
@@ -1796,7 +1898,8 @@
       "#autoconhecimento",
       "#virtude",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Antes de pedir opinião a todos, escreva a sua própria solução. Depois compare com as dos outros."
   },
   {
     "day": 120,
@@ -1811,7 +1914,8 @@
       "#contentamento",
       "#desejo",
       "#seneca"
-    ]
+    ],
+    "apply": "Não compre o equipamento caro só para impressionar. Pergunte o que a obra realmente precisa."
   },
   {
     "day": 121,
@@ -1826,7 +1930,8 @@
       "#aflicao",
       "#julgamentos",
       "#epicteto"
-    ]
+    ],
+    "apply": "O chefe te irritou? Ache o julgamento seu por trás disso. Muitas vezes o fato é só um pedido."
   },
   {
     "day": 122,
@@ -1841,7 +1946,8 @@
       "#dor",
       "#carater",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Em dia de pressão máxima, faça o que o problema exige e corte o drama. Voz baixa resolve mais."
   },
   {
     "day": 123,
@@ -1856,7 +1962,8 @@
       "#disciplina",
       "#tempo",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Bloqueie vinte minutos na agenda, sem celular nem pedidos, para decidir as três prioridades do dia."
   },
   {
     "day": 124,
@@ -1871,7 +1978,8 @@
       "#comeco",
       "#identidade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Defina que profissional quer ser e dê hoje o passo que ele daria, como entregar o relatório em dia."
   },
   {
     "day": 125,
@@ -1886,7 +1994,8 @@
       "#disciplina",
       "#habitos",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Faça de manhã a tarefa que você vem empurrando, como a ligação difícil ou o relatório chato."
   },
   {
     "day": 126,
@@ -1901,7 +2010,8 @@
       "#coragem",
       "#virtude",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Aquele cliente exigente é seu treino. Atenda com paciência e precisão e saia mais preparado."
   },
   {
     "day": 127,
@@ -1916,7 +2026,8 @@
       "#habito",
       "#pratica",
       "#epicteto"
-    ]
+    ],
+    "apply": "Chegue no horário e entregue o relatório pontual todos os dias. Reputação é feita de repetição."
   },
   {
     "day": 128,
@@ -1931,7 +2042,8 @@
       "#obstaculos",
       "#disciplina",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Crítica injusta no trabalho? Aproveite o que for útil, ignore o resto e entregue o combinado."
   },
   {
     "day": 129,
@@ -1946,7 +2058,8 @@
       "#procrastinacao",
       "#tempo",
       "#seneca"
-    ]
+    ],
+    "apply": "Aquele e-mail que fica para amanhã? Responda agora, em quinze minutos, e tire o peso das costas."
   },
   {
     "day": 130,
@@ -1961,7 +2074,8 @@
       "#paciencia",
       "#constancia",
       "#epicteto"
-    ]
+    ],
+    "apply": "Projeto lento não acelera com cobrança diária. Mantenha o ritmo certo e deixe a obra amadurecer."
   },
   {
     "day": 131,
@@ -1976,7 +2090,8 @@
       "#procrastinacao",
       "#tempo",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Aquela proposta parada há semanas? Abra o arquivo e escreva o primeiro parágrafo agora."
   },
   {
     "day": 132,
@@ -1991,7 +2106,8 @@
       "#procrastinacao",
       "#disciplina",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Comece a tarefa que você evita pelos dez primeiros minutos. Depois do começo, o medo diminui."
   },
   {
     "day": 133,
@@ -2006,7 +2122,8 @@
       "#dificuldade",
       "#treino",
       "#epicteto"
-    ]
+    ],
+    "apply": "Obra atrasada ou cliente bravo? Pergunte o que isso ensina sobre planejamento antes de reclamar."
   },
   {
     "day": 134,
@@ -2021,7 +2138,8 @@
       "#vontade",
       "#liberdade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Se um imprevisto travou sua frente de trabalho, escolha o que ainda dá para decidir agora."
   },
   {
     "day": 135,
@@ -2036,7 +2154,8 @@
       "#constancia",
       "#habitos",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Não troque de ferramenta ou de método a cada semana. Mantenha o processo até ele dar resultado."
   },
   {
     "day": 136,
@@ -2051,7 +2170,8 @@
       "#rotina",
       "#compromisso",
       "#epicteto"
-    ]
+    ],
+    "apply": "Defina uma regra, como não ler e-mail depois das 19h, e cumpra mesmo que ninguém cobre."
   },
   {
     "day": 137,
@@ -2066,7 +2186,8 @@
       "#acao",
       "#dever",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ocupado não é resposta. Retorne hoje o colega ou o cliente que você vem deixando esperando."
   },
   {
     "day": 138,
@@ -2081,7 +2202,8 @@
       "#autoexame",
       "#rotina",
       "#seneca"
-    ]
+    ],
+    "apply": "No fim do expediente, anote o que acertou e o que faria diferente. Cinco minutos já bastam."
   },
   {
     "day": 139,
@@ -2096,7 +2218,8 @@
       "#atencao",
       "#disciplina",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes de mandar aquela resposta no impulso, releia e pergunte se ela ajuda ou só fere."
   },
   {
     "day": 140,
@@ -2111,7 +2234,8 @@
       "#dever",
       "#disciplina",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Sem vontade, a reunião chata e o relatório continuam lá. Faça primeiro e a disposição vem depois."
   },
   {
     "day": 141,
@@ -2126,7 +2250,8 @@
       "#julgamento",
       "#serenidade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "O comentário do chefe doeu? Reescreva em uma frase só com os fatos, sem adjetivos."
   },
   {
     "day": 142,
@@ -2141,7 +2266,8 @@
       "#desejo",
       "#disciplina",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Não dependa de elogio para se sentir bem. Mire no que você controla: qualidade e prazo da entrega."
   },
   {
     "day": 143,
@@ -2156,7 +2282,8 @@
       "#habitos",
       "#simplicidade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Corte o pequeno atalho desonesto, como arredondar um número a seu favor. Hábito limpo nasce no pensamento."
   },
   {
     "day": 144,
@@ -2171,7 +2298,8 @@
       "#perseveranca",
       "#constancia",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Cumpra o compromisso que você largaria no desconforto, como a reunião semanal ou o relatório diário."
   },
   {
     "day": 145,
@@ -2186,7 +2314,8 @@
       "#pratica",
       "#humildade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Em vez de citar o curso que fez, aplique uma ideia no problema da obra e mostre o resultado."
   },
   {
     "day": 146,
@@ -2201,7 +2330,8 @@
       "#ajuda",
       "#humildade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Travado há horas? Chame alguém mais experiente. O prazo agradece e a equipe aprende junto."
   },
   {
     "day": 147,
@@ -2216,7 +2346,8 @@
       "#resiliencia",
       "#firmeza",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Cliente gritou? Respire, ouça até o fim e responda ao conteúdo, não ao tom."
   },
   {
     "day": 148,
@@ -2231,7 +2362,8 @@
       "#habito",
       "#raiva",
       "#epicteto"
-    ]
+    ],
+    "apply": "Conte quantos dias seguidos você passa sem perder a calma em reunião. Proteja a sequência."
   },
   {
     "day": 149,
@@ -2246,7 +2378,8 @@
       "#possivel",
       "#coragem",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Aquela meta que parece grande demais? Procure quem já fez algo parecido e peça o caminho."
   },
   {
     "day": 150,
@@ -2261,7 +2394,8 @@
       "#adversidade",
       "#virtude",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Use o imprevisto de hoje para praticar o que diz saber: calma, método e comunicação clara."
   },
   {
     "day": 151,
@@ -2276,7 +2410,8 @@
       "#prioridades",
       "#mente",
       "#epicteto"
-    ]
+    ],
+    "apply": "Reserve uma hora da semana para estudar algo da profissão. A carreira também precisa de treino."
   },
   {
     "day": 152,
@@ -2291,7 +2426,8 @@
       "#retidao",
       "#foco",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ignore a fofoca sobre o colega. Defina a sua entrega do dia e vá reto até ela."
   },
   {
     "day": 153,
@@ -2306,7 +2442,8 @@
       "#humanidade",
       "#justica",
       "#seneca"
-    ]
+    ],
+    "apply": "Trate com respeito o servente, o estagiário e o fornecedor. Quem não rende hoje também é gente."
   },
   {
     "day": 154,
@@ -2321,7 +2458,8 @@
       "#critica",
       "#humildade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Recebeu uma crítica? Agradeça, veja se há algo a corrigir e siga. Não gaste energia se defendendo."
   },
   {
     "day": 155,
@@ -2336,7 +2474,8 @@
       "#cooperacao",
       "#sociedade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ajude alguém de outro setor sem que ele peça. Quem trabalha junto é do mesmo time."
   },
   {
     "day": 156,
@@ -2351,7 +2490,8 @@
       "#gratidao",
       "#bondade",
       "#seneca"
-    ]
+    ],
+    "apply": "Agradeça por escrito ao colega que ajudou você num prazo apertado. Reconhecer fortalece o time."
   },
   {
     "day": 157,
@@ -2366,7 +2506,8 @@
       "#familia",
       "#dever",
       "#epicteto"
-    ]
+    ],
+    "apply": "Chefe ou colega difícil? Cumpra a sua parte com qualidade e deixe a atitude dele com ele."
   },
   {
     "day": 158,
@@ -2381,7 +2522,8 @@
       "#bemcomum",
       "#cidadania",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Siga o procedimento de segurança e o protocolo da obra mesmo sem fiscal por perto."
   },
   {
     "day": 159,
@@ -2396,7 +2538,8 @@
       "#amizade",
       "#generosidade",
       "#seneca"
-    ]
+    ],
+    "apply": "Pergunte ao colega sobrecarregado o que você pode assumir por ele hoje. Time forte divide peso."
   },
   {
     "day": 160,
@@ -2411,7 +2554,8 @@
       "#perdao",
       "#compreensao",
       "#epicteto"
-    ]
+    ],
+    "apply": "O subordinado errou? Explique o certo com paciência. Provavelmente ele não enxergava o problema."
   },
   {
     "day": 161,
@@ -2426,7 +2570,8 @@
       "#perdao",
       "#humildade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Antes de apontar o atraso do outro, veja onde você também atrasou algo no projeto."
   },
   {
     "day": 162,
@@ -2441,7 +2586,8 @@
       "#perdao",
       "#justica",
       "#seneca"
-    ]
+    ],
+    "apply": "Lembre de um erro seu parecido antes de cobrar aquele colega. Cobrança com humildade é ouvida."
   },
   {
     "day": 163,
@@ -2456,7 +2602,8 @@
       "#amizade",
       "#valores",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Prefira parcerias com quem partilha o seu padrão de qualidade, não só com quem é conveniente."
   },
   {
     "day": 164,
@@ -2471,7 +2618,8 @@
       "#opiniao",
       "#autonomia",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Antes da próxima decisão, escreva o que você pensa. Só depois ouça o que os outros acham."
   },
   {
     "day": 165,
@@ -2486,7 +2634,8 @@
       "#consciencia",
       "#integridade",
       "#seneca"
-    ]
+    ],
+    "apply": "Decida e registre só o que você poderia mostrar ao cliente e à equipe sem constrangimento."
   },
   {
     "day": 166,
@@ -2501,7 +2650,8 @@
       "#aprovacao",
       "#autenticidade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Não concorde com o chefe só para agradar. Dê sua opinião técnica com respeito e fundamento."
   },
   {
     "day": 167,
@@ -2516,7 +2666,8 @@
       "#justica",
       "#natureza",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Ao distribuir tarefas ou créditos, pergunte se o critério é justo com todos. A equipe sente."
   },
   {
     "day": 168,
@@ -2531,7 +2682,8 @@
       "#servico",
       "#comunidade",
       "#seneca"
-    ]
+    ],
+    "apply": "Resolva um problema de um colega sem fazer alarde. Ajuda discreta fortalece a equipe."
   },
   {
     "day": 169,
@@ -2546,7 +2698,8 @@
       "#dever",
       "#familia",
       "#epicteto"
-    ]
+    ],
+    "apply": "Como líder, colega ou profissional, faça hoje o que o seu papel pede, mesmo sem cobrança."
   },
   {
     "day": 170,
@@ -2561,7 +2714,8 @@
       "#bondade",
       "#gentileza",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Responda ao cliente ríspido com gentileza sincera, sem ironia. Veja o tom dele baixar."
   },
   {
     "day": 171,
@@ -2576,7 +2730,8 @@
       "#generosidade",
       "#gratidao",
       "#seneca"
-    ]
+    ],
+    "apply": "Ajude um colega e não cobre depois. Se alguém te ajudou, lembre e agradeça."
   },
   {
     "day": 172,
@@ -2591,7 +2746,8 @@
       "#silencio",
       "#palavras",
       "#epicteto"
-    ]
+    ],
+    "apply": "Na reunião, fale só o necessário e ouça mais. Antes de cada fala, pergunte se ela acrescenta."
   },
   {
     "day": 173,
@@ -2606,7 +2762,8 @@
       "#paciencia",
       "#convivencia",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Colega repete o erro? Ensine o método uma vez, com calma, ou aceite o jeito dele. Reclamar não resolve."
   },
   {
     "day": 174,
@@ -2621,7 +2778,8 @@
       "#respeito",
       "#lideranca",
       "#seneca"
-    ]
+    ],
+    "apply": "Trate o ajudante da obra como gostaria que o diretor o tratasse. Respeito vira lealdade."
   },
   {
     "day": 175,
@@ -2636,7 +2794,8 @@
       "#conversa",
       "#humildade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Em reunião com cliente, pergunte mais e fale menos de você. Ouvir fecha mais contratos."
   },
   {
     "day": 176,
@@ -2651,7 +2810,8 @@
       "#bondade",
       "#virtude",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Entregue um bom trabalho sem esperar elogio. O resultado bem feito já fala por você."
   },
   {
     "day": 177,
@@ -2666,7 +2826,8 @@
       "#comunidade",
       "#apoio",
       "#seneca"
-    ]
+    ],
+    "apply": "Veja quem do time está sobrecarregado e assuma uma tarefa dele hoje. Equipe é arco de apoio."
   },
   {
     "day": 178,
@@ -2681,7 +2842,8 @@
       "#convivencia",
       "#generosidade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Na divisão de tarefas, pegue a mais chata sem anunciar. O time lembra de quem facilita."
   },
   {
     "day": 179,
@@ -2696,7 +2858,8 @@
       "#foco",
       "#fofoca",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Pare de remoer o que o colega disse na reunião e volte à sua entrega de hoje."
   },
   {
     "day": 180,
@@ -2711,7 +2874,8 @@
       "#amizade",
       "#confianca",
       "#seneca"
-    ]
+    ],
+    "apply": "Depois de escolher bem o parceiro ou fornecedor, delegue de verdade e não confira cada passo."
   },
   {
     "day": 181,
@@ -2726,7 +2890,8 @@
       "#status",
       "#humildade",
       "#epicteto"
-    ]
+    ],
+    "apply": "Cargo grande ou salário alto não fazem alguém melhor. Julgue o colega pelo que entrega e pelo trato."
   },
   {
     "day": 182,
@@ -2741,7 +2906,8 @@
       "#benevolencia",
       "#humanidade",
       "#marcoaurelio"
-    ]
+    ],
+    "apply": "Dê uma mão ao estagiário perdido, sem esperar nada. Gentileza no trabalho se multiplica."
   },
   {
     "day": 183,
@@ -2756,7 +2922,8 @@
       "#resiliencia",
       "#adversidade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Carga pesada? Se dá, carregue sem reclamar. Se não dá, divida em etapas e peça apoio."
   },
   {
     "day": 184,
@@ -2771,7 +2938,8 @@
       "#adversidade",
       "#ansiedade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Separe o problema real do que só existe na sua cabeça e aja apenas sobre o real."
   },
   {
     "day": 185,
@@ -2786,7 +2954,8 @@
       "#epicteto",
       "#carater",
       "#adversidade"
-    ]
+    ],
+    "apply": "O imprevisto na obra mostra o líder que você é. Mantenha a calma e decida por passos."
   },
   {
     "day": 186,
@@ -2801,7 +2970,8 @@
       "#resiliencia",
       "#autodominio",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Em crise no projeto, fale baixo, ouça e resolva um ponto de cada vez. Firmeza não precisa de grito."
   },
   {
     "day": 187,
@@ -2816,7 +2986,8 @@
       "#seneca",
       "#crescimento",
       "#adversidade"
-    ]
+    ],
+    "apply": "Lembre da crise que você superou no trabalho e do que ela ensinou. Isso sustenta você hoje."
   },
   {
     "day": 188,
@@ -2831,7 +3002,8 @@
       "#epicteto",
       "#paciencia",
       "#forcainterior"
-    ]
+    ],
+    "apply": "Em vez de dizer que não dá conta, pergunte que habilidade sua este problema pede. Use-a agora."
   },
   {
     "day": 189,
@@ -2846,7 +3018,8 @@
       "#marcoaurelio",
       "#dor",
       "#resiliencia"
-    ]
+    ],
+    "apply": "Num dia ruim de trabalho, descreva só os fatos, sem dramatizar. A situação costuma ser mais leve."
   },
   {
     "day": 190,
@@ -2861,7 +3034,8 @@
       "#resiliencia",
       "#superacao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Semana pesada de entrega? Ela acaba. Siga o plano por mais um dia e pare de contar o que falta."
   },
   {
     "day": 191,
@@ -2876,7 +3050,8 @@
       "#epicteto",
       "#disciplina",
       "#resiliencia"
-    ]
+    ],
+    "apply": "Faça hoje o trabalho pesado que você adia, como a medição ou a revisão. Conforto não gera resultado."
   },
   {
     "day": 192,
@@ -2891,7 +3066,8 @@
       "#adversidade",
       "#aceitacao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "O que já aconteceu no projeto não muda. Gaste a energia escolhendo a melhor resposta daqui em diante."
   },
   {
     "day": 193,
@@ -2906,7 +3082,8 @@
       "#resiliencia",
       "#virtude",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Pegue hoje o problema chato da obra que todos empurram. É assim que a equipe ganha firmeza."
   },
   {
     "day": 194,
@@ -2921,7 +3098,8 @@
       "#adversidade",
       "#serenidade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Cliente aflito precisa de escuta, não de contágio. Ouça, acolha e responda com calma e um plano."
   },
   {
     "day": 195,
@@ -2936,7 +3114,8 @@
       "#marcoaurelio",
       "#resiliencia",
       "#serenidade"
-    ]
+    ],
+    "apply": "O erro na obra já aconteceu. Em vez de buscar culpado, decida o próximo passo e conduza a equipe."
   },
   {
     "day": 196,
@@ -2951,7 +3130,8 @@
       "#seneca",
       "#coragem",
       "#adversidade"
-    ]
+    ],
+    "apply": "Encare o prazo apertado como a hora de usar o que o time treinou. Entre na reunião com ânimo."
   },
   {
     "day": 197,
@@ -2966,7 +3146,8 @@
       "#resiliencia",
       "#perspectiva",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ao receber uma reclamação do cliente, anote o que ela ensina sobre seu processo e ajuste."
   },
   {
     "day": 198,
@@ -2981,7 +3162,8 @@
       "#marcoaurelio",
       "#mentalidade",
       "#resiliencia"
-    ]
+    ],
+    "apply": "Chefe devolveu o projeto cheio de críticas? Extraia três melhorias e use na próxima revisão."
   },
   {
     "day": 199,
@@ -2996,7 +3178,8 @@
       "#seneca",
       "#dignidade",
       "#coragem"
-    ]
+    ],
+    "apply": "Em dia de pressão, a equipe observa você. Reaja como gostaria que seus liderados reagissem."
   },
   {
     "day": 200,
@@ -3011,7 +3194,8 @@
       "#epicteto",
       "#desapego",
       "#perdas"
-    ]
+    ],
+    "apply": "Fornecedor atrasa, máquina quebra, plano muda. Tenha uma alternativa pronta e evite o susto."
   },
   {
     "day": 201,
@@ -3026,7 +3210,8 @@
       "#marcoaurelio",
       "#preparacao",
       "#resiliencia"
-    ]
+    ],
+    "apply": "Não monte a agenda como coreografia. Deixe folga para o imprevisto e responda sem drama."
   },
   {
     "day": 202,
@@ -3041,7 +3226,8 @@
       "#seneca",
       "#luto",
       "#emocoes"
-    ]
+    ],
+    "apply": "Levou uma bronca injusta? Desabafe com alguém de confiança e volte à tarefa antes do fim do dia."
   },
   {
     "day": 203,
@@ -3056,7 +3242,8 @@
       "#adversidade",
       "#forca",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Se a entrega falhar, pergunte que habilidade ela pede de você. Registre o aprendizado e siga."
   },
   {
     "day": 204,
@@ -3071,7 +3258,8 @@
       "#carater",
       "#integridade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Cliente pediu um atalho que quebra o combinado? Recuse com educação e mantenha a palavra."
   },
   {
     "day": 205,
@@ -3086,7 +3274,8 @@
       "#resiliencia",
       "#fortuna",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Perdeu o cliente ou a concorrência? Liste o que resta em suas mãos e comece pelo próximo passo."
   },
   {
     "day": 206,
@@ -3101,7 +3290,8 @@
       "#epicteto",
       "#desafios",
       "#coragem"
-    ]
+    ],
+    "apply": "Aquele cliente difícil ou a tarefa pesada é seu treino. Enfrente hoje, sem reclamar na copa."
   },
   {
     "day": 207,
@@ -3116,7 +3306,8 @@
       "#marcoaurelio",
       "#superacao",
       "#mentalidade"
-    ]
+    ],
+    "apply": "Aquela meta que parece impossível? Quebre em etapas e dê a primeira ainda hoje."
   },
   {
     "day": 208,
@@ -3131,7 +3322,8 @@
       "#seneca",
       "#crescimento",
       "#resiliencia"
-    ]
+    ],
+    "apply": "Cobrança forte e prazo curto criam profissionais firmes. Use a fase dura para aprender."
   },
   {
     "day": 209,
@@ -3146,7 +3338,8 @@
       "#mente",
       "#autocontrole",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Colega provocou na reunião? Respire, responda ao assunto e não entregue seu humor a ele."
   },
   {
     "day": 210,
@@ -3161,7 +3354,8 @@
       "#perdao",
       "#resiliencia",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Teve atrito com um colega? Dê o primeiro passo hoje: um café ou uma mensagem simples basta."
   },
   {
     "day": 211,
@@ -3176,7 +3370,8 @@
       "#seneca",
       "#saudade",
       "#gratidao"
-    ]
+    ],
+    "apply": "Lembre do antigo chefe ou mestre que ensinou o ofício a você e use algo dele no trabalho de hoje."
   },
   {
     "day": 212,
@@ -3191,7 +3386,8 @@
       "#cidadelainterior",
       "#virtude",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Meça o dia pelo que entregou com correção, não pelo elogio do chefe nem pelo conforto."
   },
   {
     "day": 213,
@@ -3206,7 +3402,8 @@
       "#seneca",
       "#virtude",
       "#integridade"
-    ]
+    ],
+    "apply": "Perder uma promoção dói, mas o pior é perder a integridade. Proteja a honestidade nas medições."
   },
   {
     "day": 214,
@@ -3221,7 +3418,8 @@
       "#simplicidade",
       "#desejo",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes de pedir mais estrutura ou outro cargo, veja se é necessidade real ou só desejo."
   },
   {
     "day": 215,
@@ -3236,7 +3434,8 @@
       "#simplicidade",
       "#carater",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Perdeu um contrato por não ceder no que era errado? Conte como troca: você ficou com a reputação."
   },
   {
     "day": 216,
@@ -3251,7 +3450,8 @@
       "#marcoaurelio",
       "#gratidao",
       "#contentamento"
-    ]
+    ],
+    "apply": "Antes de reclamar do emprego, liste o que ele dá: aprendizado, renda, equipe. Valorize isso."
   },
   {
     "day": 217,
@@ -3266,7 +3466,8 @@
       "#simplicidade",
       "#natureza",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Que ferramenta ou reunião você chama de indispensável? Corte uma hoje e veja se faz falta."
   },
   {
     "day": 218,
@@ -3281,7 +3482,8 @@
       "#simplicidade",
       "#liberdade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Fez uma melhoria no processo? Aplique em silêncio e deixe o resultado aparecer sozinho."
   },
   {
     "day": 219,
@@ -3296,7 +3498,8 @@
       "#marcoaurelio",
       "#luxo",
       "#perspectiva"
-    ]
+    ],
+    "apply": "Diante de uma proposta brilhante, descreva-a só com fatos e números antes de dizer sim."
   },
   {
     "day": 220,
@@ -3311,7 +3514,8 @@
       "#seneca",
       "#prazer",
       "#virtude"
-    ]
+    ],
+    "apply": "Antes de aceitar a tarefa que só traz prestígio, pergunte se ela serve ao profissional que quer ser."
   },
   {
     "day": 221,
@@ -3326,7 +3530,8 @@
       "#epicteto",
       "#inveja",
       "#escolhas"
-    ]
+    ],
+    "apply": "Quer a promoção do colega? Veja o preço que ele pagou em horas e cobranças e decida se paga."
   },
   {
     "day": 222,
@@ -3341,7 +3546,8 @@
       "#marcoaurelio",
       "#contentamento",
       "#presente"
-    ]
+    ],
+    "apply": "Sem esperar o cenário ideal, aja com calma e justiça no escritório ou na obra que já tem."
   },
   {
     "day": 223,
@@ -3356,7 +3562,8 @@
       "#riqueza",
       "#sabedoria",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "O bônus manda em você ou você nele? Evite decidir no trabalho só por dinheiro ou vaidade."
   },
   {
     "day": 224,
@@ -3371,7 +3578,8 @@
       "#epicteto",
       "#suficiencia",
       "#simplicidade"
-    ]
+    ],
+    "apply": "Defina o suficiente: quantas horas, quantos projetos, qual meta. Pare ali e entregue bem."
   },
   {
     "day": 225,
@@ -3386,7 +3594,8 @@
       "#marcoaurelio",
       "#disciplina",
       "#prazer"
-    ]
+    ],
+    "apply": "Comece pela tarefa que o conforto adiaria. O dia rende quando a primeira entrega vem cedo."
   },
   {
     "day": 226,
@@ -3401,7 +3610,8 @@
       "#seneca",
       "#riqueza",
       "#desapego"
-    ]
+    ],
+    "apply": "Se seu humor sobe e desce com bônus e cargo, lembre: seu valor profissional vai além do contracheque."
   },
   {
     "day": 227,
@@ -3416,7 +3626,8 @@
       "#epicteto",
       "#gratidao",
       "#contentamento"
-    ]
+    ],
+    "apply": "Antes de reclamar do chefe ou da obra, cite em voz alta três coisas boas do seu trabalho."
   },
   {
     "day": 228,
@@ -3431,7 +3642,8 @@
       "#marcoaurelio",
       "#contentamento",
       "#aceitacao"
-    ]
+    ],
+    "apply": "Aquele projeto que você rejeita já está na sua mesa. Pergunte o que dá para fazer bem nele."
   },
   {
     "day": 229,
@@ -3446,7 +3658,8 @@
       "#seneca",
       "#simplicidade",
       "#necessidade"
-    ]
+    ],
+    "apply": "Liste o que o projeto exige de fato e o que é capricho. Corte um item do segundo grupo hoje."
   },
   {
     "day": 230,
@@ -3461,7 +3674,8 @@
       "#epicteto",
       "#riqueza",
       "#carater"
-    ]
+    ],
+    "apply": "Não julgue colega por cargo ou salário. Avalie como ele trata a equipe e cumpre o combinado."
   },
   {
     "day": 231,
@@ -3476,7 +3690,8 @@
       "#marcoaurelio",
       "#fama",
       "#humildade"
-    ]
+    ],
+    "apply": "Confira uma medição ou revise um relatório que ninguém vai checar. Faça certo sem plateia."
   },
   {
     "day": 232,
@@ -3491,7 +3706,8 @@
       "#seneca",
       "#fama",
       "#virtude"
-    ]
+    ],
+    "apply": "Capriche na qualidade da entrega e deixe o reconhecimento chegar sozinho, como consequência."
   },
   {
     "day": 233,
@@ -3506,7 +3722,8 @@
       "#epicteto",
       "#ego",
       "#humildade"
-    ]
+    ],
+    "apply": "Cargo e sobrenome não provam nada. Mostre sua competência no resultado do dia."
   },
   {
     "day": 234,
@@ -3521,7 +3738,8 @@
       "#marcoaurelio",
       "#opiniao",
       "#autenticidade"
-    ]
+    ],
+    "apply": "Antes de decidir, anote o que você acha. Só depois pese o que chefe e colegas pensariam."
   },
   {
     "day": 235,
@@ -3536,7 +3754,8 @@
       "#alegria",
       "#prazer",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Um trabalho bem fechado dá mais alegria que o elogio. Procure essa satisfação hoje."
   },
   {
     "day": 236,
@@ -3551,7 +3770,8 @@
       "#epicteto",
       "#reconhecimento",
       "#humildade"
-    ]
+    ],
+    "apply": "Ninguém notou sua entrega? Trabalhe bem do mesmo jeito. Seu padrão não depende de aplauso."
   },
   {
     "day": 237,
@@ -3566,7 +3786,8 @@
       "#marcoaurelio",
       "#valor",
       "#humildade"
-    ]
+    ],
+    "apply": "Fez um bom serviço? Não precisa de elogio para saber. Entregue e siga para o próximo."
   },
   {
     "day": 238,
@@ -3581,7 +3802,8 @@
       "#seneca",
       "#frugalidade",
       "#liberdade"
-    ]
+    ],
+    "apply": "Cancele uma reunião ou tarefa que só enche a agenda e use o tempo para pensar no que importa."
   },
   {
     "day": 239,
@@ -3596,7 +3818,8 @@
       "#epicteto",
       "#equilibrio",
       "#prioridades"
-    ]
+    ],
+    "apply": "Cuide da saúde sem gastar o expediente nisso. Use a energia do corpo para estudar algo do ofício."
   },
   {
     "day": 240,
@@ -3611,7 +3834,8 @@
       "#foco",
       "#disciplina",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Divida a tarefa maior em partes e faça uma por vez. Se a discussão chegar, siga no que começou."
   },
   {
     "day": 241,
@@ -3626,7 +3850,8 @@
       "#seneca",
       "#desapego",
       "#minimalismo"
-    ]
+    ],
+    "apply": "Antes de assumir mais um projeto, veja o peso que ele traz junto. Nem todo ganho compensa."
   },
   {
     "day": 242,
@@ -3641,7 +3866,8 @@
       "#desapego",
       "#gratidao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Cargo, sala e equipe são emprestados. Trabalhe como quem cuida do que vai passar a outro."
   },
   {
     "day": 243,
@@ -3656,7 +3882,8 @@
       "#epicteto",
       "#liberdade",
       "#autonomia"
-    ]
+    ],
+    "apply": "Não depender do elogio do chefe é liberdade. Dê hoje uma opinião honesta sem medo da reação."
   },
   {
     "day": 244,
@@ -3671,7 +3898,8 @@
       "#seneca",
       "#autoconhecimento",
       "#examedeconsciencia"
-    ]
+    ],
+    "apply": "No fim do expediente, anote um erro, uma resistência e uma melhoria. Planeje o ajuste de amanhã."
   },
   {
     "day": 245,
@@ -3686,7 +3914,8 @@
       "#marcoaurelio",
       "#verdade",
       "#humildade"
-    ]
+    ],
+    "apply": "Recebeu feedback duro? Ouça até o fim, sem justificar, e pergunte o que há de verdadeiro nele."
   },
   {
     "day": 246,
@@ -3701,7 +3930,8 @@
       "#razao",
       "#autoconhecimento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes de fechar uma decisão, revise o raciocínio: que dados ele usa e o que deixou de fora?"
   },
   {
     "day": 247,
@@ -3716,7 +3946,8 @@
       "#seneca",
       "#reflexao",
       "#autoconhecimento"
-    ]
+    ],
+    "apply": "Ao fim do dia, revise reuniões e entregas com franqueza. Ajuste o que falhou sem se condenar."
   },
   {
     "day": 248,
@@ -3731,7 +3962,8 @@
       "#autoconhecimento",
       "#filosofiaprática",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "No pico da pressão, note se vem revolta, exagero ou fingimento. Nomeie e só então responda."
   },
   {
     "day": 249,
@@ -3746,7 +3978,8 @@
       "#epicteto",
       "#aprendizado",
       "#humildade"
-    ]
+    ],
+    "apply": "Peça a alguém de outra área a opinião sobre seu projeto. Ouça sem ter resposta pronta."
   },
   {
     "day": 250,
@@ -3761,7 +3994,8 @@
       "#seneca",
       "#mudanca",
       "#crescimento"
-    ]
+    ],
+    "apply": "Pratique paciência na próxima reunião tensa. Pequenas repetições mudam seu jeito de trabalhar."
   },
   {
     "day": 251,
@@ -3776,7 +4010,8 @@
       "#autoconhecimento",
       "#foco",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Feche e-mail e mensagens por uma hora e use esse tempo no que realmente move o projeto."
   },
   {
     "day": 252,
@@ -3791,7 +4026,8 @@
       "#proposito",
       "#preparacao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes da visita à obra ou da reunião, imagine atraso e ruído. Decida agora manter a calma."
   },
   {
     "day": 253,
@@ -3806,7 +4042,8 @@
       "#seneca",
       "#aprendizado",
       "#sabedoria"
-    ]
+    ],
+    "apply": "Depois de cada entrega, anote uma lição. Quem aprende com o trabalho evolui em qualquer cargo."
   },
   {
     "day": 254,
@@ -3821,7 +4058,8 @@
       "#sinceridade",
       "#filosofiaprática",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Não venda sua ética em apresentação. Cumpra o combinado e o time percebe sozinho."
   },
   {
     "day": 255,
@@ -3836,7 +4074,8 @@
       "#habitos",
       "#autoconhecimento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Treine dizer não em pedidos pequenos antes de enfrentar o cliente mais forte."
   },
   {
     "day": 256,
@@ -3851,7 +4090,8 @@
       "#seneca",
       "#estudo",
       "#aprendizado"
-    ]
+    ],
+    "apply": "Explique a um novato como funciona uma tarefa sua. Ensinar revela o que você ainda não domina."
   },
   {
     "day": 257,
@@ -3866,7 +4106,8 @@
       "#marcoaurelio",
       "#clareza",
       "#mente"
-    ]
+    ],
+    "apply": "Quando um e-mail irritar, descreva só os fatos em uma frase: quem pediu, o quê, até quando."
   },
   {
     "day": 258,
@@ -3881,7 +4122,8 @@
       "#erro",
       "#autoexame",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Colega errou? Pergunte que objetivo ele buscava. Entender a lógica corrige mais que o sermão."
   },
   {
     "day": 259,
@@ -3896,7 +4138,8 @@
       "#filosofiaprática",
       "#sabedoria",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Aplique uma ideia estoica em uma situação real do trabalho, como um feedback ou imprevisto."
   },
   {
     "day": 260,
@@ -3911,7 +4154,8 @@
       "#autoconhecimento",
       "#virtude",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "A falha do colega irrita? Corrija hoje um hábito seu, como atraso ou resposta seca."
   },
   {
     "day": 261,
@@ -3926,7 +4170,8 @@
       "#epicteto",
       "#estudo",
       "#crescimento"
-    ]
+    ],
+    "apply": "Peça a alguém franco que critique seu último projeto. Fique com o desconforto antes de se defender."
   },
   {
     "day": 262,
@@ -3941,7 +4186,8 @@
       "#seneca",
       "#estudo",
       "#aplicacao"
-    ]
+    ],
+    "apply": "Depois de um curso ou treinamento, transforme o que aprendeu em uma mudança concreta na rotina."
   },
   {
     "day": 263,
@@ -3956,7 +4202,8 @@
       "#marcoaurelio",
       "#pratica",
       "#estudo"
-    ]
+    ],
+    "apply": "Em vez de mais um curso, aplique algo que você já sabe no projeto desta semana."
   },
   {
     "day": 264,
@@ -3971,7 +4218,8 @@
       "#aceitacao",
       "#sabedoria",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes de apresentar ao cliente, defina como sucesso ter preparado bem. Depois, solte o resultado."
   },
   {
     "day": 265,
@@ -3986,7 +4234,8 @@
       "#autoconhecimento",
       "#paz",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Não espere trocar de empresa para ter paz. Mude hoje sua atitude diante de uma tensão da equipe."
   },
   {
     "day": 266,
@@ -4001,7 +4250,8 @@
       "#opiniaoalheia",
       "#autoconhecimento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Chefe ou cliente poderoso também tem medos e vaidades. Pese a crítica dele pelo que vale."
   },
   {
     "day": 267,
@@ -4016,7 +4266,8 @@
       "#epicteto",
       "#coragem",
       "#integridade"
-    ]
+    ],
+    "apply": "Faça o certo mesmo que o grupo discorde: aponte o erro de projeto ou recuse o atalho."
   },
   {
     "day": 268,
@@ -4031,7 +4282,8 @@
       "#seneca",
       "#exemplo",
       "#carater"
-    ]
+    ],
+    "apply": "Imagine um profissional que você admira vendo seu trabalho. Na decisão difícil, pergunte o que ele faria."
   },
   {
     "day": 269,
@@ -4046,7 +4298,8 @@
       "#marcoaurelio",
       "#prioridades",
       "#autoconhecimento"
-    ]
+    ],
+    "apply": "Veja onde vai seu tempo de trabalho. Se é em picuinhas, mude o foco para o que gera valor."
   },
   {
     "day": 270,
@@ -4061,7 +4314,8 @@
       "#epicteto",
       "#disciplina",
       "#compromisso"
-    ]
+    ],
+    "apply": "Defina uma regra de trabalho, como responder clientes em um dia, e cumpra mesmo cansado."
   },
   {
     "day": 271,
@@ -4076,7 +4330,8 @@
       "#autoconhecimento",
       "#reflexao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ao fechar o expediente, pergunte o que fez bem, onde errou e o que muda amanhã. Dois minutos."
   },
   {
     "day": 272,
@@ -4091,7 +4346,8 @@
       "#marcoaurelio",
       "#recomeco",
       "#autocompaixao"
-    ]
+    ],
+    "apply": "Falhou numa entrega? Reorganize e recomece na tarefa seguinte, sem martelar o erro o dia todo."
   },
   {
     "day": 273,
@@ -4106,7 +4362,8 @@
       "#epicteto",
       "#estudo",
       "#filosofiaprática"
-    ]
+    ],
+    "apply": "Estudar gestão só vale se virar ação. Depois do curso, escreva uma mudança que fará na equipe."
   },
   {
     "day": 274,
@@ -4121,7 +4378,8 @@
       "#trabalho",
       "#proposito",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Sem esperar ânimo, faça logo cedo a tarefa mais difícil. Firmeza rende mais que entusiasmo."
   },
   {
     "day": 275,
@@ -4136,7 +4394,8 @@
       "#proposito",
       "#servico",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ajude um colega com algo que ele não consegue, sem cobrar crédito. Utilidade começa na mesa ao lado."
   },
   {
     "day": 276,
@@ -4151,7 +4410,8 @@
       "#epicteto",
       "#planejamento",
       "#responsabilidade"
-    ]
+    ],
+    "apply": "Antes de aceitar um projeto, liste o que ele exige antes e depois: prazo, equipe, custo e manutenção."
   },
   {
     "day": 277,
@@ -4166,7 +4426,8 @@
       "#dever",
       "#proposito",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Faça sua parte até o fim do expediente, sem comparar com quem teve projeto maior ou mais tempo."
   },
   {
     "day": 278,
@@ -4181,7 +4442,8 @@
       "#seneca",
       "#proposito",
       "#foco"
-    ]
+    ],
+    "apply": "Reserve uma hora sem celular para um documento que vai servir à equipe nos próximos meses."
   },
   {
     "day": 279,
@@ -4196,7 +4458,8 @@
       "#proposito",
       "#carater",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Entregue o que só você faz bem, sem imitar o estilo de ninguém. O time precisa de diferença."
   },
   {
     "day": 280,
@@ -4211,7 +4474,8 @@
       "#marcoaurelio",
       "#atencao",
       "#prioridades"
-    ]
+    ],
+    "apply": "Proteja uma hora de foco na tarefa que mais importa e avise a equipe para não interromper."
   },
   {
     "day": 281,
@@ -4226,7 +4490,8 @@
       "#seneca",
       "#intencao",
       "#carater"
-    ]
+    ],
+    "apply": "Antes de cada entrega, pergunte por que a faz. Capricho sem plateia mostra a intenção real."
   },
   {
     "day": 282,
@@ -4241,7 +4506,8 @@
       "#dever",
       "#proposito",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Comece o dia pela entrega que você defenderia como a mais importante, não pela mais barulhenta."
   },
   {
     "day": 283,
@@ -4256,7 +4522,8 @@
       "#dever",
       "#presente",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Antes de aceitar uma reunião, pergunte se ela é útil e justa com quem espera sua entrega."
   },
   {
     "day": 284,
@@ -4271,7 +4538,8 @@
       "#seneca",
       "#produtividade",
       "#foco"
-    ]
+    ],
+    "apply": "Ao fim do expediente, liste o que ficou pronto, não o que ficou aberto. Corte o resto amanhã."
   },
   {
     "day": 285,
@@ -4286,7 +4554,8 @@
       "#progresso",
       "#pratica",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Aplique hoje uma prática que você já conhece, como confirmar o escopo por escrito antes de começar."
   },
   {
     "day": 286,
@@ -4301,7 +4570,8 @@
       "#bemcomum",
       "#bondade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Quando um colega errar, explique o passo certo em vez de reclamar dele para os outros."
   },
   {
     "day": 287,
@@ -4316,7 +4586,8 @@
       "#seneca",
       "#cooperacao",
       "#equipe"
-    ]
+    ],
+    "apply": "Peça ajuda ao colega antes do prazo apertar e ofereça a sua sem esperar que peçam."
   },
   {
     "day": 288,
@@ -4331,7 +4602,8 @@
       "#epicteto",
       "#vocacao",
       "#razao"
-    ]
+    ],
+    "apply": "Diante de uma decisão difícil, pare um minuto e escolha com a cabeça, não com o humor do dia."
   },
   {
     "day": 289,
@@ -4346,7 +4618,8 @@
       "#marcoaurelio",
       "#presenca",
       "#bemfeito"
-    ]
+    ],
+    "apply": "Pegue a tarefa mais simples da sua mesa e faça-a com atenção total, sem anunciar nem correr."
   },
   {
     "day": 290,
@@ -4361,7 +4634,8 @@
       "#carater",
       "#proposito",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Trate o estagiário e o diretor com o mesmo respeito. Caráter se mede onde ninguém olha."
   },
   {
     "day": 291,
@@ -4376,7 +4650,8 @@
       "#identidade",
       "#carater",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Quer ser visto como confiável? Cumpra hoje um prazo pequeno que ninguém iria cobrar."
   },
   {
     "day": 292,
@@ -4391,7 +4666,8 @@
       "#convivencia",
       "#filosofiaprática",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ao ver um erro em reunião, mostre o jeito certo na sua própria fala, sem apontar o culpado."
   },
   {
     "day": 293,
@@ -4406,7 +4682,8 @@
       "#seneca",
       "#aprendizado",
       "#pratica"
-    ]
+    ],
+    "apply": "Transforme o último curso em prática: aplique uma ideia nova no projeto que está tocando agora."
   },
   {
     "day": 294,
@@ -4421,7 +4698,8 @@
       "#epicteto",
       "#limites",
       "#honestidade"
-    ]
+    ],
+    "apply": "Se a agenda já está cheia, diga não ou renegocie o prazo. Entregar menos e bem vale mais."
   },
   {
     "day": 295,
@@ -4436,7 +4714,8 @@
       "#cooperacao",
       "#paciencia",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Explique de novo, com calma, ao colega novo. Equipe forte se constrói com paciência diária."
   },
   {
     "day": 296,
@@ -4451,7 +4730,8 @@
       "#proposito",
       "#trabalho",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Documente o que você faz como se outro fosse assumir amanhã. Quem herdar vai agradecer."
   },
   {
     "day": 297,
@@ -4466,7 +4746,8 @@
       "#foco",
       "#procrastinacao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Pegue a tarefa adiada, feche as abas e trabalhe vinte minutos nela. Sem esperar clima ideal."
   },
   {
     "day": 298,
@@ -4481,7 +4762,8 @@
       "#gratidao",
       "#proposito",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Agradeça hoje, de forma direta, a quem lhe ensinou o ofício, seja chefe, colega ou mestre de obra."
   },
   {
     "day": 299,
@@ -4496,7 +4778,8 @@
       "#seneca",
       "#autoconhecimento",
       "#planejamento"
-    ]
+    ],
+    "apply": "Antes de aceitar o projeto, confira tempo, equipe e competência. Dizer não cedo evita falhar tarde."
   },
   {
     "day": 300,
@@ -4511,7 +4794,8 @@
       "#coerencia",
       "#integridade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Se você diz valorizar prazo e honestidade, confira se a agenda de hoje comprova isso."
   },
   {
     "day": 301,
@@ -4526,7 +4810,8 @@
       "#proposito",
       "#trabalho",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Se a tarefa for sua, entregue sem alarde. Se faltar competência, chame quem complete, sem vergonha."
   },
   {
     "day": 302,
@@ -4541,7 +4826,8 @@
       "#seneca",
       "#ajuda",
       "#humanidade"
-    ]
+    ],
+    "apply": "Veja quem na equipe está sobrecarregado e assuma parte do problema dele, sem esperar pedido."
   },
   {
     "day": 303,
@@ -4556,7 +4842,8 @@
       "#epicteto",
       "#relacoes",
       "#dever"
-    ]
+    ],
+    "apply": "Com o colega difícil, cumpra o que o papel pede: retorno no prazo e educação, mesmo sem simpatia."
   },
   {
     "day": 304,
@@ -4571,7 +4858,8 @@
       "#marcoaurelio",
       "#presente",
       "#rotina"
-    ]
+    ],
+    "apply": "No fim do expediente, cheque: decidi com clareza, ajudei alguém e aceitei o que não dava mudar?"
   },
   {
     "day": 305,
@@ -4586,7 +4874,8 @@
       "#seneca",
       "#perspectiva",
       "#cosmos"
-    ]
+    ],
+    "apply": "Aquela discussão de e-mail vai importar daqui a um ano? Se não, responda curto e siga."
   },
   {
     "day": 306,
@@ -4601,7 +4890,8 @@
       "#epicteto",
       "#todo",
       "#humildade"
-    ]
+    ],
+    "apply": "Se a decisão do grupo for boa para o projeto, ceda no seu detalhe e apoie a equipe sem azedar."
   },
   {
     "day": 307,
@@ -4616,7 +4906,8 @@
       "#marcoaurelio",
       "#universo",
       "#conexao"
-    ]
+    ],
+    "apply": "Antes de mudar um processo, pense em quem recebe o resultado depois de você e avise essa pessoa."
   },
   {
     "day": 308,
@@ -4631,7 +4922,8 @@
       "#seneca",
       "#espiritualidade",
       "#consciencia"
-    ]
+    ],
+    "apply": "Na decisão de hoje, pergunte: eu assinaria isso se todos soubessem como foi feito?"
   },
   {
     "day": 309,
@@ -4646,7 +4938,8 @@
       "#epicteto",
       "#cosmopolitismo",
       "#empatia"
-    ]
+    ],
+    "apply": "Ouça com o mesmo respeito o terceirizado e o gerente. Quem é de outra área também é do time."
   },
   {
     "day": 310,
@@ -4661,7 +4954,8 @@
       "#marcoaurelio",
       "#visaodoalto",
       "#perspectiva"
-    ]
+    ],
+    "apply": "Diante do pico de pressão, pergunte: isso importa daqui a seis meses? Resolva o que importa."
   },
   {
     "day": 311,
@@ -4676,7 +4970,8 @@
       "#seneca",
       "#natureza",
       "#vidafeliz"
-    ]
+    ],
+    "apply": "Corte a pressa que gera retrabalho e a rispidez que gera conflito. Calma também é produtividade."
   },
   {
     "day": 312,
@@ -4691,7 +4986,8 @@
       "#natureza",
       "#aceitacao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Quando o cronograma desandar, replaneje a partir do que é real, não do que estava no papel."
   },
   {
     "day": 313,
@@ -4706,7 +5002,8 @@
       "#marcoaurelio",
       "#cosmos",
       "#confianca"
-    ]
+    ],
+    "apply": "Se o imprevisto chegou, trate-o como parte do plano. Reorganize a semana em vez de reclamar."
   },
   {
     "day": 314,
@@ -4721,7 +5018,8 @@
       "#seneca",
       "#humildade",
       "#conhecimento"
-    ]
+    ],
+    "apply": "Ouça a opinião contrária na reunião e revise seu plano se ela tiver fundamento."
   },
   {
     "day": 315,
@@ -4736,7 +5034,8 @@
       "#epicteto",
       "#dignidade",
       "#coragem"
-    ]
+    ],
+    "apply": "Se um superior tentar intimidar, mantenha o tom firme e apresente os fatos. Seu valor não é dele."
   },
   {
     "day": 316,
@@ -4751,7 +5050,8 @@
       "#marcoaurelio",
       "#mudanca",
       "#natureza"
-    ]
+    ],
+    "apply": "Se um projeto acabou ou um processo caiu, pergunte o que dá para reaproveitar no próximo."
   },
   {
     "day": 317,
@@ -4766,7 +5066,8 @@
       "#seneca",
       "#razao",
       "#universo"
-    ]
+    ],
+    "apply": "Antes de responder o e-mail que irritou, respire e releia. Resposta pensada vale mais que rápida."
   },
   {
     "day": 318,
@@ -4781,7 +5082,8 @@
       "#epicteto",
       "#dignidade",
       "#autoestima"
-    ]
+    ],
+    "apply": "Não entre em fofoca nem em jogo sujo hoje, nem pequeno. Aja como o profissional que quer ser."
   },
   {
     "day": 319,
@@ -4796,7 +5098,8 @@
       "#marcoaurelio",
       "#pequenez",
       "#perspectiva"
-    ]
+    ],
+    "apply": "Diante de um aborrecimento no trabalho, lembre do projeto inteiro. A maioria dos problemas é pequena."
   },
   {
     "day": 320,
@@ -4811,7 +5114,8 @@
       "#seneca",
       "#contemplacao",
       "#equilibrio"
-    ]
+    ],
+    "apply": "Faça uma pausa de cinco minutos longe da tela entre uma tarefa e outra. Volte com a mente clara."
   },
   {
     "day": 321,
@@ -4826,7 +5130,8 @@
       "#consciencia",
       "#integridade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Confira o trabalho que ninguém vai revisar, como se o cliente fosse abrir. Seu padrão é seu."
   },
   {
     "day": 322,
@@ -4841,7 +5146,8 @@
       "#marcoaurelio",
       "#astros",
       "#serenidade"
-    ]
+    ],
+    "apply": "Se a cabeça está cheia de miudezas, saia da mesa por cinco minutos e volte à pauta principal."
   },
   {
     "day": 323,
@@ -4856,7 +5162,8 @@
       "#seneca",
       "#silencio",
       "#natureza"
-    ]
+    ],
+    "apply": "Procure um canto calmo na empresa ou na obra e fique cinco minutos sem celular antes de decidir."
   },
   {
     "day": 324,
@@ -4871,7 +5178,8 @@
       "#epicteto",
       "#confianca",
       "#ordem"
-    ]
+    ],
+    "apply": "Diante de uma contrariedade, como a obra parada, procure o que ela ensina e dê o próximo passo."
   },
   {
     "day": 325,
@@ -4886,7 +5194,8 @@
       "#marcoaurelio",
       "#interdependencia",
       "#cosmos"
-    ]
+    ],
+    "apply": "Lembre quem depende do seu trabalho depois de você, como o setor seguinte ou o cliente final."
   },
   {
     "day": 326,
@@ -4901,7 +5210,8 @@
       "#seneca",
       "#fraternidade",
       "#humanidade"
-    ]
+    ],
+    "apply": "Cumprimente o porteiro, o motorista e o atendente pelo nome. Respeito vale para todos os níveis."
   },
   {
     "day": 327,
@@ -4916,7 +5226,8 @@
       "#epicteto",
       "#foco",
       "#prioridades"
-    ]
+    ],
+    "apply": "Aproveite o café com a equipe, mas não deixe a conversa roubar o horário da entrega principal."
   },
   {
     "day": 328,
@@ -4931,7 +5242,8 @@
       "#marcoaurelio",
       "#brevidade",
       "#proporcao"
-    ]
+    ],
+    "apply": "Troque a preocupação sem saída por uma ação concreta: ligue, envie, resolva um pendente agora."
   },
   {
     "day": 329,
@@ -4946,7 +5258,8 @@
       "#seneca",
       "#virtude",
       "#resiliencia"
-    ]
+    ],
+    "apply": "Mesmo no projeto que você não escolheu, pratique pontualidade e clareza. Ninguém tira seu padrão."
   },
   {
     "day": 330,
@@ -4961,7 +5274,8 @@
       "#epicteto",
       "#fraternidade",
       "#empatia"
-    ]
+    ],
+    "apply": "Ao se irritar com um colega, lembre que ele também carrega pressão. Fale com ele como parceiro."
   },
   {
     "day": 331,
@@ -4976,7 +5290,8 @@
       "#marcoaurelio",
       "#amorfati",
       "#aceitacao"
-    ]
+    ],
+    "apply": "Aceite o que já foi decidido, como prazo fixo ou verba, e use a energia no que ainda se negocia."
   },
   {
     "day": 332,
@@ -4991,7 +5306,8 @@
       "#seneca",
       "#consciencia",
       "#honestidade"
-    ]
+    ],
+    "apply": "No fim do dia, reveja uma decisão tomada, como um aceite de prazo, e seja honesto sobre o motivo."
   },
   {
     "day": 333,
@@ -5006,7 +5322,8 @@
       "#epicteto",
       "#observacao",
       "#atencao"
-    ]
+    ],
+    "apply": "Observe um processo da rotina que você nunca questionou e note onde há um detalhe a melhorar."
   },
   {
     "day": 334,
@@ -5021,7 +5338,8 @@
       "#marcoaurelio",
       "#natureza",
       "#aceitacao"
-    ]
+    ],
+    "apply": "Se um problema inesperado surgir, lembre que imprevisto faz parte do projeto. Respire e organize."
   },
   {
     "day": 335,
@@ -5036,7 +5354,8 @@
       "#seneca",
       "#generosidade",
       "#beneficios"
-    ]
+    ],
+    "apply": "Ajude hoje um colega que não costuma agradecer. O trabalho bem feito não depende de aplauso."
   },
   {
     "day": 336,
@@ -5051,7 +5370,8 @@
       "#epicteto",
       "#pratica",
       "#recomeco"
-    ]
+    ],
+    "apply": "Escolha um princípio e defina como ele aparece na sua rotina de trabalho até o fim do ano."
   },
   {
     "day": 337,
@@ -5066,7 +5386,8 @@
       "#vidaexaminada",
       "#perspectiva",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Entregue a versão boa agora em vez de esperar a perfeita. Dá para refinar depois com feedback."
   },
   {
     "day": 338,
@@ -5081,7 +5402,8 @@
       "#mudanca",
       "#autoconhecimento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Nomeie o defeito sem rodeio, como procrastinar ou interromper, e defina uma ação pequena contra ele."
   },
   {
     "day": 339,
@@ -5096,7 +5418,8 @@
       "#solidao",
       "#razao",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Reserve quinze minutos sem tela e sem reunião para pensar. Muita decisão melhora no silêncio."
   },
   {
     "day": 340,
@@ -5111,7 +5434,8 @@
       "#vidaexaminada",
       "#mortalidade",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Por mais experiente que seja, peça revisão do seu trabalho hoje. Ninguém está acima de erros."
   },
   {
     "day": 341,
@@ -5126,7 +5450,8 @@
       "#vidaexaminada",
       "#virtude",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ao fim do dia, pergunte se suas horas renderam algo digno. Mantenha o que funcionou e mude o resto."
   },
   {
     "day": 342,
@@ -5141,7 +5466,8 @@
       "#coragem",
       "#prudencia",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Tenha coragem de propor sua ideia sem saber a reação e cuidado com o texto que vai enviar."
   },
   {
     "day": 343,
@@ -5156,7 +5482,8 @@
       "#marcoaurelio",
       "#consciencia",
       "#presenca"
-    ]
+    ],
+    "apply": "Três vezes hoje, pergunte-se: estou em foco ou no piloto automático? Ajuste na hora."
   },
   {
     "day": 344,
@@ -5171,7 +5498,8 @@
       "#presenca",
       "#vidaexaminada",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Responda o e-mail pendente e feche a conversa adiada antes de sair. Amanhã começa limpo."
   },
   {
     "day": 345,
@@ -5186,7 +5514,8 @@
       "#impressoes",
       "#exame",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Quando um comentário do chefe ou do cliente incomodar, veja o que depende de você antes de reagir."
   },
   {
     "day": 346,
@@ -5201,7 +5530,8 @@
       "#marcoaurelio",
       "#progresso",
       "#realismo"
-    ]
+    ],
+    "apply": "Comemore a melhoria pequena do dia, como um relatório mais claro, e não cobre a revolução."
   },
   {
     "day": 347,
@@ -5216,7 +5546,8 @@
       "#felicidade",
       "#sintese",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Se você valoriza transparência, informe hoje o atraso ao cliente antes que ele pergunte."
   },
   {
     "day": 348,
@@ -5231,7 +5562,8 @@
       "#dialogo",
       "#bem",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Na discordância, comece por onde vocês concordam, como qualidade e prazo, e depois discuta o método."
   },
   {
     "day": 349,
@@ -5246,7 +5578,8 @@
       "#vidaexaminada",
       "#memento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Resolva hoje a conversa ou pendência que você vem evitando. Não deixe nada importante em aberto."
   },
   {
     "day": 350,
@@ -5261,7 +5594,8 @@
       "#seneca",
       "#felicidade",
       "#vidafeliz"
-    ]
+    ],
+    "apply": "Liste o que realmente melhora seus dias de trabalho e o que só parece ajudar. Corte o segundo grupo."
   },
   {
     "day": 351,
@@ -5276,7 +5610,8 @@
       "#treino",
       "#exame",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Revise o dia: que decisão foi impulso, que informação aceitei sem checar? Anote um ajuste."
   },
   {
     "day": 352,
@@ -5291,7 +5626,8 @@
       "#marcoaurelio",
       "#presente",
       "#viverbem"
-    ]
+    ],
+    "apply": "Termine uma tarefa antes de abrir a próxima. Feche a aba, silencie o chat e entregue de uma vez."
   },
   {
     "day": 353,
@@ -5306,7 +5642,8 @@
       "#seneca",
       "#companhia",
       "#autoconhecimento"
-    ]
+    ],
+    "apply": "Almoce com quem lhe faz pensar melhor e reduza a roda de reclamação. Companhia molda o rendimento."
   },
   {
     "day": 354,
@@ -5321,7 +5658,8 @@
       "#epicteto",
       "#pausa",
       "#autocontrole"
-    ]
+    ],
+    "apply": "Ao receber o e-mail que irrita, espere dez segundos e leia de novo antes de responder."
   },
   {
     "day": 355,
@@ -5336,7 +5674,8 @@
       "#marcoaurelio",
       "#recomecar",
       "#persistencia"
-    ]
+    ],
+    "apply": "Errou no prazo ou na entrega? Reconheça, ajuste e retome a tarefa hoje, sem remoer."
   },
   {
     "day": 356,
@@ -5351,7 +5690,8 @@
       "#seneca",
       "#legado",
       "#continuidade"
-    ]
+    ],
+    "apply": "Entregue a sua parte do projeto hoje, mesmo que ele não termine com você. Obra grande é coletiva."
   },
   {
     "day": 357,
@@ -5366,7 +5706,8 @@
       "#epicteto",
       "#aspiracao",
       "#carater"
-    ]
+    ],
+    "apply": "Aja como o profissional que quer ser: avise o atraso cedo, mesmo sem ser cobrado."
   },
   {
     "day": 358,
@@ -5381,7 +5722,8 @@
       "#vidaexaminada",
       "#carater",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Mantenha a calma em uma reunião tensa hoje. À noite, anote onde o bom caráter apareceu."
   },
   {
     "day": 359,
@@ -5396,7 +5738,8 @@
       "#seneca",
       "#rotina",
       "#encerramento"
-    ]
+    ],
+    "apply": "Antes de sair, feche o que puder: responda o cliente, peça desculpas por um deslize, conclua a tarefa."
   },
   {
     "day": 360,
@@ -5411,7 +5754,8 @@
       "#epicteto",
       "#confianca",
       "#destino"
-    ]
+    ],
+    "apply": "Na incerteza do projeto, faça a sua parte e dê o próximo passo possível, sem esperar garantia."
   },
   {
     "day": 361,
@@ -5426,7 +5770,8 @@
       "#marcoaurelio",
       "#decisao",
       "#agora"
-    ]
+    ],
+    "apply": "Para a meta que parece longe, escolha o primeiro passo disponível agora e dê-o ainda hoje."
   },
   {
     "day": 362,
@@ -5441,7 +5786,8 @@
       "#vidaboa",
       "#365dias",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Caprichar no detalhe de hoje pesa mais do que contar horas na mesa. Escolha entregar com qualidade."
   },
   {
     "day": 363,
@@ -5456,7 +5802,8 @@
       "#liberdade",
       "#encerramento",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Ninguém tira de você o jeito de agir no trabalho. Leve essa liberdade para o próximo ano."
   },
   {
     "day": 364,
@@ -5471,7 +5818,8 @@
       "#gratidao",
       "#vidaexaminada",
       "#365diasestoicos"
-    ]
+    ],
+    "apply": "Mande hoje uma mensagem de agradecimento a um colega ou chefe que ajudou você este ano."
   },
   {
     "day": 365,
@@ -5486,6 +5834,7 @@
       "#seneca",
       "#recomecar",
       "#365dias"
-    ]
+    ],
+    "apply": "Escolha três princípios para guiar suas decisões no trabalho do próximo ano e anote na agenda."
   }
 ]
