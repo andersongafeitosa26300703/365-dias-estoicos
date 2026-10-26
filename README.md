@@ -1,6 +1,6 @@
 # 365 Dias Estoicos
 
-Posta uma citação estoica por dia no Instagram, sozinho, às 6h30 (Brasília).
+Posta uma citação estoica por dia no Instagram, sozinho, às 5h (Brasília).
 
 ## Como funciona
 1. `data/calendar.json` tem as 365 citações, reflexões e hashtags.
