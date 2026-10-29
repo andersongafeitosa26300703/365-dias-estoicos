@@ -2171,19 +2171,19 @@
   },
   {
     "day": 136,
-    "theme": "Regras pessoais",
+    "theme": "A perícia está no jogo",
     "author": "Epicteto",
-    "source": "Manual, §50",
-    "quote": "As regras que você fixar para si, cumpra como leis.",
-    "reflection": "Uma promessa a si mesmo só vale se for honrada. Defina hoje uma regra pequena, como um horário ou um limite, e cumpra mesmo sem ninguém olhando.",
+    "source": "Discursos, II.5",
+    "quote": "Ninguém se importa se a bola é boa ou má, mas em lançá-la e recebê-la com perícia.",
+    "reflection": "Você não escolhe a bola que recebe, só a forma de jogá-la. Dedique energia à qualidade da sua jogada e deixe de lamentar as cartas que a rotina lhe distribuiu.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
-      "#rotina",
-      "#compromisso",
-      "#epicteto"
+      "#epicteto",
+      "#habilidade",
+      "#foco"
     ],
-    "apply": "Defina uma regra, como não ler e-mail depois das 19h, e cumpra mesmo que ninguém cobre."
+    "apply": "Diante de um problema herdado, pergunte: qual é a melhor jogada possível agora?"
   },
   {
     "day": 137,
@@ -3013,19 +3013,19 @@
   },
   {
     "day": 188,
-    "theme": "A força certa para cada situação",
+    "theme": "Papel que nos coube",
     "author": "Epicteto",
-    "source": "Manual, §10",
-    "quote": "Em cada circunstância, procure a força que você tem para enfrentá-la.",
-    "reflection": "Diante de uma tentação, há a temperança. Diante de uma dor, a resistência. Diante de uma ofensa, a paciência. Hoje, em vez de dizer que não aguenta, pergunte qual capacidade sua esta situação está pedindo para ser usada.",
+    "source": "Manual, 17",
+    "quote": "Lembra-te de que és ator num drama, curto ou longo, como o autor quiser. Teu papel é representar bem o que te foi dado.",
+    "reflection": "Não escolhemos todos os papéis da vida, mas escolhemos como interpretá-los. Ninguém será julgado pelo papel que recebeu, e sim pela forma como o desempenhou.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#paciencia",
-      "#forcainterior"
+      "#proposito",
+      "#dever"
     ],
-    "apply": "Em vez de dizer que não dá conta, pergunte que habilidade sua este problema pede. Use-a agora."
+    "apply": "Cargo pequeno ou grande, faça bem o seu papel. Capricho se nota, em qualquer função."
   },
   {
     "day": 189,
@@ -3321,19 +3321,19 @@
   },
   {
     "day": 207,
-    "theme": "Difícil não é impossível",
+    "theme": "Quem age com retidão",
     "author": "Marco Aurélio",
-    "source": "Meditações, VI.19",
-    "quote": "Não penses que é impossível ao homem o que é difícil para ti.",
-    "reflection": "Muitas vezes damos o nome de impossível ao que é só difícil ou desconfortável. Se outros seres humanos conseguem, você também pode aprender. Hoje, escolha algo que você anda chamando de impossível e dê o primeiro passo.",
+    "source": "Meditações, XII.17",
+    "quote": "Se não é correto, não o faças; se não é verdade, não o digas.",
+    "reflection": "Antes de aceitar uma tarefa ou de repetir uma informação, faça duas perguntas: isso é correto? isso é verdade? Reputação se constrói assim, um passo honesto por vez.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#marcoaurelio",
-      "#superacao",
-      "#mentalidade"
+      "#integridade",
+      "#carater"
     ],
-    "apply": "Aquela meta que parece impossível? Quebre em etapas e dê a primeira ainda hoje."
+    "apply": "Antes de enviar o relatório ou prometer o prazo, confira: é correto e é verdade?"
   },
   {
     "day": 208,
@@ -3549,19 +3549,19 @@
   },
   {
     "day": 221,
-    "theme": "Tudo tem seu preço",
+    "theme": "A alma como água limpa",
     "author": "Epicteto",
-    "source": "Manual, §25",
-    "quote": "Você não pagou o preço? Então não leve a mercadoria nem se queixe.",
-    "reflection": "Quem recebe elogios ou favores geralmente pagou algo por eles: tempo, bajulação, esforço. Se você não quis pagar, não precisa invejar. Hoje, antes de desejar o que o outro tem, pergunte se aceitaria o preço que ele pagou.",
+    "source": "Discursos, III.3",
+    "quote": "Tal como é um prato de água, tal é a alma; tal como a luz que nele cai, são as impressões.",
+    "reflection": "Água agitada distorce a luz que recebe, e mente agitada distorce os fatos. Antes de decidir ou responder, deixe a água assentar e só então olhe para a situação.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#inveja",
-      "#escolhas"
+      "#clareza",
+      "#calma"
     ],
-    "apply": "Quer a promoção do colega? Veja o preço que ele pagou em horas e cobranças e decida se paga."
+    "apply": "Com um e-mail irritante na tela, espere dez minutos antes de responder."
   },
   {
     "day": 222,
@@ -3841,21 +3841,19 @@
   },
   {
     "day": 239,
-    "theme": "O corpo em seu lugar",
+    "theme": "Cada coisa em seu lugar",
     "author": "Epicteto",
-    "source": "Manual, §41",
-    "quote": "É sinal de mente medíocre gastar tempo demais com o corpo: comer, beber, exercitar.",
-    "reflection": "Cuidar do corpo é necessário, mas ele deve servir à mente, não o contrário. Hoje, perceba quanto tempo vai para conforto e aparência e reserve um período equivalente para aprender algo ou melhorar seu caráter.",
+    "source": "Manual, 19",
+    "quote": "Podes ser invencível se não entrares em nenhuma luta cujo resultado não dependa de ti.",
+    "reflection": "Gastar energia com o que está fora do seu controle é a forma mais rápida de perder. Escolha com cuidado suas batalhas e deixe passar as que não dependem de você.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#equilibrio",
-      "#prioridades"
+      "#controle",
+      "#serenidade"
     ],
-    "apply": "Cuide da saúde sem gastar o expediente nisso. Use a energia do corpo para estudar algo do ofício.",
-    "original": "Ἀφυΐας σημεῖον τὸ ἐνδιατρίβειν τοῖς περὶ τὸ σῶμα",
-    "ref": "Manual, 41"
+    "apply": "Antes de entrar em uma discussão, pergunte: o resultado depende de mim? Se não, siga em frente."
   },
   {
     "day": 240,
@@ -4297,35 +4295,35 @@
   },
   {
     "day": 267,
-    "theme": "Agir sem medo do olhar",
+    "theme": "Preparar-se para a crítica",
     "author": "Epicteto",
-    "source": "Manual, §35",
-    "quote": "Se algo é correto, não tema ser visto fazendo-o, ainda que muitos o julguem mal.",
-    "reflection": "Se é o certo, o julgamento alheio perde peso. Se é errado, a plateia não torna aceitável. Hoje, faça sem constrangimento algo certo que você vem evitando por receio do que pensarão: um limite, uma verdade, um recomeço.",
+    "source": "Manual, 22",
+    "quote": "Se queres filosofar, prepara-te desde já para ser ridicularizado.",
+    "reflection": "Quem muda de hábito ou de rumo costuma ouvir piadas de quem prefere o conforto de sempre. A crítica de quem não pratica o que você pratica pesa menos do que parece.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#coragem",
-      "#integridade"
+      "#persistencia",
+      "#mudanca"
     ],
-    "apply": "Faça o certo mesmo que o grupo discorde: aponte o erro de projeto ou recuse o atalho."
+    "apply": "Vai propor uma melhoria? Prepare-se para resistência e leve dados. A ideia resiste, a piada passa."
   },
   {
     "day": 268,
-    "theme": "Um guardião para o caráter",
+    "theme": "Amar para ser amado",
     "author": "Sêneca",
-    "source": "Cartas a Lucílio, 11",
-    "quote": "Escolha alguém cuja vida e palavras admira e tenha-o sempre diante de si como guardião.",
-    "reflection": "Agimos melhor quando imaginamos alguém que respeitamos observando. Não é para agradá-lo, é para elevar o padrão. Hoje, escolha esse modelo e, diante de uma decisão, pergunte o que ele faria no seu lugar.",
+    "source": "Cartas a Lucílio, 9.6",
+    "quote": "Se queres ser amado, ama.",
+    "reflection": "Respeito e confiança raramente chegam sozinhos: costumam voltar para quem os oferece primeiro. Hoje, dê atenção sincera a alguém que você costuma ignorar.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#seneca",
-      "#exemplo",
-      "#carater"
+      "#relacionamentos",
+      "#amizade"
     ],
-    "apply": "Imagine um profissional que você admira vendo seu trabalho. Na decisão difícil, pergunte o que ele faria."
+    "apply": "Quer uma equipe leal? Reconheça o trabalho de alguém hoje, com nome e com motivo."
   },
   {
     "day": 269,
@@ -4345,19 +4343,19 @@
   },
   {
     "day": 270,
-    "theme": "Regras como leis",
+    "theme": "Progresso exige escolher um lado",
     "author": "Epicteto",
-    "source": "Manual, §50",
-    "quote": "O que você decidiu ser o melhor, mantenha como lei inviolável.",
-    "reflection": "Decidir é fácil; sustentar na hora do cansaço é a prova. Escolha poucas regras pessoais e cumpra-as mesmo quando ninguém olha. Hoje, defina uma regra simples, por exemplo não reclamar até o almoço, e cumpra até o fim do dia.",
+    "source": "Discursos, IV.2",
+    "quote": "Ninguém progride enquanto hesita entre coisas opostas.",
+    "reflection": "Querer disciplina e conforto ao mesmo tempo é a receita da estagnação. Decida qual valor manda hoje e aceite o que a escolha custa, sem ficar com um pé em cada barco.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#disciplina",
-      "#compromisso"
+      "#decisao",
+      "#disciplina"
     ],
-    "apply": "Defina uma regra de trabalho, como responder clientes em um dia, e cumpra mesmo cansado."
+    "apply": "Escolha a prioridade do dia e adie o que a atrapalha, sem renegociar a cada hora."
   },
   {
     "day": 271,
@@ -4441,19 +4439,19 @@
   },
   {
     "day": 276,
-    "theme": "Pensar antes de agir",
+    "theme": "Postura no banquete da vida",
     "author": "Epicteto",
-    "source": "Manual, §29",
-    "quote": "Em tudo o que for fazer, examine primeiro o que vem antes e o que vem depois.",
-    "reflection": "Muita gente começa empolgada e desiste quando aparecem os custos que ignorou. Epicteto pede que você olhe o caminho inteiro antes de dar o primeiro passo. Escolha uma tarefa de hoje e liste o que ela exige antes e depois.",
+    "source": "Manual, 15",
+    "quote": "Comporta-te na vida como num banquete: o que te oferecem, toma com moderação; o que ainda não chegou, espera.",
+    "reflection": "Impaciência e voracidade estragam qualquer mesa. Na carreira e na vida, o que é seu chega no tempo certo para quem sabe esperar e agradecer o que recebe.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#planejamento",
-      "#responsabilidade"
+      "#paciencia",
+      "#moderacao"
     ],
-    "apply": "Antes de aceitar um projeto, liste o que ele exige antes e depois: prazo, equipe, custo e manutenção."
+    "apply": "Promoção, aumento, reconhecimento: faça bem a sua parte e espere sua vez sem atropelar ninguém."
   },
   {
     "day": 277,
@@ -4649,19 +4647,19 @@
   },
   {
     "day": 289,
-    "theme": "Presença na tarefa",
+    "theme": "Ser útil sem se cansar",
     "author": "Marco Aurélio",
-    "source": "Meditações, II.5",
-    "quote": "Faz o que tens à mão com seriedade exata, sem afetação, com afeto, liberdade e justiça.",
-    "reflection": "Não é preciso esperar uma grande ocasião para agir bem: o dever está na tarefa que já está na sua mesa. Faça-a sem teatro e sem pressa. Escolha uma tarefa pequena de hoje e execute com plena atenção.",
+    "source": "Meditações, VII.74",
+    "quote": "Ninguém se cansa de receber o que é útil. Agir conforme a natureza é útil.",
+    "reflection": "Todos gostam de ajuda real, e você também. Seja essa ajuda para alguém hoje, sem cobrar e sem se queixar do esforço: é o que a vida em comum pede de nós.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#marcoaurelio",
-      "#presenca",
-      "#bemfeito"
+      "#utilidade",
+      "#servir"
     ],
-    "apply": "Pegue a tarefa mais simples da sua mesa e faça-a com atenção total, sem anunciar nem correr."
+    "apply": "Ofereça a um colega uma ajuda concreta hoje, como revisar algo ou explicar um processo."
   },
   {
     "day": 290,
@@ -5259,19 +5257,19 @@
   },
   {
     "day": 327,
-    "theme": "Atento ao chamado",
+    "theme": "Você é vontade, não aparência",
     "author": "Epicteto",
-    "source": "Manual, §7",
-    "quote": "Numa viagem, podes catar conchas na praia, mas fica atento ao chamado do piloto.",
-    "reflection": "Os prazeres do caminho são bem-vindos, desde que não nos façam perder o navio. Lembre qual é o seu destino. Hoje, aproveite uma pequena alegria sem deixar que ela desvie você do que realmente importa.",
+    "source": "Discursos, III.1",
+    "quote": "Você não é carne nem cabelo, mas vontade; se a tornar bela, será belo.",
+    "reflection": "Cargo, roupa e imagem passam; as escolhas que você faz sob pressão ficam. Cuide do que decide e de como age antes de cuidar de como isso parece aos outros.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#epicteto",
-      "#foco",
-      "#prioridades"
+      "#carater",
+      "#autenticidade"
     ],
-    "apply": "Aproveite o café com a equipe, mas não deixe a conversa roubar o horário da entrega principal."
+    "apply": "Antes de cuidar da apresentação, revise se a entrega é honesta e bem-feita."
   },
   {
     "day": 328,
@@ -5771,19 +5769,21 @@
   },
   {
     "day": 359,
-    "theme": "Fechar cada dia",
+    "theme": "Compartilhar o que se sabe",
     "author": "Sêneca",
-    "source": "Cartas a Lucílio, 12",
-    "quote": "Ordena cada dia como se ele fechasse a série e completasse a tua vida.",
-    "reflection": "Terminar o dia com contas em ordem traz leveza. Quem encerra bem cada jornada não carrega pendências emocionais para a noite. Hoje, antes de dormir, feche o que puder: uma resposta, um pedido de desculpas, uma tarefa.",
+    "source": "Cartas a Lucílio, 6.4",
+    "quote": "Nenhum bem dá prazer a quem o possui sem ter com quem o repartir.",
+    "reflection": "Conhecimento guardado só para si perde metade do valor. Ao ensinar, explicar ou dividir o que aprendeu, você consolida o saber e fortalece quem trabalha ao seu lado.",
     "hashtags": [
       "#365diasestoicos",
       "#estoicismo",
       "#seneca",
-      "#rotina",
-      "#encerramento"
+      "#partilha",
+      "#aprendizado"
     ],
-    "apply": "Antes de sair, feche o que puder: responda o cliente, peça desculpas por um deslize, conclua a tarefa."
+    "apply": "Compartilhe hoje com a equipe uma lição ou atalho que aprendeu na obra ou no projeto.",
+    "original": "nullius boni sine socio iucunda possessio est.",
+    "ref": "Cartas a Lucílio, 6.4"
   },
   {
     "day": 360,
@@ -5819,19 +5819,21 @@
   },
   {
     "day": 362,
-    "theme": "Importa a qualidade",
+    "theme": "A filosofia une as pessoas",
     "author": "Sêneca",
-    "source": "Cartas a Lucílio, 77",
-    "quote": "Como numa peça de teatro, na vida importa não a duração, mas a qualidade.",
-    "reflection": "Ninguém controla quantos anos terá, mas todo mundo decide como vai atuar neles. Perto do fim da jornada, a pergunta deixa de ser quanto falta e passa a ser como você tem vivido. Hoje, escolha uma ação que honre isso.",
+    "source": "Cartas a Lucílio, 5.4",
+    "quote": "A filosofia promete antes de tudo senso comum, humanidade e convivência.",
+    "reflection": "Estudo que só rende sabedoria de palco não serve. O teste de qualquer ideia é se você ficou mais atento, mais humano e mais fácil de conviver em casa e no trabalho.",
     "hashtags": [
+      "#365diasestoicos",
       "#estoicismo",
       "#seneca",
-      "#vidaboa",
-      "#365dias",
-      "#365diasestoicos"
+      "#humanidade",
+      "#convivencia"
     ],
-    "apply": "Caprichar no detalhe de hoje pesa mais do que contar horas na mesa. Escolha entregar com qualidade."
+    "apply": "Ouça uma reunião inteira sem interromper e mostre que entendeu antes de opinar.",
+    "original": "Hoc primum philosophia promittit, sensum communem, humanitatem et congregationem",
+    "ref": "Cartas a Lucílio, 5.4"
   },
   {
     "day": 363,
