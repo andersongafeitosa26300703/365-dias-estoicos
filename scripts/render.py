@@ -83,15 +83,30 @@ def render_with_apply(entry, out_path):
     centered(d, 100, "365 DIAS ESTOICOS", load_font(FONT_CANDIDATES, 28), GOLD)
     d.line([(W / 2 - 40, 160), (W / 2 + 40, 160)], fill=GOLD, width=2)
 
-    # 1) Citacao original
+    # 1) Citacao (com o texto no idioma original acima da traducao, quando houver)
     quote = f"“{entry['quote']}”"
-    qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 400, 66, 38, spacing=1.32)
-    top, bottom = 215, 640
+    if entry.get("original"):
+        of, olines, olh = fit_block(d, entry["original"], FONT_ITALIC_CANDIDATES, max_w, 170, 44, 28, spacing=1.3)
+        y = 205 + (170 - len(olines) * olh) / 2
+        for ln in olines:
+            centered(d, y, ln, of, GOLD)
+            y += olh
+        qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 240, 54, 32, spacing=1.32)
+        top, bottom = 400, 640
+    else:
+        qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 400, 66, 38, spacing=1.32)
+        top, bottom = 215, 640
     y = top + ((bottom - top) - len(qlines) * qlh) / 2
     for ln in qlines:
         centered(d, y, ln, qf, TEXT)
         y += qlh
-    centered(d, 668, entry["author"].upper(), load_font(FONT_CANDIDATES, 32), GOLD)
+    label = entry["author"].upper() + (f" · {entry['ref'].upper()}" if entry.get("ref") else "")
+    lf = load_font(FONT_CANDIDATES, 32)
+    for size in range(32, 22, -2):
+        lf = load_font(FONT_CANDIDATES, size)
+        if d.textlength(label, font=lf) <= max_w:
+            break
+    centered(d, 668, label, lf, GOLD)
 
     # 2) Complemento de impacto
     d.line([(W / 2 - 60, 760), (W / 2 + 60, 760)], fill=GOLD, width=2)
@@ -173,13 +188,28 @@ def render_story_with_apply(entry, out_path):
     d.line([(SW / 2 - 50, 365), (SW / 2 + 50, 365)], fill=GOLD, width=2)
 
     quote = f"“{entry['quote']}”"
-    qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 520, 82, 40, spacing=1.32)
-    top, bottom = 420, 960
+    if entry.get("original"):
+        of, olines, olh = fit_block(d, entry["original"], FONT_ITALIC_CANDIDATES, max_w, 200, 50, 30, spacing=1.3)
+        y = 410 + (200 - len(olines) * olh) / 2
+        for ln in olines:
+            centered(d, y, ln, of, GOLD)
+            y += olh
+        qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 340, 70, 36, spacing=1.32)
+        top, bottom = 630, 960
+    else:
+        qf, qlines, qlh = fit_block(d, quote, FONT_ITALIC_CANDIDATES, max_w, 520, 82, 40, spacing=1.32)
+        top, bottom = 420, 960
     y = top + ((bottom - top) - len(qlines) * qlh) / 2
     for ln in qlines:
         centered(d, y, ln, qf, TEXT)
         y += qlh
-    centered(d, 985, entry["author"].upper(), load_font(FONT_CANDIDATES, 38), GOLD)
+    label = entry["author"].upper() + (f" · {entry['ref'].upper()}" if entry.get("ref") else "")
+    lf = load_font(FONT_CANDIDATES, 38)
+    for size in range(38, 26, -2):
+        lf = load_font(FONT_CANDIDATES, size)
+        if d.textlength(label, font=lf) <= max_w:
+            break
+    centered(d, 985, label, lf, GOLD)
 
     d.line([(SW / 2 - 60, 1090), (SW / 2 + 60, 1090)], fill=GOLD, width=2)
     spaced(d, 1125, "NO TRABALHO", load_font(FONT_CANDIDATES, 30), GOLD, 8)
