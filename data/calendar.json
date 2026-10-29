@@ -445,7 +445,9 @@
       "#realidade",
       "#epicteto"
     ],
-    "apply": "O cliente mudou o pedido de novo. Aceite que mudou e decida qual é o próximo passo possível."
+    "apply": "O cliente mudou o pedido de novo. Aceite que mudou e decida qual é o próximo passo possível.",
+    "original": "Μὴ ζήτει τὰ γινόμενα γίνεσθαι ὡς θέλεις, ἀλλὰ θέλε τὰ γινόμενα ὡς γίνεται καὶ εὐροήσεις.",
+    "ref": "Manual, 8"
   },
   {
     "day": 29,
@@ -493,7 +495,9 @@
       "#gratidao",
       "#epicteto"
     ],
-    "apply": "Perdeu uma licitação ou um cliente? Troque o lamento por: o que levo disso para a próxima proposta?"
+    "apply": "Perdeu uma licitação ou um cliente? Troque o lamento por: o que levo disso para a próxima proposta?",
+    "original": "Μηδέποτε ἐπὶ μηδενὸς εἴπῃς ὅτι «ἀπώλεσα αὐτό», ἀλλ' ὅτι «ἀπέδωκα».",
+    "ref": "Manual, 11"
   },
   {
     "day": 32,
@@ -1181,7 +1185,9 @@
       "#emocoes",
       "#epicteto"
     ],
-    "apply": "Chefe falou duro? Espere um pouco antes de responder e extraia da crítica o que for útil."
+    "apply": "Chefe falou duro? Espere um pouco antes de responder e extraia da crítica o que for útil.",
+    "original": "Οὐχ ὁ λοιδορῶν ἢ ὁ τύπτων ὑβρίζει, ἀλλὰ τὸ δόγμα τὸ περὶ τούτων ὡς ὑβριζόντων.",
+    "ref": "Manual, 20"
   },
   {
     "day": 75,
@@ -1581,7 +1587,9 @@
       "#expectativa",
       "#seneca"
     ],
-    "apply": "Faça bem a proposta sem se prender à resposta do cliente. Entregue o melhor e siga para a próxima."
+    "apply": "Faça bem a proposta sem se prender à resposta do cliente. Entregue o melhor e siga para a próxima.",
+    "original": "Desines timere, si sperare desieris.",
+    "ref": "Cartas a Lucílio, 5.7"
   },
   {
     "day": 100,
@@ -2141,7 +2149,9 @@
       "#liberdade",
       "#epicteto"
     ],
-    "apply": "Se um imprevisto travou sua frente de trabalho, escolha o que ainda dá para decidir agora."
+    "apply": "Se um imprevisto travou sua frente de trabalho, escolha o que ainda dá para decidir agora.",
+    "original": "Νόσος σώματός ἐστιν ἐμπόδιον, προαιρέσεως δὲ οὔ.",
+    "ref": "Manual, 9"
   },
   {
     "day": 135,
@@ -2413,7 +2423,9 @@
       "#mente",
       "#epicteto"
     ],
-    "apply": "Reserve uma hora da semana para estudar algo da profissão. A carreira também precisa de treino."
+    "apply": "Reserve uma hora da semana para estudar algo da profissão. A carreira também precisa de treino.",
+    "original": "Ἀφυΐας σημεῖον τὸ ἐνδιατρίβειν τοῖς περὶ τὸ σῶμα",
+    "ref": "Manual, 41"
   },
   {
     "day": 152,
@@ -2653,7 +2665,9 @@
       "#autenticidade",
       "#epicteto"
     ],
-    "apply": "Não concorde com o chefe só para agradar. Dê sua opinião técnica com respeito e fundamento."
+    "apply": "Não concorde com o chefe só para agradar. Dê sua opinião técnica com respeito e fundamento.",
+    "original": "Ἐάν ποτέ σοι γένηται ἔξω στραφῆναι πρὸς τὸ βούλεσθαι ἀρέσαι τινί, ἴσθι ὅτι ἀπώλεσας τὴν ἔνστασιν.",
+    "ref": "Manual, 23"
   },
   {
     "day": 167,
@@ -2749,7 +2763,9 @@
       "#palavras",
       "#epicteto"
     ],
-    "apply": "Na reunião, fale só o necessário e ouça mais. Antes de cada fala, pergunte se ela acrescenta."
+    "apply": "Na reunião, fale só o necessário e ouça mais. Antes de cada fala, pergunte se ela acrescenta.",
+    "original": "σιωπὴ τὸ πολὺ ἔστω ἢ λαλείσθω τὰ ἀναγκαῖα καὶ δι' ὀλίγων.",
+    "ref": "Manual, 33"
   },
   {
     "day": 173,
@@ -2877,7 +2893,9 @@
       "#confianca",
       "#seneca"
     ],
-    "apply": "Depois de escolher bem o parceiro ou fornecedor, delegue de verdade e não confira cada passo."
+    "apply": "Depois de escolher bem o parceiro ou fornecedor, delegue de verdade e não confira cada passo.",
+    "original": "post amicitiam credendum est, ante amicitiam iudicandum.",
+    "ref": "Cartas a Lucílio, 3.2"
   },
   {
     "day": 181,
@@ -2941,7 +2959,9 @@
       "#ansiedade",
       "#365diasestoicos"
     ],
-    "apply": "Separe o problema real do que só existe na sua cabeça e aja apenas sobre o real."
+    "apply": "Separe o problema real do que só existe na sua cabeça e aja apenas sobre o real.",
+    "original": "Plus dolet quam necesse est qui ante dolet quam necesse est.",
+    "ref": "Cartas a Lucílio, 98.8"
   },
   {
     "day": 185,
@@ -3181,7 +3201,9 @@
       "#dignidade",
       "#coragem"
     ],
-    "apply": "Em dia de pressão, a equipe observa você. Reaja como gostaria que seus liderados reagissem."
+    "apply": "Em dia de pressão, a equipe observa você. Reaja como gostaria que seus liderados reagissem.",
+    "original": "ecce spectaculum dignum ad quod respiciat intentus operi suo deus, ecce par deo dignum, vir fortis cum mala fortuna compositus",
+    "ref": "Sobre a Providência, II.9"
   },
   {
     "day": 200,
@@ -3245,7 +3267,9 @@
       "#forca",
       "#365diasestoicos"
     ],
-    "apply": "Se a entrega falhar, pergunte que habilidade ela pede de você. Registre o aprendizado e siga."
+    "apply": "Se a entrega falhar, pergunte que habilidade ela pede de você. Registre o aprendizado e siga.",
+    "original": "Ὡσπερ σκοπὸς πρὸς τὸ ἀποτυχεῖν οὐ τίθεται, οὕτως οὐδὲ κακοῦ φύσις ἐν κόσμῳ γίνεται.",
+    "ref": "Manual, 27"
   },
   {
     "day": 204,
@@ -3325,7 +3349,9 @@
       "#crescimento",
       "#resiliencia"
     ],
-    "apply": "Cobrança forte e prazo curto criam profissionais firmes. Use a fase dura para aprender."
+    "apply": "Cobrança forte e prazo curto criam profissionais firmes. Use a fase dura para aprender.",
+    "original": "non est arbor solida nec fortis nisi in quam frequens ventus incursat",
+    "ref": "Sobre a Providência, IV.16"
   },
   {
     "day": 209,
@@ -3405,7 +3431,9 @@
       "#virtude",
       "#integridade"
     ],
-    "apply": "Perder uma promoção dói, mas o pior é perder a integridade. Proteja a honestidade nas medições."
+    "apply": "Perder uma promoção dói, mas o pior é perder a integridade. Proteja a honestidade nas medições.",
+    "original": "Nihil accidere bono viro mali potest.",
+    "ref": "Sobre a Providência, II.1"
   },
   {
     "day": 214,
@@ -3581,7 +3609,9 @@
       "#suficiencia",
       "#simplicidade"
     ],
-    "apply": "Defina o suficiente: quantas horas, quantos projetos, qual meta. Pare ali e entregue bem."
+    "apply": "Defina o suficiente: quantas horas, quantos projetos, qual meta. Pare ali e entregue bem.",
+    "original": "Μέτρον κτήσεως τὸ σῶμα ἑκάστῳ ὡς ὁ ποὺς ὑποδήματος.",
+    "ref": "Manual, 39"
   },
   {
     "day": 225,
@@ -3661,7 +3691,9 @@
       "#simplicidade",
       "#necessidade"
     ],
-    "apply": "Liste o que o projeto exige de fato e o que é capricho. Corte um item do segundo grupo hoje."
+    "apply": "Liste o que o projeto exige de fato e o que é capricho. Corte um item do segundo grupo hoje.",
+    "original": "Non esurire, non sitire, non algere.",
+    "ref": "Cartas a Lucílio, 4.10"
   },
   {
     "day": 230,
@@ -3821,7 +3853,9 @@
       "#equilibrio",
       "#prioridades"
     ],
-    "apply": "Cuide da saúde sem gastar o expediente nisso. Use a energia do corpo para estudar algo do ofício."
+    "apply": "Cuide da saúde sem gastar o expediente nisso. Use a energia do corpo para estudar algo do ofício.",
+    "original": "Ἀφυΐας σημεῖον τὸ ἐνδιατρίβειν τοῖς περὶ τὸ σῶμα",
+    "ref": "Manual, 41"
   },
   {
     "day": 240,
@@ -3997,7 +4031,9 @@
       "#mudanca",
       "#crescimento"
     ],
-    "apply": "Pratique paciência na próxima reunião tensa. Pequenas repetições mudam seu jeito de trabalhar."
+    "apply": "Pratique paciência na próxima reunião tensa. Pequenas repetições mudam seu jeito de trabalhar.",
+    "original": "Intellego, Lucili, non emendari me tantum, sed transfigurari.",
+    "ref": "Cartas a Lucílio, 6.1"
   },
   {
     "day": 251,
@@ -4029,7 +4065,9 @@
       "#preparacao",
       "#365diasestoicos"
     ],
-    "apply": "Antes da visita à obra ou da reunião, imagine atraso e ruído. Decida agora manter a calma."
+    "apply": "Antes da visita à obra ou da reunião, imagine atraso e ruído. Decida agora manter a calma.",
+    "original": "Ὅταν ἅπτεσθαί τινος ἔργου μέλλῃς, ὑπομίμνῃσκε σεαυτόν, ὁποῖόν ἐστι τὸ ἔργον.",
+    "ref": "Manual, 4"
   },
   {
     "day": 253,
@@ -4173,7 +4211,9 @@
       "#estudo",
       "#crescimento"
     ],
-    "apply": "Peça a alguém franco que critique seu último projeto. Fique com o desconforto antes de se defender."
+    "apply": "Peça a alguém franco que critique seu último projeto. Fique com o desconforto antes de se defender.",
+    "original": "Ἰατρεῖόν ἐστιν τὸ τοῦ φιλοσόφου σχολεῖον.",
+    "ref": "Discursos, III.23.30"
   },
   {
     "day": 262,
@@ -4973,7 +5013,9 @@
       "#natureza",
       "#vidafeliz"
     ],
-    "apply": "Corte a pressa que gera retrabalho e a rispidez que gera conflito. Calma também é produtividade."
+    "apply": "Corte a pressa que gera retrabalho e a rispidez que gera conflito. Calma também é produtividade.",
+    "original": "Idem est ergo beate vivere et secundum naturam.",
+    "ref": "Sobre a Vida Feliz, 8.2"
   },
   {
     "day": 312,
