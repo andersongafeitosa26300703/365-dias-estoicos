@@ -44,6 +44,7 @@ NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
 GH_TOKEN = os.environ.get("GH_TOKEN", "")
 DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"
+MAX_TRIES = int(os.environ.get("MAX_TRIES", "3"))  # disparos por dia
 NOTIFY_OK = os.environ.get("NOTIFY_OK", "0") == "1"
 STATE_DIR = Path(os.environ.get("STATE_DIR", tempfile.gettempdir()))
 TZ = ZoneInfo("America/Sao_Paulo")
@@ -130,8 +131,9 @@ def check_365():
         return
 
     what = " e ".join(missing)
-    triggered = STATE_DIR / f"365dias-triggered-{today}"
-    if GH_TOKEN and not triggered.exists():
+    attempts_file = STATE_DIR / f"365dias-attempts-{today}"
+    n = int(attempts_file.read_text() or 0) if attempts_file.exists() else 0
+    if GH_TOKEN and n < MAX_TRIES:
         ok = False
         try:
             ok = dispatch()
@@ -140,16 +142,19 @@ def check_365():
         except Exception as e:  # noqa: BLE001
             print(f"[erro] disparo falhou: {e}", file=sys.stderr)
         if not DRY_RUN:
-            triggered.write_text("1")
+            attempts_file.write_text(str(n + 1))
         if ok:
-            notify(
-                f"Dia {day}: disparei o post",
-                f"O agendamento do GitHub nao publicou ({what}). Disparei o workflow agora; vou conferir de novo.",
-                priority="default",
-                tags="rocket",
-            )
+            if n == 0:
+                msg = f"O agendamento do GitHub nao publicou ({what}). Disparei o workflow agora; vou conferir de novo."
+            else:
+                msg = f"A tentativa {n} nao publicou ({what}). Disparei de novo ({n + 1} de {MAX_TRIES})."
+            notify(f"Dia {day}: tentativa {n + 1} de {MAX_TRIES}", msg, priority="default", tags="rocket")
             return
-    tried = "e a nova tentativa nao resolveu" if GH_TOKEN else "(o vigia nao tem token para tentar disparar)"
+        n += 1
+        if n < MAX_TRIES:
+            print(f"Disparo {n} de {MAX_TRIES} nao foi aceito; tento de novo na proxima conferencia.")
+            return
+    tried = f"depois de {n} tentativas" if GH_TOKEN else "(o vigia nao tem token para tentar disparar)"
     notify(
         f"POSTAGEM FALHOU - dia {day}",
         f"Faltando: {what}. O GitHub nao publicou {tried}. "
