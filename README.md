@@ -34,6 +34,17 @@ python scripts/post_daily.py preview --day 10   # mostra a legenda
 python scripts/post_daily.py prepare --day 10   # gera posts/dia-010.jpg
 ```
 
+## Reels (opcional, desligado por padrao)
+Com `"reels": true` em `config.json`, cada post do dia gera tambem um Reel (MP4 vertical, sem som, de 7 a 15 s) com a mesma
+citacao: o cabecalho, a citacao, o autor e o "No trabalho" entram um a um. O fluxo e:
+1. `prepare` grava `reels/dia-NNN.mp4` (e `dia-NNN.json` com a duracao e o quadro da capa) junto com a imagem do dia.
+2. `publish-reel` roda depois do feed e do Story, com a mesma legenda, e registra `reel_media_id` em `data/posted.json`.
+3. O passo do Reel usa `continue-on-error`: se falhar, o post do dia ja saiu e nada e desfeito.
+
+Para testar antes de ligar de vez: ligue `reels`, rode o workflow manualmente (Run workflow, campo `day` do dia ja publicado
+nao reposta o feed) e confira o Reel no perfil. Teste local: `python scripts/reel.py 10 saida.mp4` (precisa de ffmpeg).
+Cada MP4 pesa algumas centenas de KB e fica no repositorio, porque o Instagram baixa o video por URL publica.
+
 ## Observações
 - O agendador do GitHub pode atrasar de alguns minutos até ~30 min em horários de pico. Se precisar de hora exata, dá para trocar por outro agendador.
 - Se uma execução falhar, o GitHub envia e-mail. Para reenviar um dia: Run workflow com o campo `day`.
