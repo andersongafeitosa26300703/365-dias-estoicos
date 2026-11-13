@@ -153,12 +153,16 @@ def cmd_prepare(day, entry):
     (POSTS_DIR / f"dia-{day:03d}.txt").write_text(build_caption(entry), encoding="utf-8")
     print(f"Dia {day}: imagem em {out} (e versao Story)")
     if load_config().get("reels"):
-        from reel import reel  # so exige ffmpeg quando os Reels estao ligados
+        # Falha de Reel nunca pode impedir o post do dia: avisa e segue
+        try:
+            from reel import reel  # so exige ffmpeg quando os Reels estao ligados
 
-        mp4, segundos, capa_ms = reel(entry, REELS_DIR / f"dia-{day:03d}.mp4")
-        (REELS_DIR / f"dia-{day:03d}.json").write_text(
-            json.dumps({"duracao_s": round(segundos, 1), "capa_ms": capa_ms}), encoding="utf-8")
-        print(f"Dia {day}: Reel de {segundos:.0f} s em {mp4}")
+            mp4, segundos, capa_ms = reel(entry, REELS_DIR / f"dia-{day:03d}.mp4")
+            (REELS_DIR / f"dia-{day:03d}.json").write_text(
+                json.dumps({"duracao_s": round(segundos, 1), "capa_ms": capa_ms}), encoding="utf-8")
+            print(f"Dia {day}: Reel de {segundos:.0f} s em {mp4}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[reel] nao foi possivel gerar o Reel do dia {day} (o post do dia segue normalmente): {e}")
 
 
 def wait_public(url):

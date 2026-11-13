@@ -38,6 +38,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Garantir ffmpeg (Reels)
+        continue-on-error: true
         run: command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
 
       - name: Gerar imagem e legenda
