@@ -3,6 +3,7 @@
 Uso:
   python scripts/post_daily.py prepare [--day N]   # gera posts/dia-NNN.jpg e escreve a legenda
   python scripts/post_daily.py publish [--day N]   # publica pela Graph API (precisa de IG_USER_ID e IG_ACCESS_TOKEN)
+  python scripts/post_daily.py publish-reel [--day N]  # publica o Reel do dia (so com "reels": true em config.json)
   python scripts/post_daily.py preview [--day N]   # mostra legenda e dia, sem publicar nada
 
 O dia e calculado a partir de start_date em config.json (fuso America/Sao_Paulo),
@@ -24,6 +25,7 @@ from render import render, render_story  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "posts"
+REELS_DIR = ROOT / "reels"
 POSTED_FILE = ROOT / "data" / "posted.json"
 GRAPH = "https://graph.facebook.com/v21.0"
 TZ = ZoneInfo("America/Sao_Paulo")
@@ -60,10 +62,14 @@ def build_caption(entry):
     return "\n\n".join(parts)
 
 
-def image_url(name):
+def raw_url(pasta, name):
     repo = os.environ["GITHUB_REPOSITORY"]
     branch = os.environ.get("GITHUB_REF_NAME", "main")
-    return f"https://raw.githubusercontent.com/{repo}/{branch}/posts/{name}"
+    return f"https://raw.githubusercontent.com/{repo}/{branch}/{pasta}/{name}"
+
+
+def image_url(name):
+    return raw_url("posts", name)
 
 
 def graph_post(path, **params):
@@ -146,6 +152,17 @@ def cmd_prepare(day, entry):
     render_story(entry, POSTS_DIR / f"story-{day:03d}.jpg")
     (POSTS_DIR / f"dia-{day:03d}.txt").write_text(build_caption(entry), encoding="utf-8")
     print(f"Dia {day}: imagem em {out} (e versao Story)")
+    if load_config().get("reels"):
+        # Falha de Reel nunca pode impedir o post do dia: avisa e segue
+        try:
+            from reel import reel  # so exige ffmpeg quando os Reels estao ligados
+
+            mp4, segundos, capa_ms = reel(entry, REELS_DIR / f"dia-{day:03d}.mp4")
+            (REELS_DIR / f"dia-{day:03d}.json").write_text(
+                json.dumps({"duracao_s": round(segundos, 1), "capa_ms": capa_ms}), encoding="utf-8")
+            print(f"Dia {day}: Reel de {segundos:.0f} s em {mp4}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[reel] nao foi possivel gerar o Reel do dia {day} (o post do dia segue normalmente): {e}")
 
 
 def wait_public(url):
@@ -157,10 +174,10 @@ def wait_public(url):
     raise RuntimeError(f"Imagem nao acessivel publicamente: {url}")
 
 
-def create_and_publish(user_id, token, **params):
+def create_and_publish(user_id, token, tentativas=30, **params):
     """Cria o container de midia, espera ficar pronto e publica. Serve para feed e Stories."""
     container = graph_post(f"{user_id}/media", access_token=token, **params)["id"]
-    for _ in range(30):
+    for _ in range(tentativas):
         status = graph_get(container, fields="status_code", access_token=token)["status_code"]
         if status == "FINISHED":
             break
@@ -228,6 +245,34 @@ def cmd_publish(day, entry):
             sys.exit(1)
 
 
+def cmd_publish_reel(day):
+    """Publica o Reel depois do feed. Falha aqui nao afeta o post do dia (o passo do workflow nao bloqueia)."""
+    if not load_config().get("reels"):
+        print("Reels desligados (config.json: reels = false); nada a fazer.")
+        return
+    posted = load_posted()
+    rec = posted.get(str(day), {})
+    if not rec.get("media_id"):
+        print(f"O feed do dia {day} ainda nao foi publicado; Reel adiado.")
+        return
+    if rec.get("reel_media_id"):
+        print(f"Reel do dia {day} ja foi publicado; nada a fazer.")
+        return
+    user_id, token = resolve_ig(clean_secret(os.environ["IG_USER_ID"]), clean_secret(os.environ["IG_ACCESS_TOKEN"]))
+    caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
+    meta = json.loads((REELS_DIR / f"dia-{day:03d}.json").read_text(encoding="utf-8"))
+    url = raw_url("reels", f"dia-{day:03d}.mp4")
+    wait_public(url)
+    reel_id = create_and_publish(
+        user_id, token, tentativas=120, media_type="REELS", video_url=url, caption=caption,
+        share_to_feed="true", thumb_offset=str(meta["capa_ms"]),
+    )
+    rec["reel_media_id"] = reel_id
+    posted[str(day)] = rec
+    save_posted(posted)
+    print(f"Dia {day} publicado como Reel: media_id={reel_id}")
+
+
 def cmd_token_info():
     """Mostra a validade do token (sem expor o token). Sai com erro se faltarem menos de 14 dias."""
     token = clean_secret(os.environ["IG_ACCESS_TOKEN"])
@@ -266,7 +311,7 @@ def cmd_token_info():
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("command", choices=["prepare", "publish", "preview", "token-info"])
+    ap.add_argument("command", choices=["prepare", "publish", "publish-reel", "preview", "token-info"])
     ap.add_argument("--day", type=int)
     args = ap.parse_args()
 
@@ -284,6 +329,8 @@ def main():
         print(f"--- Dia {day} ({entry['theme']}) ---\n{build_caption(entry)}")
     elif args.command == "prepare":
         cmd_prepare(day, entry)
+    elif args.command == "publish-reel":
+        cmd_publish_reel(day)
     else:
         cmd_publish(day, entry)
 
