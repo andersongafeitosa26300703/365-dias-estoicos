@@ -43,6 +43,10 @@ citacao: o cabecalho, a citacao, o autor e o "No trabalho" entram um a um. O flu
 
 Para testar antes de ligar de vez: ligue `reels`, rode o workflow manualmente (Run workflow, campo `day` do dia ja publicado
 nao reposta o feed) e confira o Reel no perfil. Teste local: `python scripts/reel.py 10 saida.mp4` (precisa de ffmpeg).
+Som: cada Reel leva um som ambiente suave (chuva, mata ou um fundo calmo), em rodizio por dia, com entrada e saida graduais.
+Os tres sons sao sinteticos, gerados por `scripts/sons.py` (precisa de numpy e ffmpeg) e guardados em `assets/sons/`, entao nao ha
+direitos autorais a conferir. Para fixar um som, use `"som": "chuva"`, `"mata"` ou `"calmo"` em `config.json`; para deixar sem
+som, `"som": "nenhum"`. O padrao e `"rodizio"`. Musica da biblioteca do Instagram so pode ser adicionada pelo app.
 Cada MP4 pesa algumas centenas de KB e fica no repositorio, porque o Instagram baixa o video por URL publica.
 
 ## Observações
