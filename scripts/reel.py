@@ -1,4 +1,4 @@
-"""Gera o Reel (MP4 1080x1920, sem som) de uma citacao: cabecalho, citacao, autor e 'No trabalho' entram um a um.
+"""Gera o Reel (MP4 1080x1920, com som ambiente) de uma citacao: cabecalho, citacao, autor e 'No trabalho' entram um a um.
 
 Usa o mesmo layout do Story (render.py). O tempo de cada etapa cresce com o tamanho do texto, para dar tempo de ler.
 Requer ffmpeg instalado.
@@ -16,6 +16,23 @@ from render import (FONT_CANDIDATES, FONT_ITALIC_CANDIDATES, HANDLE, ROOT, SH, S
                     load_font, spaced, wrap)
 
 FPS = 30
+SONS = ["chuva", "mata", "calmo"]
+SONS_DIR = ROOT / "assets" / "sons"
+
+
+def _audio(entry, fim):
+    """Argumentos do ffmpeg para a trilha: um trecho do som escolhido, com fade de entrada e de saida.
+    `som` em config.json: "rodizio" (padrao: troca a cada dia), "chuva", "mata", "calmo" ou "nenhum".
+    Sem o arquivo (ou com "nenhum"), a trilha fica em silencio e o Reel sai normalmente."""
+    cfg_path = ROOT / "config.json"
+    escolha = json.loads(cfg_path.read_text(encoding="utf-8")).get("som", "rodizio") if cfg_path.exists() else "rodizio"
+    nome = SONS[entry["day"] % len(SONS)] if escolha == "rodizio" else escolha
+    arquivo = SONS_DIR / f"{nome}.m4a"
+    if nome == "nenhum" or not arquivo.exists():
+        return ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"], []
+    inicio = (entry["day"] * 7) % 24  # trecho diferente a cada dia; o arquivo tem 45 s e o Reel no maximo uns 17 s
+    fades = f"afade=t=in:st=0:d=0.8,afade=t=out:st={max(0.0, fim - 1.6):.2f}:d=1.6"
+    return ["-ss", str(inicio), "-t", f"{fim:.2f}", "-i", str(arquivo)], ["-af", fades]
 
 
 def _camadas(entry):
@@ -139,12 +156,14 @@ def reel(entry, out_path):
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     base, camadas, fim, capa = _camadas(entry)
+    entrada_audio, filtro_audio = _audio(entry, fim)
     cmd = [
         "ffmpeg", "-y", "-loglevel", "error",
         "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{SW}x{SH}", "-r", str(FPS), "-i", "-",
-        "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
+        *entrada_audio,
+        "-map", "0:v", "-map", "1:a", *filtro_audio,
         "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart", str(out_path),
+        "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(out_path),
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     ultima_chave, ultimos_bytes = None, None
