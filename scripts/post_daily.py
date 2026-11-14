@@ -152,7 +152,11 @@ def cmd_prepare(day, entry):
     render_story(entry, POSTS_DIR / f"story-{day:03d}.jpg")
     (POSTS_DIR / f"dia-{day:03d}.txt").write_text(build_caption(entry), encoding="utf-8")
     print(f"Dia {day}: imagem em {out} (e versao Story)")
-    if load_config().get("reels"):
+    meta_reel = REELS_DIR / f"dia-{day:03d}.json"
+    narrado_pronto = meta_reel.exists() and json.loads(meta_reel.read_text(encoding="utf-8")).get("narrado")
+    if narrado_pronto:
+        print(f"Dia {day}: video narrado ja gerado; mantido no lugar do Reel de sempre.")
+    elif load_config().get("reels"):
         # Falha de Reel nunca pode impedir o post do dia: avisa e segue
         try:
             from reel import reel  # so exige ffmpeg quando os Reels estao ligados

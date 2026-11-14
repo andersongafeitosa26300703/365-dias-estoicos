@@ -49,6 +49,20 @@ direitos autorais a conferir. Para fixar um som, use `"som": "chuva"`, `"mata"` 
 som, `"som": "nenhum"`. O padrao e `"rodizio"`. Musica da biblioteca do Instagram so pode ser adicionada pelo app.
 Cada MP4 pesa algumas centenas de KB e fica no repositorio, porque o Instagram baixa o video por URL publica.
 
+## Video narrado (opcional, desligado por padrao)
+Com `"narracao": true` em `config.json`, todo dia ao meio-dia (Brasilia) o workflow "Narracao do dia seguinte" gera o video
+narrado de **amanha**: a voz do autor (`data/vozes.json`) le a citacao, o autor e o "No trabalho", com fundo estatico e o
+texto entrando no ritmo da fala. O video vai para `reels/dia-NNN.mp4` com `"narrado": true`; no dia seguinte o `prepare`
+o mantem e o `publish-reel` o publica no lugar do Reel de sempre. Se a geracao falhar, sai o Reel de sempre.
+
+Para ligar:
+1. Assine um plano da ElevenLabs que permita a API, tenha licenca comercial e voz suficiente para as 5 vozes de `vozes.json`.
+2. Crie uma chave de API (restrita a text-to-speech) e guarde como segredo `ELEVENLABS_API_KEY` no GitHub. Nunca cole a chave em chat.
+3. Se a ElevenLabs exigir, adicione as 5 vozes da biblioteca a "Minhas vozes".
+4. Mude `"narracao"` para `true` e rode o workflow manualmente uma vez (campo `day`) para conferir.
+
+Teste local sem gastar creditos: `python scripts/narracao.py --dia 43 --audio voz.mp3 --forcar` (usa uma voz ja gravada).
+
 ## Observações
 - O agendador do GitHub pode atrasar de alguns minutos até ~30 min em horários de pico. Se precisar de hora exata, dá para trocar por outro agendador.
 - Se uma execução falhar, o GitHub envia e-mail. Para reenviar um dia: Run workflow com o campo `day`.
