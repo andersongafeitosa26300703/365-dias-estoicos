@@ -4,6 +4,7 @@ A voz vem pronta (mp3); o texto entra nos instantes passados em `tempos`, medido
 Requer ffmpeg, Pillow e numpy.
 
 Uso: python scripts/narrado.py DIA VOZ.mp3 FUNDO.png SAIDA.mp4 quote=0.5 label=5.9 apply=7.1
+     python scripts/narrado.py --estatico DIA VOZ.mp3 SAIDA.mp4 quote=0.5 label=5.9 apply=7.1   (so a voz, fundo estatico)
 """
 import json
 import subprocess
@@ -106,8 +107,45 @@ def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="ch
     return saida, total
 
 
+def estatico(entry, voz, saida, tempos, atraso=0.4, cauda=1.2):
+    """Video narrado simples: fundo estatico do Reel (cores e moldura do dia), texto sincronizado e so a voz, sem som ambiente."""
+    voz, saida = Path(voz), Path(saida)
+    saida.parent.mkdir(parents=True, exist_ok=True)
+    dur_voz = float(subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(voz)],
+        capture_output=True, text=True, check=True).stdout)
+    total = atraso + dur_voz + cauda
+    base, camadas, _, _ = _camadas(entry, tempos={**tempos, "fim": total}, fundo=True)
+    ms = int(atraso * 1000)
+    cmd = [
+        "ffmpeg", "-y", "-loglevel", "error",
+        "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{SW}x{SH}", "-r", str(FPS), "-i", "-",
+        "-i", str(voz),
+        "-filter_complex",
+        f"[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,aformat=channel_layouts=stereo,adelay={ms}|{ms},apad,atrim=0:{total:.2f},"
+        f"afade=t=out:st={max(0.0, total - 0.6):.2f}:d=0.6[a]",
+        "-map", "0:v", "-map", "[a]", "-t", f"{total:.2f}",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
+        "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(saida),
+    ]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    ultima_chave, ultimos_bytes = None, None
+    for n in range(int(total * FPS)):
+        frame, chave = _aplica(base, camadas, n / FPS)
+        if chave != ultima_chave:  # quadros parados nao precisam ser recompostos
+            ultimos_bytes, ultima_chave = frame.convert("RGB").tobytes(), chave
+        proc.stdin.write(ultimos_bytes)
+    proc.stdin.close()
+    if proc.wait() != 0:
+        raise RuntimeError("ffmpeg falhou ao montar o video narrado simples")
+    return saida, total
+
+
 if __name__ == "__main__":
-    dia, voz, fundo_img, saida = int(sys.argv[1]), sys.argv[2], sys.argv[3], sys.argv[4]
-    tempos = {k: float(v) for k, v in (a.split("=") for a in sys.argv[5:])}
+    simples = "--estatico" in sys.argv
+    args = [a for a in sys.argv[1:] if a != "--estatico"]
+    dia, voz = int(args[0]), args[1]
+    fundo_img, saida, resto = (None, args[2], args[3:]) if simples else (args[2], args[3], args[4:])
+    tempos = {k: float(v) for k, v in (a.split("=") for a in resto)}
     entry = next(e for e in json.loads((ROOT / "data" / "calendar.json").read_text(encoding="utf-8")) if e["day"] == dia)
-    print(narrado(entry, voz, fundo_img, saida, tempos))
+    print(estatico(entry, voz, saida, tempos) if simples else narrado(entry, voz, fundo_img, saida, tempos))
