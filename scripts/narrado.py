@@ -37,7 +37,7 @@ def _chuva(duracao, semente=7, gotas=170):
         x[saiu] = rng.uniform(0, SW + 150, saiu.sum())
 
 
-def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="chuva"):
+def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="chuva", volume_fundo=0.18):
     voz, fundo_img, saida = Path(voz), Path(fundo_img), Path(saida)
     saida.parent.mkdir(parents=True, exist_ok=True)
     dur_voz = float(subprocess.run(
@@ -58,7 +58,7 @@ def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="ch
     if bed.exists():
         audio = (
             f"[2:a]loudnorm=I=-16:TP=-1.5:LRA=11,aformat=channel_layouts=stereo,adelay={int(atraso*1000)}|{int(atraso*1000)},apad[voz];"
-            f"[3:a]volume=0.5,afade=t=in:d=1.0,afade=t=out:st={max(0.0, total-1.6):.2f}:d=1.6[bed];"
+            f"[3:a]volume={volume_fundo},afade=t=in:d=1.0,afade=t=out:st={max(0.0, total-1.6):.2f}:d=1.6[bed];"
             f"[voz][bed]amix=inputs=2:duration=longest:normalize=0,atrim=0:{total:.2f}[a]"
         )
         entradas_bed = ["-ss", "3", "-t", f"{total:.2f}", "-i", str(bed)]
