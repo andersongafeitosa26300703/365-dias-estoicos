@@ -37,6 +37,15 @@ def _chuva(duracao, semente=7, gotas=170):
         x[saiu] = rng.uniform(0, SW + 150, saiu.sum())
 
 
+def _sombra(forca=95):
+    """Faixa escura e suave atras do bloco de texto: melhora o contraste sem escurecer a imagem toda."""
+    y = np.arange(SH)
+    alfa = (forca * np.clip(1 - np.abs(y - 900) / 800, 0, 1) ** 1.2).astype(np.uint8)
+    rgba = np.zeros((SH, SW, 4), dtype=np.uint8)
+    rgba[:, :, 3] = alfa[:, None]
+    return Image.fromarray(rgba, "RGBA")
+
+
 def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="chuva", volume_fundo=0.18):
     voz, fundo_img, saida = Path(voz), Path(fundo_img), Path(saida)
     saida.parent.mkdir(parents=True, exist_ok=True)
@@ -48,12 +57,20 @@ def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="ch
     base, camadas, _, _ = _camadas(entry, tempos=tempos, fundo=False, tema="dark")
     n_quadros = int(total * FPS)
 
-    # Fundo: a imagem (qualquer proporcao) cobre a altura e a janela vertical desliza devagar da esquerda para a direita;
-    # um leve desfoque disfarca a ampliacao.
-    fundo = (
-        f"[0:v]scale=-2:2000,crop=1080:1920:x='(iw-1080)*(0.25+0.5*t/{total:.2f})':y='(ih-1920)/2',"
-        f"gblur=sigma=1.6,eq=brightness=0.04:contrast=1.08:saturation=0.9,vignette=PI/6[bg];[bg][1:v]overlay=shortest=1[v]"
-    )
+    # Fundo: imagem vertical (9:16) ganha um zoom lento e centrado; imagem larga cobre a altura e a janela vertical
+    # desliza devagar da esquerda para a direita. Um leve desfoque disfarca a ampliacao.
+    larg, alt = Image.open(fundo_img).size
+    vertical = larg / alt < 0.7
+    if vertical:
+        anima = (
+            f"[0:v]scale=2304:4096,zoompan=z='1+0.08*on/{n_quadros}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f":d={n_quadros}:s={SW}x{SH}:fps={FPS},"
+        )
+        entrada_fundo = ["-i", str(fundo_img)]
+    else:
+        anima = f"[0:v]scale=-2:2000,crop=1080:1920:x='(iw-1080)*(0.25+0.5*t/{total:.2f})':y='(ih-1920)/2',gblur=sigma=1.6,"
+        entrada_fundo = ["-loop", "1", "-framerate", str(FPS), "-i", str(fundo_img)]
+    fundo = anima + "eq=brightness=0.04:contrast=1.08:saturation=0.9,vignette=PI/6[bg];[bg][1:v]overlay=shortest=1[v]"
     bed = SONS_DIR / f"{som}.m4a"
     if bed.exists():
         audio = (
@@ -67,7 +84,7 @@ def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="ch
         entradas_bed = []
     cmd = [
         "ffmpeg", "-y", "-loglevel", "error",
-        "-loop", "1", "-framerate", str(FPS), "-i", str(fundo_img),
+        *entrada_fundo,
         "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{SW}x{SH}", "-r", str(FPS), "-i", "-",
         "-i", str(voz), *entradas_bed,
         "-filter_complex", fundo + ";" + audio,
@@ -76,10 +93,13 @@ def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="ch
         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(saida),
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    sombra = _sombra()
     for n, chuva in zip(range(n_quadros), _chuva(total)):
         texto, _ = _aplica(base, camadas, n / FPS)
-        chuva.alpha_composite(texto)
-        proc.stdin.write(chuva.tobytes())
+        quadro = sombra.copy()
+        quadro.alpha_composite(chuva)
+        quadro.alpha_composite(texto)
+        proc.stdin.write(quadro.tobytes())
     proc.stdin.close()
     if proc.wait() != 0:
         raise RuntimeError("ffmpeg falhou ao montar o video narrado")
