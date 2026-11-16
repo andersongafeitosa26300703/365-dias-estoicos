@@ -34,6 +34,12 @@ python scripts/post_daily.py preview --day 10   # mostra a legenda
 python scripts/post_daily.py prepare --day 10   # gera posts/dia-010.jpg
 ```
 
+## Carrossel no feed
+Com `"carrossel": true` em `config.json`, o post do feed vira um carrossel de 5 lâminas (`scripts/carrossel.py`): gancho,
+frase, significado, "No trabalho" e chamada final. O gancho vem de `hook` e `hook2` em `data/calendar.json`; dia sem gancho
+sai como imagem única. A imagem única continua sendo gerada e é publicada no lugar se o carrossel falhar, para o dia
+nunca ficar sem post. `data/posted.json` registra o `formato` publicado. Story e Reel não mudam.
+
 ## Reels (opcional, desligado por padrao)
 Com `"reels": true` em `config.json`, cada post do dia gera tambem um Reel (MP4 vertical, sem som, de 7 a 15 s) com a mesma
 citacao: o cabecalho, a citacao, o autor e o "No trabalho" entram um a um. O fluxo e:

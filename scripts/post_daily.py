@@ -51,8 +51,21 @@ def today_number(cfg):
     return (datetime.now(TZ).date() - start).days + 1
 
 
+def usa_carrossel(entry):
+    return bool(load_config().get("carrossel") and entry.get("hook"))
+
+
 def build_caption(entry):
     tags = " ".join(entry["hashtags"])
+    if usa_carrossel(entry):
+        gancho = " ".join(x for x in (entry["hook"], entry.get("hook2")) if x)
+        return "\n\n".join([
+            gancho,
+            entry["reflection"],
+            f"— {entry['author']}",
+            "Envie para quem precisa ler isto hoje. Salve para reler. \U0001F3DB️",
+            tags,
+        ])
     parts = [
         entry["reflection"],
         f"— {entry['author']}",
@@ -152,6 +165,15 @@ def cmd_prepare(day, entry):
     render_story(entry, POSTS_DIR / f"story-{day:03d}.jpg")
     (POSTS_DIR / f"dia-{day:03d}.txt").write_text(build_caption(entry), encoding="utf-8")
     print(f"Dia {day}: imagem em {out} (e versao Story)")
+    if usa_carrossel(entry):
+        # A imagem unica acima continua sendo gerada: e a reserva se o carrossel falhar na publicacao
+        try:
+            from carrossel import render_carrossel
+
+            laminas = render_carrossel(entry, POSTS_DIR, f"dia-{day:03d}")
+            print(f"Dia {day}: carrossel com {len(laminas)} laminas")
+        except Exception as e:  # noqa: BLE001
+            print(f"[carrossel] nao foi possivel gerar as laminas do dia {day} (sai a imagem unica): {e}")
     meta_reel = REELS_DIR / f"dia-{day:03d}.json"
     narrado_pronto = meta_reel.exists() and json.loads(meta_reel.read_text(encoding="utf-8")).get("narrado")
     if narrado_pronto:
@@ -176,6 +198,25 @@ def wait_public(url):
             return
         time.sleep(10)
     raise RuntimeError(f"Imagem nao acessivel publicamente: {url}")
+
+
+def publish_carousel(user_id, token, urls, caption):
+    """Carrossel: um container por lamina (is_carousel_item), um container pai (CAROUSEL) e a publicacao."""
+    filhos = []
+    for url in urls:
+        wait_public(url)
+        filho = graph_post(f"{user_id}/media", access_token=token, image_url=url, is_carousel_item="true")["id"]
+        for _ in range(30):
+            status = graph_get(filho, fields="status_code", access_token=token)["status_code"]
+            if status == "FINISHED":
+                break
+            if status in ("ERROR", "EXPIRED"):
+                raise RuntimeError(f"Lamina {url} com status {status}")
+            time.sleep(3)
+        else:
+            raise RuntimeError(f"Lamina {url} nao ficou pronta a tempo")
+        filhos.append(filho)
+    return create_and_publish(user_id, token, media_type="CAROUSEL", children=",".join(filhos), caption=caption)
 
 
 def create_and_publish(user_id, token, tentativas=30, **params):
@@ -224,12 +265,22 @@ def cmd_publish(day, entry):
         caption = (POSTS_DIR / f"dia-{day:03d}.txt").read_text(encoding="utf-8")
         url = image_url(f"dia-{day:03d}.jpg")
         wait_public(url)
-        try:
-            media_id = create_and_publish(user_id, token, image_url=url, caption=caption)
-        except RuntimeError:
-            diagnose(user_id, token)
-            raise
-        rec = {"media_id": media_id, "at": datetime.now(TZ).isoformat(timespec="seconds")}
+        media_id, formato = None, "imagem"
+        laminas = sorted(POSTS_DIR.glob(f"dia-{day:03d}-[1-9].jpg"))
+        if usa_carrossel(entry) and len(laminas) >= 2:
+            try:
+                media_id = publish_carousel(user_id, token, [image_url(p.name) for p in laminas], caption)
+                formato = "carrossel"
+            except Exception as e:  # noqa: BLE001
+                # O dia nunca pode ficar sem post: se o carrossel falhar, sai a imagem unica
+                print(f"[carrossel] FALHOU, publicando a imagem unica no lugar: {e}")
+        if media_id is None:
+            try:
+                media_id = create_and_publish(user_id, token, image_url=url, caption=caption)
+            except RuntimeError:
+                diagnose(user_id, token)
+                raise
+        rec = {"media_id": media_id, "at": datetime.now(TZ).isoformat(timespec="seconds"), "formato": formato}
         posted[str(day)] = rec
         save_posted(posted)  # grava ja: o feed nunca pode ser publicado duas vezes
         print(f"Dia {day} publicado no feed: media_id={media_id}")

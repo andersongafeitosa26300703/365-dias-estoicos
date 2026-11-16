@@ -1,5 +1,6 @@
 {
   "start_date": "2026-10-03",
   "reels": true,
-  "narracao": false
+  "narracao": false,
+  "carrossel": true
 }
