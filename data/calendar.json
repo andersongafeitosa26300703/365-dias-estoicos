@@ -737,7 +737,9 @@
       "#presenca",
       "#epicteto"
     ],
-    "apply": "Reunião de equipe: esteja inteiro, sem notificações. Quem se sente ouvido trabalha melhor."
+    "apply": "Reunião de equipe: esteja inteiro, sem notificações. Quem se sente ouvido trabalha melhor.",
+    "hook": "Nada do que você ama é garantido.",
+    "hook2": "Esteja inteiro enquanto está."
   },
   {
     "day": 47,
@@ -753,7 +755,9 @@
       "#impermanencia",
       "#marcoaurelio"
     ],
-    "apply": "Não espere o cenário perfeito para enviar a proposta. O momento passa; entregue a melhor versão hoje."
+    "apply": "Não espere o cenário perfeito para enviar a proposta. O momento passa; entregue a melhor versão hoje.",
+    "hook": "A proposta perfeita nunca fica pronta.",
+    "hook2": "Envie a melhor versão hoje."
   },
   {
     "day": 48,
@@ -769,7 +773,9 @@
       "#liberdade",
       "#seneca"
     ],
-    "apply": "Quem teme perder o emprego aceita tudo. Prepare-se, atualize-se e negocie com mais liberdade."
+    "apply": "Quem teme perder o emprego aceita tudo. Prepare-se, atualize-se e negocie com mais liberdade.",
+    "hook": "Quem teme perder o emprego aceita tudo.",
+    "hook2": "Preparo devolve a liberdade."
   },
   {
     "day": 49,
@@ -785,7 +791,9 @@
       "#afeto",
       "#epicteto"
     ],
-    "apply": "Não exija garantia de que a equipe fica para sempre. Valorize quem está com você no projeto hoje."
+    "apply": "Não exija garantia de que a equipe fica para sempre. Valorize quem está com você no projeto hoje.",
+    "hook": "Ninguém da equipe fica para sempre.",
+    "hook2": "Valorize quem está aqui hoje."
   },
   {
     "day": 50,
@@ -801,7 +809,9 @@
       "#acao",
       "#marcoaurelio"
     ],
-    "apply": "Escolha a tarefa parada há semanas e trabalhe nela por trinta minutos antes de abrir o e-mail."
+    "apply": "Escolha a tarefa parada há semanas e trabalhe nela por trinta minutos antes de abrir o e-mail.",
+    "hook": "Aquela tarefa está parada há semanas.",
+    "hook2": "Trinta minutos antes do e-mail."
   },
   {
     "day": 51,
@@ -817,7 +827,9 @@
       "#proposito",
       "#seneca"
     ],
-    "apply": "Entre duas demandas, escolha a que entrega valor real, não a que só ocupa o seu dia."
+    "apply": "Entre duas demandas, escolha a que entrega valor real, não a que só ocupa o seu dia.",
+    "hook": "Dia cheio não é dia bem usado.",
+    "hook2": "Escolha o que entrega valor."
   },
   {
     "day": 52,
@@ -833,7 +845,9 @@
       "#aceitacao",
       "#epicteto"
     ],
-    "apply": "Perdeu um contrato? Tratar isso como parte do jogo tira a revolta e abre espaço para aprender."
+    "apply": "Perdeu um contrato? Tratar isso como parte do jogo tira a revolta e abre espaço para aprender.",
+    "hook": "Perdeu um contrato e achou injusto?",
+    "hook2": "Perder faz parte do jogo."
   },
   {
     "day": 53,
@@ -849,7 +863,9 @@
       "#tarefa",
       "#marcoaurelio"
     ],
-    "apply": "Lista de cem pendências paralisa. Pegue a próxima tarefa, termine e só depois olhe a seguinte."
+    "apply": "Lista de cem pendências paralisa. Pegue a próxima tarefa, termine e só depois olhe a seguinte.",
+    "hook": "Cem pendências na cabeça paralisam.",
+    "hook2": "Cuide só da próxima."
   },
   {
     "day": 54,
@@ -865,7 +881,9 @@
       "#presente",
       "#seneca"
     ],
-    "apply": "Numa reunião de hoje, silencie o celular e fique por inteiro. Anote só o que for decisão."
+    "apply": "Numa reunião de hoje, silencie o celular e fique por inteiro. Anote só o que for decisão.",
+    "hook": "Você esteve na reunião, mas não estava lá.",
+    "hook2": "Silencie o celular e fique."
   },
   {
     "day": 55,
@@ -881,7 +899,9 @@
       "#impermanencia",
       "#marcoaurelio"
     ],
-    "apply": "Mercado e cliente mudam. Revise hoje um processo que só continua assim por costume."
+    "apply": "Mercado e cliente mudam. Revise hoje um processo que só continua assim por costume.",
+    "hook": "Esse processo só existe por costume.",
+    "hook2": "O mercado e o cliente mudam."
   },
   {
     "day": 56,
@@ -897,7 +917,9 @@
       "#finitude",
       "#seneca"
     ],
-    "apply": "Defina de manhã as três entregas do dia, antes que e-mails e urgências alheias decidam por você."
+    "apply": "Defina de manhã as três entregas do dia, antes que e-mails e urgências alheias decidam por você.",
+    "hook": "Seu dia vai ser decidido por alguém.",
+    "hook2": "Que seja por você, de manhã."
   },
   {
     "day": 57,
@@ -913,7 +935,9 @@
       "#presente",
       "#marcoaurelio"
     ],
-    "apply": "Evite entregar pela metade: revise o relatório antes de enviar, sem pressa e sem desleixo."
+    "apply": "Evite entregar pela metade: revise o relatório antes de enviar, sem pressa e sem desleixo.",
+    "hook": "Entregar pela metade também é uma escolha.",
+    "hook2": "Revise antes de enviar."
   },
   {
     "day": 58,
@@ -929,7 +953,9 @@
       "#prioridades",
       "#seneca"
     ],
-    "apply": "Tire da agenda um compromisso recorrente que ninguém sabe para que serve e libere tempo."
+    "apply": "Tire da agenda um compromisso recorrente que ninguém sabe para que serve e libere tempo.",
+    "hook": "O problema da sua agenda não é o tamanho.",
+    "hook2": "É o que está nela por hábito."
   },
   {
     "day": 59,
@@ -945,7 +971,9 @@
       "#prioridades",
       "#epicteto"
     ],
-    "apply": "O projeto de prestígio que tira o seu sono vale a pena? Pese a paz contra o status."
+    "apply": "O projeto de prestígio que tira o seu sono vale a pena? Pese a paz contra o status.",
+    "hook": "O projeto de prestígio tira o seu sono?",
+    "hook2": "Pese a paz contra o status."
   },
   {
     "day": 60,
@@ -961,7 +989,9 @@
       "#balanco",
       "#seneca"
     ],
-    "apply": "No fim do expediente, anote o que entregou, o que corrige e quem ajudou. Amanhã começa mais leve."
+    "apply": "No fim do expediente, anote o que entregou, o que corrige e quem ajudou. Amanhã começa mais leve.",
+    "hook": "Antes de fechar o notebook, faça um balanço.",
+    "hook2": "Amanhã começa mais leve."
   },
   {
     "day": 61,
@@ -977,7 +1007,9 @@
       "#serenidade",
       "#marcoaurelio"
     ],
-    "apply": "Ao encerrar um projeto, agradeça a equipe pelo nome. Reconhecimento sincero fica na memória."
+    "apply": "Ao encerrar um projeto, agradeça a equipe pelo nome. Reconhecimento sincero fica na memória.",
+    "hook": "Projeto encerrado pede um agradecimento.",
+    "hook2": "Agradeça a equipe pelo nome."
   },
   {
     "day": 62,
@@ -993,7 +1025,9 @@
       "#verdade",
       "#marcoaurelio"
     ],
-    "apply": "Antes de enviar o relatório ou prometer o prazo, pergunte: isto é correto? isto é verdade?"
+    "apply": "Antes de enviar o relatório ou prometer o prazo, pergunte: isto é correto? isto é verdade?",
+    "hook": "Duas perguntas antes de prometer o prazo.",
+    "hook2": "Se é certo e se é verdade."
   },
   {
     "day": 63,
@@ -1009,7 +1043,9 @@
       "#integridade",
       "#seneca"
     ],
-    "apply": "Faça o trabalho bem feito mesmo sem ninguém conferir: a medição, o detalhe da obra, o registro."
+    "apply": "Faça o trabalho bem feito mesmo sem ninguém conferir: a medição, o detalhe da obra, o registro.",
+    "hook": "Ninguém vai conferir essa medição.",
+    "hook2": "Faça bem feito mesmo assim."
   },
   {
     "day": 64,
@@ -1025,7 +1061,9 @@
       "#consistencia",
       "#epicteto"
     ],
-    "apply": "Mantenha o mesmo padrão com o diretor e com o servente. Seu caráter não depende da plateia."
+    "apply": "Mantenha o mesmo padrão com o diretor e com o servente. Seu caráter não depende da plateia.",
+    "hook": "Um padrão com o diretor, outro com o servente.",
+    "hook2": "Caráter não depende de plateia."
   },
   {
     "day": 65,
@@ -1041,7 +1079,9 @@
       "#virtude",
       "#marcoaurelio"
     ],
-    "apply": "Em vez de debater como um bom líder age, resolva hoje um problema da equipe sem ser cobrado."
+    "apply": "Em vez de debater como um bom líder age, resolva hoje um problema da equipe sem ser cobrado.",
+    "hook": "Você já debateu liderança o bastante.",
+    "hook2": "Resolva um problema da equipe."
   },
   {
     "day": 66,
@@ -1057,7 +1097,9 @@
       "#simplicidade",
       "#seneca"
     ],
-    "apply": "Antes de pedir mais verba ou ferramenta, veja se o que já tem resolve. O necessário costuma bastar."
+    "apply": "Antes de pedir mais verba ou ferramenta, veja se o que já tem resolve. O necessário costuma bastar.",
+    "hook": "Antes de pedir mais verba, olhe o que já tem.",
+    "hook2": "O necessário costuma bastar."
   },
   {
     "day": 67,
@@ -1073,7 +1115,9 @@
       "#acao",
       "#epicteto"
     ],
-    "apply": "Não pregue qualidade na reunião: entregue um trabalho exemplar e deixe a equipe copiar."
+    "apply": "Não pregue qualidade na reunião: entregue um trabalho exemplar e deixe a equipe copiar.",
+    "hook": "Qualidade não se prega em reunião.",
+    "hook2": "Entregue e deixe a equipe copiar."
   },
   {
     "day": 68,
@@ -1089,7 +1133,9 @@
       "#disciplina",
       "#marcoaurelio"
     ],
-    "apply": "Cansaço e chuva na obra não cancelam o dever. Cumpra primeiro a tarefa que você vem enrolando."
+    "apply": "Cansaço e chuva na obra não cancelam o dever. Cumpra primeiro a tarefa que você vem enrolando.",
+    "hook": "Cansaço não cancela o dever.",
+    "hook2": "Comece pela tarefa que enrola."
   },
   {
     "day": 69,
@@ -1105,7 +1151,9 @@
       "#desconforto",
       "#seneca"
     ],
-    "apply": "Teste um dia sem a ferramenta ou o conforto de sempre. Muitas vezes o medo era maior que a falta."
+    "apply": "Teste um dia sem a ferramenta ou o conforto de sempre. Muitas vezes o medo era maior que a falta.",
+    "hook": "E se a falta doer menos do que o medo dela?",
+    "hook2": "Teste um dia com pouco."
   },
   {
     "day": 70,
@@ -1121,7 +1169,9 @@
       "#autonomia",
       "#epicteto"
     ],
-    "apply": "Quando o prazo estourar, evite culpar o cliente ou o fornecedor. Pergunte o que você pode ajustar."
+    "apply": "Quando o prazo estourar, evite culpar o cliente ou o fornecedor. Pergunte o que você pode ajustar.",
+    "hook": "O prazo estourou e a culpa já tem dono.",
+    "hook2": "Veja o que você pode ajustar."
   },
   {
     "day": 71,
@@ -1137,7 +1187,9 @@
       "#forca",
       "#seneca"
     ],
-    "apply": "Trate o projeto problemático como treino. Quem passou por obra difícil resolve a próxima com calma."
+    "apply": "Trate o projeto problemático como treino. Quem passou por obra difícil resolve a próxima com calma.",
+    "hook": "Projeto problemático também é treino.",
+    "hook2": "O próximo você resolve com calma."
   },
   {
     "day": 72,
@@ -1153,7 +1205,9 @@
       "#respeito",
       "#seneca"
     ],
-    "apply": "Trate o estagiário, o terceirizado e o ajudante com o mesmo respeito que dá ao diretor."
+    "apply": "Trate o estagiário, o terceirizado e o ajudante com o mesmo respeito que dá ao diretor.",
+    "hook": "Repare em como você trata o estagiário.",
+    "hook2": "O respeito é o mesmo do diretor."
   },
   {
     "day": 73,
@@ -1169,7 +1223,9 @@
       "#coragem",
       "#epicteto"
     ],
-    "apply": "Se o time ri da sua exigência de qualidade ou segurança, mantenha. Princípio não depende de aplauso."
+    "apply": "Se o time ri da sua exigência de qualidade ou segurança, mantenha. Princípio não depende de aplauso.",
+    "hook": "Riram da sua exigência de segurança.",
+    "hook2": "Mantenha assim mesmo."
   },
   {
     "day": 74,
@@ -1187,7 +1243,9 @@
     ],
     "apply": "Chefe falou duro? Espere um pouco antes de responder e extraia da crítica o que for útil.",
     "original": "Οὐχ ὁ λοιδορῶν ἢ ὁ τύπτων ὑβρίζει, ἀλλὰ τὸ δόγμα τὸ περὶ τούτων ὡς ὑβριζόντων.",
-    "ref": "Manual, 20"
+    "ref": "Manual, 20",
+    "hook": "O chefe falou duro com você.",
+    "hook2": "Espere e extraia o que é útil."
   },
   {
     "day": 75,
@@ -1203,7 +1261,9 @@
       "#temperanca",
       "#seneca"
     ],
-    "apply": "Recebeu um e-mail irritante? Deixe em rascunho, espere uma hora e só então responda."
+    "apply": "Recebeu um e-mail irritante? Deixe em rascunho, espere uma hora e só então responda.",
+    "hook": "Aquele e-mail irritante pode esperar.",
+    "hook2": "Deixe em rascunho por uma hora."
   },
   {
     "day": 76,
@@ -1219,7 +1279,9 @@
       "#sabedoria",
       "#zenao"
     ],
-    "apply": "Na reunião com o cliente, deixe-o terminar o pedido antes de propor. Ouvir evita retrabalho."
+    "apply": "Na reunião com o cliente, deixe-o terminar o pedido antes de propor. Ouvir evita retrabalho.",
+    "hook": "Você propõe antes de o cliente terminar.",
+    "hook2": "Ouvir evita retrabalho."
   },
   {
     "day": 77,
@@ -1235,7 +1297,9 @@
       "#poder",
       "#marcoaurelio"
     ],
-    "apply": "Se assumiu uma chefia, mantenha o trato simples de antes. Autoridade se prova ouvindo a equipe."
+    "apply": "Se assumiu uma chefia, mantenha o trato simples de antes. Autoridade se prova ouvindo a equipe.",
+    "hook": "A chefia chegou. Que o trato não mude.",
+    "hook2": "Autoridade se prova ouvindo."
   },
   {
     "day": 78,
@@ -1251,7 +1315,9 @@
       "#carater",
       "#seneca"
     ],
-    "apply": "Pense num profissional que você respeita e pergunte: o que ele faria nesta decisão do projeto?"
+    "apply": "Pense num profissional que você respeita e pergunte: o que ele faria nesta decisão do projeto?",
+    "hook": "Pense no profissional que você mais respeita.",
+    "hook2": "O que ele faria nesta decisão?"
   },
   {
     "day": 79,
@@ -1267,7 +1333,9 @@
       "#criterio",
       "#epicteto"
     ],
-    "apply": "Na decisão de hoje, use um só teste: é o certo? Se for, siga firme, mesmo com crítica de bastidor."
+    "apply": "Na decisão de hoje, use um só teste: é o certo? Se for, siga firme, mesmo com crítica de bastidor.",
+    "hook": "Crítica de bastidor não é critério.",
+    "hook2": "O teste é um só: é o certo."
   },
   {
     "day": 80,
@@ -1283,7 +1351,9 @@
       "#dedicacao",
       "#marcoaurelio"
     ],
-    "apply": "Dê um pouco mais de cuidado à rotina: o desenho conferido, a planilha limpa, o diário de obra em dia."
+    "apply": "Dê um pouco mais de cuidado à rotina: o desenho conferido, a planilha limpa, o diário de obra em dia.",
+    "hook": "Seu trabalho comum merece mais cuidado.",
+    "hook2": "Desenho conferido, diário em dia."
   },
   {
     "day": 81,
@@ -1299,7 +1369,9 @@
       "#generosidade",
       "#seneca"
     ],
-    "apply": "Ajude um colega sem alarde e, na próxima reunião, credite em voz alta quem te ajudou no projeto."
+    "apply": "Ajude um colega sem alarde e, na próxima reunião, credite em voz alta quem te ajudou no projeto.",
+    "hook": "Favor feito não se anuncia.",
+    "hook2": "Favor recebido, sim."
   },
   {
     "day": 82,
@@ -1315,7 +1387,9 @@
       "#integridade",
       "#epicteto"
     ],
-    "apply": "Pressão para entregar algo irregular? Diga não com calma. Integridade não entra na negociação."
+    "apply": "Pressão para entregar algo irregular? Diga não com calma. Integridade não entra na negociação.",
+    "hook": "Pediram que você entregasse algo irregular.",
+    "hook2": "Diga não, com calma."
   },
   {
     "day": 83,
@@ -1331,7 +1405,9 @@
       "#compaixao",
       "#marcoaurelio"
     ],
-    "apply": "Colega entregou errado? Considere que ele não sabia fazer melhor e ofereça ajuda em vez de bronca."
+    "apply": "Colega entregou errado? Considere que ele não sabia fazer melhor e ofereça ajuda em vez de bronca.",
+    "hook": "O colega entregou errado.",
+    "hook2": "Ofereça ajuda em vez de bronca."
   },
   {
     "day": 84,
@@ -1347,7 +1423,9 @@
       "#autocontrole",
       "#seneca"
     ],
-    "apply": "Resista ao impulso de checar o celular a cada minuto. Decida você quando olhar as mensagens."
+    "apply": "Resista ao impulso de checar o celular a cada minuto. Decida você quando olhar as mensagens.",
+    "hook": "Quem decide a hora de olhar o celular?",
+    "hook2": "Que seja você, não o impulso."
   },
   {
     "day": 85,
@@ -1363,7 +1441,9 @@
       "#destino",
       "#marcoaurelio"
     ],
-    "apply": "Aquela reunião chata ou o cliente exigente escondem uma oportunidade. Aponte uma e aproveite."
+    "apply": "Aquela reunião chata ou o cliente exigente escondem uma oportunidade. Aponte uma e aproveite.",
+    "hook": "O cliente exigente esconde uma oportunidade.",
+    "hook2": "Aponte uma e aproveite."
   },
   {
     "day": 86,
@@ -1379,7 +1459,9 @@
       "#forca",
       "#marcoaurelio"
     ],
-    "apply": "Diante do e-mail agressivo ou da cobrança, respire por três segundos e responda com calma."
+    "apply": "Diante do e-mail agressivo ou da cobrança, respire por três segundos e responda com calma.",
+    "hook": "Três segundos antes de responder à cobrança.",
+    "hook2": "A calma é o seu refúgio."
   },
   {
     "day": 87,
@@ -1395,7 +1477,9 @@
       "#filosofia",
       "#seneca"
     ],
-    "apply": "Escolha um princípio e aplique hoje numa situação real: uma negociação, um feedback, um prazo apertado."
+    "apply": "Escolha um princípio e aplique hoje numa situação real: uma negociação, um feedback, um prazo apertado.",
+    "hook": "Ler estoicismo não muda o seu dia.",
+    "hook2": "Aplicar um princípio muda."
   },
   {
     "day": 88,
@@ -1411,7 +1495,9 @@
       "#esforco",
       "#musonio"
     ],
-    "apply": "Entregar no prazo exige esforço agora; atalho vira retrabalho depois. Escolha o trabalho bem feito."
+    "apply": "Entregar no prazo exige esforço agora; atalho vira retrabalho depois. Escolha o trabalho bem feito.",
+    "hook": "O atalho de hoje é o retrabalho de amanhã.",
+    "hook2": "Escolha o trabalho bem feito."
   },
   {
     "day": 89,
@@ -1427,7 +1513,9 @@
       "#justica",
       "#marcoaurelio"
     ],
-    "apply": "Veja quem está sobrecarregado na equipe e ofereça ajuda antes que ele peça."
+    "apply": "Veja quem está sobrecarregado na equipe e ofereça ajuda antes que ele peça.",
+    "hook": "Você sabe quem está sobrecarregado na equipe.",
+    "hook2": "Ofereça ajuda antes do pedido."
   },
   {
     "day": 90,
@@ -1443,7 +1531,9 @@
       "#coerencia",
       "#seneca"
     ],
-    "apply": "Registre e assine só o que você mostraria ao cliente e ao chefe. Transparência vale ouro."
+    "apply": "Registre e assine só o que você mostraria ao cliente e ao chefe. Transparência vale ouro.",
+    "hook": "Assine só o que mostraria ao cliente.",
+    "hook2": "E ao chefe também."
   },
   {
     "day": 91,
@@ -1459,7 +1549,9 @@
       "#comeco",
       "#epicteto"
     ],
-    "apply": "Pare de esperar o projeto ideal para mostrar o seu melhor. Escolha a tarefa de hoje e capriche."
+    "apply": "Pare de esperar o projeto ideal para mostrar o seu melhor. Escolha a tarefa de hoje e capriche.",
+    "hook": "O projeto ideal não vai chegar.",
+    "hook2": "Capriche na tarefa de hoje."
   },
   {
     "day": 92,
@@ -1475,7 +1567,9 @@
       "#autocontrole",
       "#marcoaurelio"
     ],
-    "apply": "Antes de rebater o colega no calor da discussão, calcule o custo dessa briga para o projeto."
+    "apply": "Antes de rebater o colega no calor da discussão, calcule o custo dessa briga para o projeto.",
+    "hook": "Toda briga tem um custo para o projeto.",
+    "hook2": "Calcule antes de rebater."
   },
   {
     "day": 93,
@@ -1491,7 +1585,9 @@
       "#serenidade",
       "#365diasestoicos"
     ],
-    "apply": "Quando um colega errar, lembre dos seus erros e corrija com a gentileza que gostaria de receber."
+    "apply": "Quando um colega errar, lembre dos seus erros e corrija com a gentileza que gostaria de receber.",
+    "hook": "O erro do colega lembra algum erro seu.",
+    "hook2": "Corrija com a mesma gentileza."
   },
   {
     "day": 94,
@@ -1507,7 +1603,9 @@
       "#mente",
       "#365diasestoicos"
     ],
-    "apply": "Antes de rotular alguém de preguiçoso, pergunte o motivo do atraso. Fatos antes de julgamentos."
+    "apply": "Antes de rotular alguém de preguiçoso, pergunte o motivo do atraso. Fatos antes de julgamentos.",
+    "hook": "Atraso não é sinônimo de preguiça.",
+    "hook2": "Pergunte o motivo antes."
   },
   {
     "day": 95,
@@ -1523,7 +1621,9 @@
       "#mentecalma",
       "#365diasestoicos"
     ],
-    "apply": "Se um colega agir mal com você, responda ao fato, mantenha distância e registre, sem revanche."
+    "apply": "Se um colega agir mal com você, responda ao fato, mantenha distância e registre, sem revanche.",
+    "hook": "Agiram mal com você no trabalho.",
+    "hook2": "Responda ao fato, sem revanche."
   },
   {
     "day": 96,
@@ -1539,7 +1639,9 @@
       "#ansiedade",
       "#365diasestoicos"
     ],
-    "apply": "Liste o que teme na reunião de resultados e o que de fato pode acontecer. O pior raramente chega."
+    "apply": "Liste o que teme na reunião de resultados e o que de fato pode acontecer. O pior raramente chega.",
+    "hook": "O que você teme na reunião de resultados?",
+    "hook2": "O pior raramente chega."
   },
   {
     "day": 97,
@@ -1555,7 +1657,9 @@
       "#controle",
       "#epicteto"
     ],
-    "apply": "Separe o que depende de você no projeto, como entrega e qualidade, do que depende só do cliente."
+    "apply": "Separe o que depende de você no projeto, como entrega e qualidade, do que depende só do cliente.",
+    "hook": "Nem tudo no projeto depende de você.",
+    "hook2": "Separe o que é seu do resto."
   },
   {
     "day": 98,
@@ -1571,7 +1675,9 @@
       "#firmeza",
       "#marcoaurelio"
     ],
-    "apply": "Em semana de pressão, mantenha o ritmo e o tom. Prazo apertado não é motivo para perder a firmeza."
+    "apply": "Em semana de pressão, mantenha o ritmo e o tom. Prazo apertado não é motivo para perder a firmeza.",
+    "hook": "Prazo apertado não pede tom alterado.",
+    "hook2": "Mantenha o ritmo e a firmeza."
   },
   {
     "day": 99,
@@ -1589,7 +1695,9 @@
     ],
     "apply": "Faça bem a proposta sem se prender à resposta do cliente. Entregue o melhor e siga para a próxima.",
     "original": "Desines timere, si sperare desieris.",
-    "ref": "Cartas a Lucílio, 5.7"
+    "ref": "Cartas a Lucílio, 5.7",
+    "hook": "Você fez a proposta. A resposta não é sua.",
+    "hook2": "Entregue o melhor e siga."
   },
   {
     "day": 100,
@@ -1605,7 +1713,9 @@
       "#liberdade",
       "#epicteto"
     ],
-    "apply": "Vontade de comprar a ferramenta da moda? Observe e espere: muitas vezes o que resolve já existe."
+    "apply": "Vontade de comprar a ferramenta da moda? Observe e espere: muitas vezes o que resolve já existe.",
+    "hook": "A ferramenta da moda parece urgente.",
+    "hook2": "Espere. A vontade passa."
   },
   {
     "day": 101,
@@ -1621,7 +1731,9 @@
       "#foco",
       "#marcoaurelio"
     ],
-    "apply": "Escolha as três tarefas que movem o projeto e adie o resto, avisando a equipe do que ficou para depois."
+    "apply": "Escolha as três tarefas que movem o projeto e adie o resto, avisando a equipe do que ficou para depois.",
+    "hook": "Três tarefas movem o projeto.",
+    "hook2": "O resto pode esperar, sem culpa."
   },
   {
     "day": 102,
@@ -1637,7 +1749,9 @@
       "#autocontrole",
       "#365diasestoicos"
     ],
-    "apply": "Sinta o aperto no maxilar quando o chefe criticar. Pare ali, respire e só depois fale."
+    "apply": "Sinta o aperto no maxilar quando o chefe criticar. Pare ali, respire e só depois fale.",
+    "hook": "A raiva avisa antes: o maxilar aperta.",
+    "hook2": "Pare ali, antes da primeira frase."
   },
   {
     "day": 103,
@@ -1653,7 +1767,9 @@
       "#realismo",
       "#seneca"
     ],
-    "apply": "Atrito com cliente, prazo e fornecedor faz parte do ofício. Poupe energia para o problema que importa."
+    "apply": "Atrito com cliente, prazo e fornecedor faz parte do ofício. Poupe energia para o problema que importa.",
+    "hook": "Atrito com cliente faz parte do ofício.",
+    "hook2": "Poupe energia para o que importa."
   },
   {
     "day": 104,
@@ -1669,7 +1785,9 @@
       "#virtude",
       "#marcoaurelio"
     ],
-    "apply": "Reconheça em voz alta uma qualidade de um colega na próxima reunião. Quem é reconhecido rende mais."
+    "apply": "Reconheça em voz alta uma qualidade de um colega na próxima reunião. Quem é reconhecido rende mais.",
+    "hook": "Há uma qualidade no colega que você não citou.",
+    "hook2": "Diga na próxima reunião."
   },
   {
     "day": 105,
@@ -1685,7 +1803,9 @@
       "#comparacao",
       "#seneca"
     ],
-    "apply": "Elogie com sinceridade o colega promovido e volte ao seu plano. Comparar não entrega projeto."
+    "apply": "Elogie com sinceridade o colega promovido e volte ao seu plano. Comparar não entrega projeto.",
+    "hook": "O colega foi promovido e você, não.",
+    "hook2": "Elogie e volte ao seu plano."
   },
   {
     "day": 106,
@@ -1701,7 +1821,9 @@
       "#mente",
       "#epicteto"
     ],
-    "apply": "Cliente reclamou? Em vez de rebater, procure o ponto que dá para resolver hoje e comece por ele."
+    "apply": "Cliente reclamou? Em vez de rebater, procure o ponto que dá para resolver hoje e comece por ele.",
+    "hook": "O cliente reclamou e a vontade é rebater.",
+    "hook2": "Ache o ponto que dá para resolver."
   },
   {
     "day": 107,
@@ -1717,7 +1839,9 @@
       "#calma",
       "#365diasestoicos"
     ],
-    "apply": "Chegou um e-mail seco do chefe? É só uma impressão. Releia os fatos antes de responder."
+    "apply": "Chegou um e-mail seco do chefe? É só uma impressão. Releia os fatos antes de responder.",
+    "hook": "E-mail seco do chefe é só uma impressão.",
+    "hook2": "Releia os fatos e responda."
   },
   {
     "day": 108,
@@ -1733,7 +1857,9 @@
       "#autoconhecimento",
       "#seneca"
     ],
-    "apply": "Trocar de equipe ou de empresa não corrige o hábito que vai com você. Ajuste o seu primeiro."
+    "apply": "Trocar de equipe ou de empresa não corrige o hábito que vai com você. Ajuste o seu primeiro.",
+    "hook": "Trocar de empresa não troca os seus hábitos.",
+    "hook2": "Eles vão com você."
   },
   {
     "day": 109,
@@ -1749,7 +1875,9 @@
       "#autocontrole",
       "#epicteto"
     ],
-    "apply": "Antes de aceitar o atalho na obra ou a compra que estoura o orçamento, espere dez minutos."
+    "apply": "Antes de aceitar o atalho na obra ou a compra que estoura o orçamento, espere dez minutos.",
+    "hook": "Dez minutos antes de aceitar o atalho.",
+    "hook2": "Impulso pode esperar."
   },
   {
     "day": 110,
@@ -1765,7 +1893,9 @@
       "#empatia",
       "#365diasestoicos"
     ],
-    "apply": "O colega errou o lançamento? Pergunte o que faltou saber e corrija junto, sem humilhar."
+    "apply": "O colega errou o lançamento? Pergunte o que faltou saber e corrija junto, sem humilhar.",
+    "hook": "O que o colega que errou não estava vendo?",
+    "hook2": "Corrija junto, sem humilhar."
   },
   {
     "day": 111,
@@ -1781,7 +1911,9 @@
       "#razao",
       "#seneca"
     ],
-    "apply": "Mensagem que irrita não se responde na hora. Espere vinte minutos e escreva só os fatos."
+    "apply": "Mensagem que irrita não se responde na hora. Espere vinte minutos e escreva só os fatos.",
+    "hook": "Você não precisa responder agora.",
+    "hook2": "Vinte minutos, depois só os fatos."
   },
   {
     "day": 112,
@@ -1797,7 +1929,9 @@
       "#raiva",
       "#epicteto"
     ],
-    "apply": "Fornecedor atrasou? Pergunte o que ele entendeu do combinado antes de cobrar. Pode ser alinhamento."
+    "apply": "Fornecedor atrasou? Pergunte o que ele entendeu do combinado antes de cobrar. Pode ser alinhamento.",
+    "hook": "Fornecedor atrasou. Pergunte antes de cobrar.",
+    "hook2": "Pode ser falta de alinhamento."
   },
   {
     "day": 113,
@@ -1813,7 +1947,9 @@
       "#refugiointerior",
       "#365diasestoicos"
     ],
-    "apply": "A ansiedade com o prazo vem do que você pensa dele. Liste só o que precisa ser entregue hoje."
+    "apply": "A ansiedade com o prazo vem do que você pensa dele. Liste só o que precisa ser entregue hoje.",
+    "hook": "A ansiedade não vem do prazo.",
+    "hook2": "Vem do que você pensa dele."
   },
   {
     "day": 114,
@@ -1829,7 +1965,9 @@
       "#equilibrio",
       "#seneca"
     ],
-    "apply": "Faça dez minutos de pausa a cada duas horas de foco. Equipe descansada erra menos."
+    "apply": "Faça dez minutos de pausa a cada duas horas de foco. Equipe descansada erra menos.",
+    "hook": "Pausa não é preguiça. É manutenção.",
+    "hook2": "Dez minutos a cada duas horas."
   },
   {
     "day": 115,
@@ -1845,7 +1983,9 @@
       "#autoconhecimento",
       "#365diasestoicos"
     ],
-    "apply": "Peça a um colega que aponte o que você ainda não domina na função. Ponto cego visto vira ganho."
+    "apply": "Peça a um colega que aponte o que você ainda não domina na função. Ponto cego visto vira ganho.",
+    "hook": "Peça a um colega que aponte seu ponto cego.",
+    "hook2": "Ponto cego visto vira ganho."
   },
   {
     "day": 116,
@@ -1861,7 +2001,9 @@
       "#calma",
       "#365diasestoicos"
     ],
-    "apply": "Decisão grande não sai no calor da reunião. Peça um dia, analise os dados e sustente o que decidir."
+    "apply": "Decisão grande não sai no calor da reunião. Peça um dia, analise os dados e sustente o que decidir.",
+    "hook": "Decisão grande não sai no calor da reunião.",
+    "hook2": "Peça um dia. Depois, sustente."
   },
   {
     "day": 117,
@@ -1877,7 +2019,9 @@
       "#paz",
       "#seneca"
     ],
-    "apply": "Comemore a entrega concluída com a equipe, com um café e um obrigado. Alegria séria vem do dever feito."
+    "apply": "Comemore a entrega concluída com a equipe, com um café e um obrigado. Alegria séria vem do dever feito.",
+    "hook": "Entrega concluída merece um café com a equipe.",
+    "hook2": "E um obrigado."
   },
   {
     "day": 118,
@@ -1893,7 +2037,9 @@
       "#opiniao",
       "#epicteto"
     ],
-    "apply": "Vai propor um método novo e teme a zombaria? Proponha mesmo assim, com dados e calma."
+    "apply": "Vai propor um método novo e teme a zombaria? Proponha mesmo assim, com dados e calma.",
+    "hook": "Medo de zombarem do seu método novo?",
+    "hook2": "Proponha, com dados e calma."
   },
   {
     "day": 119,
@@ -1909,7 +2055,9 @@
       "#virtude",
       "#marcoaurelio"
     ],
-    "apply": "Antes de pedir opinião a todos, escreva a sua própria solução. Depois compare com as dos outros."
+    "apply": "Antes de pedir opinião a todos, escreva a sua própria solução. Depois compare com as dos outros.",
+    "hook": "Escreva a sua solução antes de pedir opinião.",
+    "hook2": "Depois compare com as outras."
   },
   {
     "day": 120,
@@ -1925,7 +2073,9 @@
       "#desejo",
       "#seneca"
     ],
-    "apply": "Não compre o equipamento caro só para impressionar. Pergunte o que a obra realmente precisa."
+    "apply": "Não compre o equipamento caro só para impressionar. Pergunte o que a obra realmente precisa.",
+    "hook": "Comprar para impressionar custa caro.",
+    "hook2": "Veja o que a obra precisa."
   },
   {
     "day": 121,
@@ -1941,7 +2091,9 @@
       "#julgamentos",
       "#epicteto"
     ],
-    "apply": "O chefe te irritou? Ache o julgamento seu por trás disso. Muitas vezes o fato é só um pedido."
+    "apply": "O chefe te irritou? Ache o julgamento seu por trás disso. Muitas vezes o fato é só um pedido.",
+    "hook": "Nem sempre foi o chefe que irritou você.",
+    "hook2": "Às vezes foi o seu julgamento."
   },
   {
     "day": 122,
@@ -1957,7 +2109,9 @@
       "#carater",
       "#365diasestoicos"
     ],
-    "apply": "Em dia de pressão máxima, faça o que o problema exige e corte o drama. Voz baixa resolve mais."
+    "apply": "Em dia de pressão máxima, faça o que o problema exige e corte o drama. Voz baixa resolve mais.",
+    "hook": "Em dia de pressão máxima, corte o drama.",
+    "hook2": "Voz baixa resolve mais."
   },
   {
     "day": 123,
@@ -1973,7 +2127,9 @@
       "#tempo",
       "#365diasestoicos"
     ],
-    "apply": "Bloqueie vinte minutos na agenda, sem celular nem pedidos, para decidir as três prioridades do dia."
+    "apply": "Bloqueie vinte minutos na agenda, sem celular nem pedidos, para decidir as três prioridades do dia.",
+    "hook": "Você passa o dia atendendo pedidos.",
+    "hook2": "Reserve vinte minutos só seus."
   },
   {
     "day": 124,
@@ -1989,7 +2145,9 @@
       "#identidade",
       "#epicteto"
     ],
-    "apply": "Defina que profissional quer ser e dê hoje o passo que ele daria, como entregar o relatório em dia."
+    "apply": "Defina que profissional quer ser e dê hoje o passo que ele daria, como entregar o relatório em dia.",
+    "hook": "Que profissional você quer ser?",
+    "hook2": "Dê hoje o passo que ele daria."
   },
   {
     "day": 125,
@@ -2005,7 +2163,9 @@
       "#habitos",
       "#365diasestoicos"
     ],
-    "apply": "Faça de manhã a tarefa que você vem empurrando, como a ligação difícil ou o relatório chato."
+    "apply": "Faça de manhã a tarefa que você vem empurrando, como a ligação difícil ou o relatório chato.",
+    "hook": "Faça a ligação difícil antes do meio-dia.",
+    "hook2": "Empurrar só gasta energia."
   },
   {
     "day": 126,
@@ -2021,7 +2181,9 @@
       "#virtude",
       "#365diasestoicos"
     ],
-    "apply": "Aquele cliente exigente é seu treino. Atenda com paciência e precisão e saia mais preparado."
+    "apply": "Aquele cliente exigente é seu treino. Atenda com paciência e precisão e saia mais preparado.",
+    "hook": "O cliente difícil não é seu castigo.",
+    "hook2": "É o seu treino."
   },
   {
     "day": 127,
@@ -2037,7 +2199,9 @@
       "#pratica",
       "#epicteto"
     ],
-    "apply": "Chegue no horário e entregue o relatório pontual todos os dias. Reputação é feita de repetição."
+    "apply": "Chegue no horário e entregue o relatório pontual todos os dias. Reputação é feita de repetição.",
+    "hook": "Reputação não se constrói num grande dia.",
+    "hook2": "Ela se faz na repetição."
   },
   {
     "day": 128,
@@ -2053,7 +2217,9 @@
       "#disciplina",
       "#365diasestoicos"
     ],
-    "apply": "Crítica injusta no trabalho? Aproveite o que for útil, ignore o resto e entregue o combinado."
+    "apply": "Crítica injusta no trabalho? Aproveite o que for útil, ignore o resto e entregue o combinado.",
+    "hook": "Fazer o certo nem sempre rende aplauso.",
+    "hook2": "O combinado segue de pé."
   },
   {
     "day": 129,
@@ -2069,7 +2235,9 @@
       "#tempo",
       "#seneca"
     ],
-    "apply": "Aquele e-mail que fica para amanhã? Responda agora, em quinze minutos, e tire o peso das costas."
+    "apply": "Aquele e-mail que fica para amanhã? Responda agora, em quinze minutos, e tire o peso das costas.",
+    "hook": "Aquele e-mail não precisa do amanhã.",
+    "hook2": "Precisa de quinze minutos."
   },
   {
     "day": 130,
@@ -2085,7 +2253,9 @@
       "#constancia",
       "#epicteto"
     ],
-    "apply": "Projeto lento não acelera com cobrança diária. Mantenha o ritmo certo e deixe a obra amadurecer."
+    "apply": "Projeto lento não acelera com cobrança diária. Mantenha o ritmo certo e deixe a obra amadurecer.",
+    "hook": "Cobrar todo dia não acelera o projeto.",
+    "hook2": "Dê tempo ao fruto."
   },
   {
     "day": 131,
@@ -2101,7 +2271,9 @@
       "#tempo",
       "#365diasestoicos"
     ],
-    "apply": "Aquela proposta parada há semanas? Abra o arquivo e escreva o primeiro parágrafo agora."
+    "apply": "Aquela proposta parada há semanas? Abra o arquivo e escreva o primeiro parágrafo agora.",
+    "hook": "Adiar parece de graça.",
+    "hook2": "A conta vem em tempo e clareza."
   },
   {
     "day": 132,
@@ -2117,7 +2289,9 @@
       "#disciplina",
       "#365diasestoicos"
     ],
-    "apply": "Comece a tarefa que você evita pelos dez primeiros minutos. Depois do começo, o medo diminui."
+    "apply": "Comece a tarefa que você evita pelos dez primeiros minutos. Depois do começo, o medo diminui.",
+    "hook": "O medo de começar dura dez minutos.",
+    "hook2": "Comece e veja ele diminuir."
   },
   {
     "day": 133,
@@ -2133,7 +2307,9 @@
       "#treino",
       "#epicteto"
     ],
-    "apply": "Obra atrasada ou cliente bravo? Pergunte o que isso ensina sobre planejamento antes de reclamar."
+    "apply": "Obra atrasada ou cliente bravo? Pergunte o que isso ensina sobre planejamento antes de reclamar.",
+    "hook": "Obra atrasada, cliente bravo.",
+    "hook2": "O que isso está te ensinando?"
   },
   {
     "day": 134,
@@ -2151,7 +2327,9 @@
     ],
     "apply": "Se um imprevisto travou sua frente de trabalho, escolha o que ainda dá para decidir agora.",
     "original": "Νόσος σώματός ἐστιν ἐμπόδιον, προαιρέσεως δὲ οὔ.",
-    "ref": "Manual, 9"
+    "ref": "Manual, 9",
+    "hook": "O imprevisto travou uma frente.",
+    "hook2": "Alguma decisão ainda é sua."
   },
   {
     "day": 135,
@@ -2167,7 +2345,9 @@
       "#habitos",
       "#365diasestoicos"
     ],
-    "apply": "Não troque de ferramenta ou de método a cada semana. Mantenha o processo até ele dar resultado."
+    "apply": "Não troque de ferramenta ou de método a cada semana. Mantenha o processo até ele dar resultado.",
+    "hook": "Trocar de método toda semana.",
+    "hook2": "Um jeito elegante de não avançar."
   },
   {
     "day": 136,
@@ -2183,7 +2363,9 @@
       "#habilidade",
       "#foco"
     ],
-    "apply": "Diante de um problema herdado, pergunte: qual é a melhor jogada possível agora?"
+    "apply": "Diante de um problema herdado, pergunte: qual é a melhor jogada possível agora?",
+    "hook": "Você não escolheu o problema herdado.",
+    "hook2": "Escolhe a melhor jogada agora."
   },
   {
     "day": 137,
@@ -2199,7 +2381,9 @@
       "#dever",
       "#365diasestoicos"
     ],
-    "apply": "Ocupado não é resposta. Retorne hoje o colega ou o cliente que você vem deixando esperando."
+    "apply": "Ocupado não é resposta. Retorne hoje o colega ou o cliente que você vem deixando esperando.",
+    "hook": "Estou ocupado não é resposta.",
+    "hook2": "Alguém espera o seu retorno."
   },
   {
     "day": 138,
@@ -2215,7 +2399,9 @@
       "#rotina",
       "#seneca"
     ],
-    "apply": "No fim do expediente, anote o que acertou e o que faria diferente. Cinco minutos já bastam."
+    "apply": "No fim do expediente, anote o que acertou e o que faria diferente. Cinco minutos já bastam.",
+    "hook": "Cinco minutos no fim do expediente.",
+    "hook2": "O que você faria diferente?"
   },
   {
     "day": 139,
@@ -2231,7 +2417,9 @@
       "#disciplina",
       "#365diasestoicos"
     ],
-    "apply": "Antes de mandar aquela resposta no impulso, releia e pergunte se ela ajuda ou só fere."
+    "apply": "Antes de mandar aquela resposta no impulso, releia e pergunte se ela ajuda ou só fere.",
+    "hook": "Antes de enviar a resposta no impulso.",
+    "hook2": "Releia e veja se ela ajuda."
   },
   {
     "day": 140,
@@ -2247,7 +2435,9 @@
       "#disciplina",
       "#marcoaurelio"
     ],
-    "apply": "Sem vontade, a reunião chata e o relatório continuam lá. Faça primeiro e a disposição vem depois."
+    "apply": "Sem vontade, a reunião chata e o relatório continuam lá. Faça primeiro e a disposição vem depois.",
+    "hook": "A vontade de trabalhar não veio hoje.",
+    "hook2": "Faça primeiro. Ela vem depois."
   },
   {
     "day": 141,
@@ -2263,7 +2453,9 @@
       "#serenidade",
       "#marcoaurelio"
     ],
-    "apply": "O comentário do chefe doeu? Reescreva em uma frase só com os fatos, sem adjetivos."
+    "apply": "O comentário do chefe doeu? Reescreva em uma frase só com os fatos, sem adjetivos.",
+    "hook": "O comentário do chefe doeu.",
+    "hook2": "Reescreva só com os fatos."
   },
   {
     "day": 142,
@@ -2279,7 +2471,9 @@
       "#disciplina",
       "#365diasestoicos"
     ],
-    "apply": "Não dependa de elogio para se sentir bem. Mire no que você controla: qualidade e prazo da entrega."
+    "apply": "Não dependa de elogio para se sentir bem. Mire no que você controla: qualidade e prazo da entrega.",
+    "hook": "Esperar elogio para ficar bem.",
+    "hook2": "Um desejo que não depende de você."
   },
   {
     "day": 143,
@@ -2295,7 +2489,9 @@
       "#simplicidade",
       "#365diasestoicos"
     ],
-    "apply": "Corte o pequeno atalho desonesto, como arredondar um número a seu favor. Hábito limpo nasce no pensamento."
+    "apply": "Corte o pequeno atalho desonesto, como arredondar um número a seu favor. Hábito limpo nasce no pensamento.",
+    "hook": "Arredondar o número a seu favor.",
+    "hook2": "O atalho começa no pensamento."
   },
   {
     "day": 144,
@@ -2311,7 +2507,9 @@
       "#constancia",
       "#365diasestoicos"
     ],
-    "apply": "Cumpra o compromisso que você largaria no desconforto, como a reunião semanal ou o relatório diário."
+    "apply": "Cumpra o compromisso que você largaria no desconforto, como a reunião semanal ou o relatório diário.",
+    "hook": "Compromisso que só vale no conforto.",
+    "hook2": "Ainda não é compromisso."
   },
   {
     "day": 145,
@@ -2327,7 +2525,9 @@
       "#humildade",
       "#epicteto"
     ],
-    "apply": "Em vez de citar o curso que fez, aplique uma ideia no problema da obra e mostre o resultado."
+    "apply": "Em vez de citar o curso que fez, aplique uma ideia no problema da obra e mostre o resultado.",
+    "hook": "Ninguém precisa saber do curso que você fez.",
+    "hook2": "Mostre o resultado na obra."
   },
   {
     "day": 146,
@@ -2343,7 +2543,9 @@
       "#humildade",
       "#marcoaurelio"
     ],
-    "apply": "Travado há horas? Chame alguém mais experiente. O prazo agradece e a equipe aprende junto."
+    "apply": "Travado há horas? Chame alguém mais experiente. O prazo agradece e a equipe aprende junto.",
+    "hook": "Travado há horas no mesmo ponto?",
+    "hook2": "Peça ajuda. O prazo agradece."
   },
   {
     "day": 147,
@@ -2359,7 +2561,9 @@
       "#firmeza",
       "#365diasestoicos"
     ],
-    "apply": "Cliente gritou? Respire, ouça até o fim e responda ao conteúdo, não ao tom."
+    "apply": "Cliente gritou? Respire, ouça até o fim e responda ao conteúdo, não ao tom.",
+    "hook": "O cliente levantou a voz.",
+    "hook2": "Responda ao conteúdo, não ao tom."
   },
   {
     "day": 148,
@@ -2375,7 +2579,9 @@
       "#raiva",
       "#epicteto"
     ],
-    "apply": "Conte quantos dias seguidos você passa sem perder a calma em reunião. Proteja a sequência."
+    "apply": "Conte quantos dias seguidos você passa sem perder a calma em reunião. Proteja a sequência.",
+    "hook": "Conte os dias sem perder a calma em reunião.",
+    "hook2": "Proteja a sequência."
   },
   {
     "day": 149,
@@ -2391,7 +2597,9 @@
       "#coragem",
       "#marcoaurelio"
     ],
-    "apply": "Aquela meta que parece grande demais? Procure quem já fez algo parecido e peça o caminho."
+    "apply": "Aquela meta que parece grande demais? Procure quem já fez algo parecido e peça o caminho.",
+    "hook": "A meta parece grande demais.",
+    "hook2": "Alguém já fez. Peça o caminho."
   },
   {
     "day": 150,
@@ -2407,7 +2615,9 @@
       "#virtude",
       "#365diasestoicos"
     ],
-    "apply": "Use o imprevisto de hoje para praticar o que diz saber: calma, método e comunicação clara."
+    "apply": "Use o imprevisto de hoje para praticar o que diz saber: calma, método e comunicação clara.",
+    "hook": "Você diz que tem calma e método.",
+    "hook2": "O imprevisto de hoje é a prova."
   },
   {
     "day": 151,
@@ -2425,7 +2635,9 @@
     ],
     "apply": "Reserve uma hora da semana para estudar algo da profissão. A carreira também precisa de treino.",
     "original": "Ἀφυΐας σημεῖον τὸ ἐνδιατρίβειν τοῖς περὶ τὸ σῶμα",
-    "ref": "Manual, 41"
+    "ref": "Manual, 41",
+    "hook": "Sua carreira também precisa de treino.",
+    "hook2": "Reserve uma hora por semana."
   },
   {
     "day": 152,
@@ -2441,7 +2653,9 @@
       "#foco",
       "#365diasestoicos"
     ],
-    "apply": "Ignore a fofoca sobre o colega. Defina a sua entrega do dia e vá reto até ela."
+    "apply": "Ignore a fofoca sobre o colega. Defina a sua entrega do dia e vá reto até ela.",
+    "hook": "A fofoca sobre o colega não é sua entrega.",
+    "hook2": "Vá reto até a sua."
   },
   {
     "day": 153,
@@ -2457,7 +2671,9 @@
       "#justica",
       "#seneca"
     ],
-    "apply": "Trate com respeito o servente, o estagiário e o fornecedor. Quem não rende hoje também é gente."
+    "apply": "Trate com respeito o servente, o estagiário e o fornecedor. Quem não rende hoje também é gente.",
+    "hook": "O servente, o estagiário, o fornecedor.",
+    "hook2": "Todos merecem o seu respeito."
   },
   {
     "day": 154,
@@ -2473,7 +2689,9 @@
       "#humildade",
       "#epicteto"
     ],
-    "apply": "Recebeu uma crítica? Agradeça, veja se há algo a corrigir e siga. Não gaste energia se defendendo."
+    "apply": "Recebeu uma crítica? Agradeça, veja se há algo a corrigir e siga. Não gaste energia se defendendo.",
+    "hook": "Defender-se de toda crítica cansa.",
+    "hook2": "Veja o que corrigir e siga."
   },
   {
     "day": 155,
@@ -2489,7 +2707,9 @@
       "#sociedade",
       "#365diasestoicos"
     ],
-    "apply": "Ajude alguém de outro setor sem que ele peça. Quem trabalha junto é do mesmo time."
+    "apply": "Ajude alguém de outro setor sem que ele peça. Quem trabalha junto é do mesmo time.",
+    "hook": "O colega de outro setor também é do time.",
+    "hook2": "Ajude antes que ele peça."
   },
   {
     "day": 156,
@@ -2505,7 +2725,9 @@
       "#bondade",
       "#seneca"
     ],
-    "apply": "Agradeça por escrito ao colega que ajudou você num prazo apertado. Reconhecer fortalece o time."
+    "apply": "Agradeça por escrito ao colega que ajudou você num prazo apertado. Reconhecer fortalece o time.",
+    "hook": "Alguém salvou o seu prazo apertado.",
+    "hook2": "Agradeça por escrito hoje."
   },
   {
     "day": 157,
@@ -2521,7 +2743,9 @@
       "#dever",
       "#epicteto"
     ],
-    "apply": "Chefe ou colega difícil? Cumpra a sua parte com qualidade e deixe a atitude dele com ele."
+    "apply": "Chefe ou colega difícil? Cumpra a sua parte com qualidade e deixe a atitude dele com ele.",
+    "hook": "A atitude do chefe difícil é dele.",
+    "hook2": "A qualidade da sua parte é sua."
   },
   {
     "day": 158,
@@ -2537,7 +2761,9 @@
       "#cidadania",
       "#365diasestoicos"
     ],
-    "apply": "Siga o procedimento de segurança e o protocolo da obra mesmo sem fiscal por perto."
+    "apply": "Siga o procedimento de segurança e o protocolo da obra mesmo sem fiscal por perto.",
+    "hook": "Sem fiscal por perto, a regra é a mesma.",
+    "hook2": "Siga o protocolo da obra."
   },
   {
     "day": 159,
@@ -2553,7 +2779,9 @@
       "#generosidade",
       "#seneca"
     ],
-    "apply": "Pergunte ao colega sobrecarregado o que você pode assumir por ele hoje. Time forte divide peso."
+    "apply": "Pergunte ao colega sobrecarregado o que você pode assumir por ele hoje. Time forte divide peso.",
+    "hook": "Seu colega está sobrecarregado.",
+    "hook2": "O que você pode assumir hoje?"
   },
   {
     "day": 160,
@@ -2569,7 +2797,9 @@
       "#compreensao",
       "#epicteto"
     ],
-    "apply": "O subordinado errou? Explique o certo com paciência. Provavelmente ele não enxergava o problema."
+    "apply": "O subordinado errou? Explique o certo com paciência. Provavelmente ele não enxergava o problema.",
+    "hook": "Quem errou talvez não visse o problema.",
+    "hook2": "Explique com paciência."
   },
   {
     "day": 161,
@@ -2585,7 +2815,9 @@
       "#humildade",
       "#marcoaurelio"
     ],
-    "apply": "Antes de apontar o atraso do outro, veja onde você também atrasou algo no projeto."
+    "apply": "Antes de apontar o atraso do outro, veja onde você também atrasou algo no projeto.",
+    "hook": "Antes de apontar o atraso do outro.",
+    "hook2": "Veja onde você também atrasou."
   },
   {
     "day": 162,
@@ -2601,7 +2833,9 @@
       "#justica",
       "#seneca"
     ],
-    "apply": "Lembre de um erro seu parecido antes de cobrar aquele colega. Cobrança com humildade é ouvida."
+    "apply": "Lembre de um erro seu parecido antes de cobrar aquele colega. Cobrança com humildade é ouvida.",
+    "hook": "Cobrança com humildade é ouvida.",
+    "hook2": "Lembre de um erro seu parecido."
   },
   {
     "day": 163,
@@ -2617,7 +2851,9 @@
       "#valores",
       "#365diasestoicos"
     ],
-    "apply": "Prefira parcerias com quem partilha o seu padrão de qualidade, não só com quem é conveniente."
+    "apply": "Prefira parcerias com quem partilha o seu padrão de qualidade, não só com quem é conveniente.",
+    "hook": "Nem toda parceria conveniente é boa.",
+    "hook2": "Escolha pelo padrão de qualidade."
   },
   {
     "day": 164,
@@ -2633,7 +2869,9 @@
       "#autonomia",
       "#marcoaurelio"
     ],
-    "apply": "Antes da próxima decisão, escreva o que você pensa. Só depois ouça o que os outros acham."
+    "apply": "Antes da próxima decisão, escreva o que você pensa. Só depois ouça o que os outros acham.",
+    "hook": "Escreva primeiro o que você pensa.",
+    "hook2": "Só depois ouça os outros."
   },
   {
     "day": 165,
@@ -2649,7 +2887,9 @@
       "#integridade",
       "#seneca"
     ],
-    "apply": "Decida e registre só o que você poderia mostrar ao cliente e à equipe sem constrangimento."
+    "apply": "Decida e registre só o que você poderia mostrar ao cliente e à equipe sem constrangimento.",
+    "hook": "Daria para mostrar essa decisão ao cliente?",
+    "hook2": "Se não, repense."
   },
   {
     "day": 166,
@@ -2667,7 +2907,9 @@
     ],
     "apply": "Não concorde com o chefe só para agradar. Dê sua opinião técnica com respeito e fundamento.",
     "original": "Ἐάν ποτέ σοι γένηται ἔξω στραφῆναι πρὸς τὸ βούλεσθαι ἀρέσαι τινί, ἴσθι ὅτι ἀπώλεσας τὴν ἔνστασιν.",
-    "ref": "Manual, 23"
+    "ref": "Manual, 23",
+    "hook": "Concordar com o chefe só para agradar.",
+    "hook2": "É assim que se perde o rumo."
   },
   {
     "day": 167,
@@ -2683,7 +2925,9 @@
       "#natureza",
       "#marcoaurelio"
     ],
-    "apply": "Ao distribuir tarefas ou créditos, pergunte se o critério é justo com todos. A equipe sente."
+    "apply": "Ao distribuir tarefas ou créditos, pergunte se o critério é justo com todos. A equipe sente.",
+    "hook": "Dividir tarefas e créditos pede critério.",
+    "hook2": "A equipe sente quando é injusto."
   },
   {
     "day": 168,
@@ -2699,7 +2943,9 @@
       "#comunidade",
       "#seneca"
     ],
-    "apply": "Resolva um problema de um colega sem fazer alarde. Ajuda discreta fortalece a equipe."
+    "apply": "Resolva um problema de um colega sem fazer alarde. Ajuda discreta fortalece a equipe.",
+    "hook": "Resolva o problema de um colega.",
+    "hook2": "E não conte para ninguém."
   },
   {
     "day": 169,
@@ -2715,7 +2961,9 @@
       "#familia",
       "#epicteto"
     ],
-    "apply": "Como líder, colega ou profissional, faça hoje o que o seu papel pede, mesmo sem cobrança."
+    "apply": "Como líder, colega ou profissional, faça hoje o que o seu papel pede, mesmo sem cobrança.",
+    "hook": "Líder, colega, profissional.",
+    "hook2": "Cada papel tem um dever hoje."
   },
   {
     "day": 170,
@@ -2731,7 +2979,9 @@
       "#gentileza",
       "#marcoaurelio"
     ],
-    "apply": "Responda ao cliente ríspido com gentileza sincera, sem ironia. Veja o tom dele baixar."
+    "apply": "Responda ao cliente ríspido com gentileza sincera, sem ironia. Veja o tom dele baixar.",
+    "hook": "O cliente foi ríspido.",
+    "hook2": "Responda com gentileza sincera."
   },
   {
     "day": 171,
@@ -2747,7 +2997,9 @@
       "#gratidao",
       "#seneca"
     ],
-    "apply": "Ajude um colega e não cobre depois. Se alguém te ajudou, lembre e agradeça."
+    "apply": "Ajude um colega e não cobre depois. Se alguém te ajudou, lembre e agradeça.",
+    "hook": "Você ajudou um colega.",
+    "hook2": "Agora esqueça a cobrança."
   },
   {
     "day": 172,
@@ -2765,7 +3017,9 @@
     ],
     "apply": "Na reunião, fale só o necessário e ouça mais. Antes de cada fala, pergunte se ela acrescenta.",
     "original": "σιωπὴ τὸ πολὺ ἔστω ἢ λαλείσθω τὰ ἀναγκαῖα καὶ δι' ὀλίγων.",
-    "ref": "Manual, 33"
+    "ref": "Manual, 33",
+    "hook": "Nem toda fala acrescenta à reunião.",
+    "hook2": "Diga só o necessário."
   },
   {
     "day": 173,
@@ -2781,7 +3035,9 @@
       "#convivencia",
       "#marcoaurelio"
     ],
-    "apply": "Colega repete o erro? Ensine o método uma vez, com calma, ou aceite o jeito dele. Reclamar não resolve."
+    "apply": "Colega repete o erro? Ensine o método uma vez, com calma, ou aceite o jeito dele. Reclamar não resolve.",
+    "hook": "O colega repete o mesmo erro.",
+    "hook2": "Ensine ou aceite. Reclamar, não."
   },
   {
     "day": 174,
@@ -2797,7 +3053,9 @@
       "#lideranca",
       "#seneca"
     ],
-    "apply": "Trate o ajudante da obra como gostaria que o diretor o tratasse. Respeito vira lealdade."
+    "apply": "Trate o ajudante da obra como gostaria que o diretor o tratasse. Respeito vira lealdade.",
+    "hook": "Na obra, o ajudante repara no seu trato.",
+    "hook2": "Trate como quer ser tratado."
   },
   {
     "day": 175,
@@ -2813,7 +3071,9 @@
       "#humildade",
       "#epicteto"
     ],
-    "apply": "Em reunião com cliente, pergunte mais e fale menos de você. Ouvir fecha mais contratos."
+    "apply": "Em reunião com cliente, pergunte mais e fale menos de você. Ouvir fecha mais contratos.",
+    "hook": "Fale menos de você na reunião com o cliente.",
+    "hook2": "Pergunte mais e escute."
   },
   {
     "day": 176,
@@ -2829,7 +3089,9 @@
       "#virtude",
       "#marcoaurelio"
     ],
-    "apply": "Entregue um bom trabalho sem esperar elogio. O resultado bem feito já fala por você."
+    "apply": "Entregue um bom trabalho sem esperar elogio. O resultado bem feito já fala por você.",
+    "hook": "O elogio pode não vir.",
+    "hook2": "O trabalho bem feito já fala."
   },
   {
     "day": 177,
@@ -2845,7 +3107,9 @@
       "#apoio",
       "#seneca"
     ],
-    "apply": "Veja quem do time está sobrecarregado e assuma uma tarefa dele hoje. Equipe é arco de apoio."
+    "apply": "Veja quem do time está sobrecarregado e assuma uma tarefa dele hoje. Equipe é arco de apoio.",
+    "hook": "Ninguém sustenta um projeto sozinho.",
+    "hook2": "Assuma hoje o peso de alguém."
   },
   {
     "day": 178,
@@ -2861,7 +3125,9 @@
       "#generosidade",
       "#365diasestoicos"
     ],
-    "apply": "Na divisão de tarefas, pegue a mais chata sem anunciar. O time lembra de quem facilita."
+    "apply": "Na divisão de tarefas, pegue a mais chata sem anunciar. O time lembra de quem facilita.",
+    "hook": "Na divisão, alguém fica com a tarefa chata.",
+    "hook2": "Pegue você, sem anunciar."
   },
   {
     "day": 179,
@@ -2877,7 +3143,9 @@
       "#fofoca",
       "#marcoaurelio"
     ],
-    "apply": "Pare de remoer o que o colega disse na reunião e volte à sua entrega de hoje."
+    "apply": "Pare de remoer o que o colega disse na reunião e volte à sua entrega de hoje.",
+    "hook": "Você ainda remói o que o colega disse.",
+    "hook2": "Sua entrega de hoje espera."
   },
   {
     "day": 180,
@@ -2895,7 +3163,9 @@
     ],
     "apply": "Depois de escolher bem o parceiro ou fornecedor, delegue de verdade e não confira cada passo.",
     "original": "post amicitiam credendum est, ante amicitiam iudicandum.",
-    "ref": "Cartas a Lucílio, 3.2"
+    "ref": "Cartas a Lucílio, 3.2",
+    "hook": "Delegou, mas confere cada passo?",
+    "hook2": "Isso ainda não é confiar."
   },
   {
     "day": 181,
@@ -2911,7 +3181,9 @@
       "#humildade",
       "#epicteto"
     ],
-    "apply": "Cargo grande ou salário alto não fazem alguém melhor. Julgue o colega pelo que entrega e pelo trato."
+    "apply": "Cargo grande ou salário alto não fazem alguém melhor. Julgue o colega pelo que entrega e pelo trato.",
+    "hook": "Cargo alto não faz ninguém melhor.",
+    "hook2": "Olhe a entrega e o trato."
   },
   {
     "day": 182,
@@ -2927,7 +3199,9 @@
       "#humanidade",
       "#marcoaurelio"
     ],
-    "apply": "Dê uma mão ao estagiário perdido, sem esperar nada. Gentileza no trabalho se multiplica."
+    "apply": "Dê uma mão ao estagiário perdido, sem esperar nada. Gentileza no trabalho se multiplica.",
+    "hook": "O estagiário está perdido.",
+    "hook2": "Dê uma mão sem esperar nada."
   },
   {
     "day": 183,
@@ -2943,7 +3217,9 @@
       "#adversidade",
       "#365diasestoicos"
     ],
-    "apply": "Carga pesada? Se dá, carregue sem reclamar. Se não dá, divida em etapas e peça apoio."
+    "apply": "Carga pesada? Se dá, carregue sem reclamar. Se não dá, divida em etapas e peça apoio.",
+    "hook": "Reclamar não tira peso da carga.",
+    "hook2": "Carregue, divida ou peça apoio."
   },
   {
     "day": 184,
@@ -2961,7 +3237,9 @@
     ],
     "apply": "Separe o problema real do que só existe na sua cabeça e aja apenas sobre o real.",
     "original": "Plus dolet quam necesse est qui ante dolet quam necesse est.",
-    "ref": "Cartas a Lucílio, 98.8"
+    "ref": "Cartas a Lucílio, 98.8",
+    "hook": "Parte do problema só existe na sua cabeça.",
+    "hook2": "Aja apenas sobre o real."
   },
   {
     "day": 185,
@@ -2977,7 +3255,9 @@
       "#carater",
       "#adversidade"
     ],
-    "apply": "O imprevisto na obra mostra o líder que você é. Mantenha a calma e decida por passos."
+    "apply": "O imprevisto na obra mostra o líder que você é. Mantenha a calma e decida por passos.",
+    "hook": "Liderar em dia calmo é fácil.",
+    "hook2": "O imprevisto mostra quem você é."
   },
   {
     "day": 186,
@@ -2993,7 +3273,9 @@
       "#autodominio",
       "#365diasestoicos"
     ],
-    "apply": "Em crise no projeto, fale baixo, ouça e resolva um ponto de cada vez. Firmeza não precisa de grito."
+    "apply": "Em crise no projeto, fale baixo, ouça e resolva um ponto de cada vez. Firmeza não precisa de grito.",
+    "hook": "Crise no projeto não se resolve no grito.",
+    "hook2": "Fale baixo. Um ponto por vez."
   },
   {
     "day": 187,
@@ -3009,7 +3291,9 @@
       "#crescimento",
       "#adversidade"
     ],
-    "apply": "Lembre da crise que você superou no trabalho e do que ela ensinou. Isso sustenta você hoje."
+    "apply": "Lembre da crise que você superou no trabalho e do que ela ensinou. Isso sustenta você hoje.",
+    "hook": "Você já superou uma crise no trabalho.",
+    "hook2": "Ela ainda sustenta você."
   },
   {
     "day": 188,
@@ -3025,7 +3309,9 @@
       "#proposito",
       "#dever"
     ],
-    "apply": "Cargo pequeno ou grande, faça bem o seu papel. Capricho se nota, em qualquer função."
+    "apply": "Cargo pequeno ou grande, faça bem o seu papel. Capricho se nota, em qualquer função.",
+    "hook": "Cargo pequeno ou cargo grande.",
+    "hook2": "O capricho aparece nos dois."
   },
   {
     "day": 189,
@@ -3041,7 +3327,9 @@
       "#dor",
       "#resiliencia"
     ],
-    "apply": "Num dia ruim de trabalho, descreva só os fatos, sem dramatizar. A situação costuma ser mais leve."
+    "apply": "Num dia ruim de trabalho, descreva só os fatos, sem dramatizar. A situação costuma ser mais leve.",
+    "hook": "Dia ruim de trabalho.",
+    "hook2": "Descreva os fatos, sem o drama."
   },
   {
     "day": 190,
@@ -3057,7 +3345,9 @@
       "#superacao",
       "#365diasestoicos"
     ],
-    "apply": "Semana pesada de entrega? Ela acaba. Siga o plano por mais um dia e pare de contar o que falta."
+    "apply": "Semana pesada de entrega? Ela acaba. Siga o plano por mais um dia e pare de contar o que falta.",
+    "hook": "A semana pesada de entrega tem fim.",
+    "hook2": "Siga o plano por mais um dia."
   },
   {
     "day": 191,
@@ -3073,7 +3363,9 @@
       "#disciplina",
       "#resiliencia"
     ],
-    "apply": "Faça hoje o trabalho pesado que você adia, como a medição ou a revisão. Conforto não gera resultado."
+    "apply": "Faça hoje o trabalho pesado que você adia, como a medição ou a revisão. Conforto não gera resultado.",
+    "hook": "Nenhuma tarefa pesada fica confortável.",
+    "hook2": "Faça hoje, mesmo assim."
   },
   {
     "day": 192,
@@ -3089,7 +3381,9 @@
       "#aceitacao",
       "#365diasestoicos"
     ],
-    "apply": "O que já aconteceu no projeto não muda. Gaste a energia escolhendo a melhor resposta daqui em diante."
+    "apply": "O que já aconteceu no projeto não muda. Gaste a energia escolhendo a melhor resposta daqui em diante.",
+    "hook": "O que já aconteceu no projeto não muda.",
+    "hook2": "A sua resposta, sim."
   },
   {
     "day": 193,
@@ -3105,7 +3399,9 @@
       "#virtude",
       "#365diasestoicos"
     ],
-    "apply": "Pegue hoje o problema chato da obra que todos empurram. É assim que a equipe ganha firmeza."
+    "apply": "Pegue hoje o problema chato da obra que todos empurram. É assim que a equipe ganha firmeza.",
+    "hook": "Todo mundo empurra o problema chato da obra.",
+    "hook2": "É ele que dá firmeza à equipe."
   },
   {
     "day": 194,
@@ -3121,7 +3417,9 @@
       "#serenidade",
       "#365diasestoicos"
     ],
-    "apply": "Cliente aflito precisa de escuta, não de contágio. Ouça, acolha e responda com calma e um plano."
+    "apply": "Cliente aflito precisa de escuta, não de contágio. Ouça, acolha e responda com calma e um plano.",
+    "hook": "Cliente aflito precisa de escuta.",
+    "hook2": "E de alguém que siga calmo."
   },
   {
     "day": 195,
@@ -3137,7 +3435,9 @@
       "#resiliencia",
       "#serenidade"
     ],
-    "apply": "O erro na obra já aconteceu. Em vez de buscar culpado, decida o próximo passo e conduza a equipe."
+    "apply": "O erro na obra já aconteceu. Em vez de buscar culpado, decida o próximo passo e conduza a equipe.",
+    "hook": "Procurar culpado não conserta a obra.",
+    "hook2": "Decida o próximo passo."
   },
   {
     "day": 196,
@@ -3153,7 +3453,9 @@
       "#coragem",
       "#adversidade"
     ],
-    "apply": "Encare o prazo apertado como a hora de usar o que o time treinou. Entre na reunião com ânimo."
+    "apply": "Encare o prazo apertado como a hora de usar o que o time treinou. Entre na reunião com ânimo.",
+    "hook": "Prazo apertado é a hora do treino servir.",
+    "hook2": "Entre na reunião com ânimo."
   },
   {
     "day": 197,
@@ -3169,7 +3471,9 @@
       "#perspectiva",
       "#365diasestoicos"
     ],
-    "apply": "Ao receber uma reclamação do cliente, anote o que ela ensina sobre seu processo e ajuste."
+    "apply": "Ao receber uma reclamação do cliente, anote o que ela ensina sobre seu processo e ajuste.",
+    "hook": "A reclamação do cliente tem uma lição.",
+    "hook2": "Anote e ajuste o processo."
   },
   {
     "day": 198,
@@ -3185,7 +3489,9 @@
       "#mentalidade",
       "#resiliencia"
     ],
-    "apply": "Chefe devolveu o projeto cheio de críticas? Extraia três melhorias e use na próxima revisão."
+    "apply": "Chefe devolveu o projeto cheio de críticas? Extraia três melhorias e use na próxima revisão.",
+    "hook": "O projeto voltou cheio de críticas.",
+    "hook2": "Tire dali três melhorias."
   },
   {
     "day": 199,
@@ -3203,7 +3509,9 @@
     ],
     "apply": "Em dia de pressão, a equipe observa você. Reaja como gostaria que seus liderados reagissem.",
     "original": "ecce spectaculum dignum ad quod respiciat intentus operi suo deus, ecce par deo dignum, vir fortis cum mala fortuna compositus",
-    "ref": "Sobre a Providência, II.9"
+    "ref": "Sobre a Providência, II.9",
+    "hook": "Em dia de pressão, a equipe observa você.",
+    "hook2": "Reaja como quer que ela reaja."
   },
   {
     "day": 200,
@@ -3219,7 +3527,9 @@
       "#desapego",
       "#perdas"
     ],
-    "apply": "Fornecedor atrasa, máquina quebra, plano muda. Tenha uma alternativa pronta e evite o susto."
+    "apply": "Fornecedor atrasa, máquina quebra, plano muda. Tenha uma alternativa pronta e evite o susto.",
+    "hook": "Fornecedor atrasa, máquina quebra.",
+    "hook2": "Tenha uma alternativa pronta."
   },
   {
     "day": 201,
@@ -3235,7 +3545,9 @@
       "#preparacao",
       "#resiliencia"
     ],
-    "apply": "Não monte a agenda como coreografia. Deixe folga para o imprevisto e responda sem drama."
+    "apply": "Não monte a agenda como coreografia. Deixe folga para o imprevisto e responda sem drama.",
+    "hook": "Sua agenda não é uma coreografia.",
+    "hook2": "Deixe folga para o imprevisto."
   },
   {
     "day": 202,
@@ -3251,7 +3563,9 @@
       "#luto",
       "#emocoes"
     ],
-    "apply": "Levou uma bronca injusta? Desabafe com alguém de confiança e volte à tarefa antes do fim do dia."
+    "apply": "Levou uma bronca injusta? Desabafe com alguém de confiança e volte à tarefa antes do fim do dia.",
+    "hook": "A bronca injusta dói, e pode doer.",
+    "hook2": "Desabafe e volte à tarefa."
   },
   {
     "day": 203,
@@ -3269,7 +3583,9 @@
     ],
     "apply": "Se a entrega falhar, pergunte que habilidade ela pede de você. Registre o aprendizado e siga.",
     "original": "Ὡσπερ σκοπὸς πρὸς τὸ ἀποτυχεῖν οὐ τίθεται, οὕτως οὐδὲ κακοῦ φύσις ἐν κόσμῳ γίνεται.",
-    "ref": "Manual, 27"
+    "ref": "Manual, 27",
+    "hook": "Quando a entrega falhar, não é sentença.",
+    "hook2": "Que habilidade ela pede de você?"
   },
   {
     "day": 204,
@@ -3285,7 +3601,9 @@
       "#integridade",
       "#365diasestoicos"
     ],
-    "apply": "Cliente pediu um atalho que quebra o combinado? Recuse com educação e mantenha a palavra."
+    "apply": "Cliente pediu um atalho que quebra o combinado? Recuse com educação e mantenha a palavra.",
+    "hook": "O cliente pediu um atalho fora do combinado.",
+    "hook2": "Recuse com educação."
   },
   {
     "day": 205,
@@ -3301,7 +3619,9 @@
       "#fortuna",
       "#365diasestoicos"
     ],
-    "apply": "Perdeu o cliente ou a concorrência? Liste o que resta em suas mãos e comece pelo próximo passo."
+    "apply": "Perdeu o cliente ou a concorrência? Liste o que resta em suas mãos e comece pelo próximo passo.",
+    "hook": "Perdeu o cliente ou a concorrência.",
+    "hook2": "Liste o que ainda está na sua mão."
   },
   {
     "day": 206,
@@ -3317,7 +3637,9 @@
       "#desafios",
       "#coragem"
     ],
-    "apply": "Aquele cliente difícil ou a tarefa pesada é seu treino. Enfrente hoje, sem reclamar na copa."
+    "apply": "Aquele cliente difícil ou a tarefa pesada é seu treino. Enfrente hoje, sem reclamar na copa.",
+    "hook": "O cliente difícil não é o seu azar.",
+    "hook2": "É o seu treino."
   },
   {
     "day": 207,
@@ -3333,7 +3655,9 @@
       "#integridade",
       "#carater"
     ],
-    "apply": "Antes de enviar o relatório ou prometer o prazo, confira: é correto e é verdade?"
+    "apply": "Antes de enviar o relatório ou prometer o prazo, confira: é correto e é verdade?",
+    "hook": "Antes de prometer o prazo, duas perguntas.",
+    "hook2": "É correto? É verdade?"
   },
   {
     "day": 208,
@@ -3351,7 +3675,9 @@
     ],
     "apply": "Cobrança forte e prazo curto criam profissionais firmes. Use a fase dura para aprender.",
     "original": "non est arbor solida nec fortis nisi in quam frequens ventus incursat",
-    "ref": "Sobre a Providência, IV.16"
+    "ref": "Sobre a Providência, IV.16",
+    "hook": "Prazo curto e cobrança forte.",
+    "hook2": "É assim que a raiz desce."
   },
   {
     "day": 209,
@@ -3367,7 +3693,9 @@
       "#autocontrole",
       "#365diasestoicos"
     ],
-    "apply": "Colega provocou na reunião? Respire, responda ao assunto e não entregue seu humor a ele."
+    "apply": "Colega provocou na reunião? Respire, responda ao assunto e não entregue seu humor a ele.",
+    "hook": "O colega provocou na reunião.",
+    "hook2": "O seu humor continua seu."
   },
   {
     "day": 210,
@@ -3383,7 +3711,9 @@
       "#resiliencia",
       "#365diasestoicos"
     ],
-    "apply": "Teve atrito com um colega? Dê o primeiro passo hoje: um café ou uma mensagem simples basta."
+    "apply": "Teve atrito com um colega? Dê o primeiro passo hoje: um café ou uma mensagem simples basta.",
+    "hook": "Aquele atrito antigo com o colega.",
+    "hook2": "Um café já resolve o começo."
   },
   {
     "day": 211,
@@ -3399,7 +3729,9 @@
       "#saudade",
       "#gratidao"
     ],
-    "apply": "Lembre do antigo chefe ou mestre que ensinou o ofício a você e use algo dele no trabalho de hoje."
+    "apply": "Lembre do antigo chefe ou mestre que ensinou o ofício a você e use algo dele no trabalho de hoje.",
+    "hook": "A saudade de quem ensinou você.",
+    "hook2": "Ela também é gratidão."
   },
   {
     "day": 212,
@@ -3415,7 +3747,9 @@
       "#virtude",
       "#365diasestoicos"
     ],
-    "apply": "Meça o dia pelo que entregou com correção, não pelo elogio do chefe nem pelo conforto."
+    "apply": "Meça o dia pelo que entregou com correção, não pelo elogio do chefe nem pelo conforto.",
+    "hook": "O elogio do chefe não mede o seu dia.",
+    "hook2": "A sua entrega mede."
   },
   {
     "day": 213,
@@ -3433,7 +3767,9 @@
     ],
     "apply": "Perder uma promoção dói, mas o pior é perder a integridade. Proteja a honestidade nas medições.",
     "original": "Nihil accidere bono viro mali potest.",
-    "ref": "Sobre a Providência, II.1"
+    "ref": "Sobre a Providência, II.1",
+    "hook": "Perder a promoção dói.",
+    "hook2": "Perder a integridade custa mais."
   },
   {
     "day": 214,
@@ -3449,7 +3785,9 @@
       "#desejo",
       "#365diasestoicos"
     ],
-    "apply": "Antes de pedir mais estrutura ou outro cargo, veja se é necessidade real ou só desejo."
+    "apply": "Antes de pedir mais estrutura ou outro cargo, veja se é necessidade real ou só desejo.",
+    "hook": "Antes de pedir outro cargo, confira.",
+    "hook2": "É necessidade ou só desejo?"
   },
   {
     "day": 215,
@@ -3465,7 +3803,9 @@
       "#carater",
       "#365diasestoicos"
     ],
-    "apply": "Perdeu um contrato por não ceder no que era errado? Conte como troca: você ficou com a reputação."
+    "apply": "Perdeu um contrato por não ceder no que era errado? Conte como troca: você ficou com a reputação.",
+    "hook": "Perdeu o contrato por não ceder no errado.",
+    "hook2": "Não foi perda. Foi troca."
   },
   {
     "day": 216,
@@ -3481,7 +3821,9 @@
       "#gratidao",
       "#contentamento"
     ],
-    "apply": "Antes de reclamar do emprego, liste o que ele dá: aprendizado, renda, equipe. Valorize isso."
+    "apply": "Antes de reclamar do emprego, liste o que ele dá: aprendizado, renda, equipe. Valorize isso.",
+    "hook": "Antes de reclamar do emprego, faça a lista.",
+    "hook2": "Veja o que ele já entrega a você."
   },
   {
     "day": 217,
@@ -3497,7 +3839,9 @@
       "#natureza",
       "#365diasestoicos"
     ],
-    "apply": "Que ferramenta ou reunião você chama de indispensável? Corte uma hoje e veja se faz falta."
+    "apply": "Que ferramenta ou reunião você chama de indispensável? Corte uma hoje e veja se faz falta.",
+    "hook": "A reunião que você chama de indispensável.",
+    "hook2": "Corte uma e veja se faz falta."
   },
   {
     "day": 218,
@@ -3513,7 +3857,9 @@
       "#liberdade",
       "#365diasestoicos"
     ],
-    "apply": "Fez uma melhoria no processo? Aplique em silêncio e deixe o resultado aparecer sozinho."
+    "apply": "Fez uma melhoria no processo? Aplique em silêncio e deixe o resultado aparecer sozinho.",
+    "hook": "Melhorou o processo.",
+    "hook2": "Deixe o resultado contar."
   },
   {
     "day": 219,
@@ -3529,7 +3875,9 @@
       "#luxo",
       "#perspectiva"
     ],
-    "apply": "Diante de uma proposta brilhante, descreva-a só com fatos e números antes de dizer sim."
+    "apply": "Diante de uma proposta brilhante, descreva-a só com fatos e números antes de dizer sim.",
+    "hook": "A proposta brilhante chegou à sua mesa.",
+    "hook2": "Descreva só os fatos e os números."
   },
   {
     "day": 220,
@@ -3545,7 +3893,9 @@
       "#prazer",
       "#virtude"
     ],
-    "apply": "Antes de aceitar a tarefa que só traz prestígio, pergunte se ela serve ao profissional que quer ser."
+    "apply": "Antes de aceitar a tarefa que só traz prestígio, pergunte se ela serve ao profissional que quer ser.",
+    "hook": "Nem toda tarefa de prestígio serve a você.",
+    "hook2": "Pergunte quem você quer ser."
   },
   {
     "day": 221,
@@ -3561,7 +3911,9 @@
       "#clareza",
       "#calma"
     ],
-    "apply": "Com um e-mail irritante na tela, espere dez minutos antes de responder."
+    "apply": "Com um e-mail irritante na tela, espere dez minutos antes de responder.",
+    "hook": "E-mail irritante na tela.",
+    "hook2": "Espere dez minutos para responder."
   },
   {
     "day": 222,
@@ -3577,7 +3929,9 @@
       "#contentamento",
       "#presente"
     ],
-    "apply": "Sem esperar o cenário ideal, aja com calma e justiça no escritório ou na obra que já tem."
+    "apply": "Sem esperar o cenário ideal, aja com calma e justiça no escritório ou na obra que já tem.",
+    "hook": "Não espere o cenário ideal para agir bem.",
+    "hook2": "Comece no escritório que já tem."
   },
   {
     "day": 223,
@@ -3593,7 +3947,9 @@
       "#sabedoria",
       "#365diasestoicos"
     ],
-    "apply": "O bônus manda em você ou você nele? Evite decidir no trabalho só por dinheiro ou vaidade."
+    "apply": "O bônus manda em você ou você nele? Evite decidir no trabalho só por dinheiro ou vaidade.",
+    "hook": "O bônus trabalha para você.",
+    "hook2": "Ou é você que trabalha para ele?"
   },
   {
     "day": 224,
@@ -3611,7 +3967,9 @@
     ],
     "apply": "Defina o suficiente: quantas horas, quantos projetos, qual meta. Pare ali e entregue bem.",
     "original": "Μέτρον κτήσεως τὸ σῶμα ἑκάστῳ ὡς ὁ ποὺς ὑποδήματος.",
-    "ref": "Manual, 39"
+    "ref": "Manual, 39",
+    "hook": "Defina o que é suficiente no trabalho.",
+    "hook2": "Pare ali e entregue bem."
   },
   {
     "day": 225,
@@ -3627,7 +3985,9 @@
       "#disciplina",
       "#prazer"
     ],
-    "apply": "Comece pela tarefa que o conforto adiaria. O dia rende quando a primeira entrega vem cedo."
+    "apply": "Comece pela tarefa que o conforto adiaria. O dia rende quando a primeira entrega vem cedo.",
+    "hook": "A tarefa que o conforto quer adiar.",
+    "hook2": "Comece o dia por ela."
   },
   {
     "day": 226,
@@ -3643,7 +4003,9 @@
       "#riqueza",
       "#desapego"
     ],
-    "apply": "Se seu humor sobe e desce com bônus e cargo, lembre: seu valor profissional vai além do contracheque."
+    "apply": "Se seu humor sobe e desce com bônus e cargo, lembre: seu valor profissional vai além do contracheque.",
+    "hook": "Se o seu humor depende do contracheque.",
+    "hook2": "Seu valor vai além dele."
   },
   {
     "day": 227,
@@ -3659,7 +4021,9 @@
       "#gratidao",
       "#contentamento"
     ],
-    "apply": "Antes de reclamar do chefe ou da obra, cite em voz alta três coisas boas do seu trabalho."
+    "apply": "Antes de reclamar do chefe ou da obra, cite em voz alta três coisas boas do seu trabalho.",
+    "hook": "Antes de reclamar do chefe, pare.",
+    "hook2": "Cite três coisas boas do trabalho."
   },
   {
     "day": 228,
@@ -3675,7 +4039,9 @@
       "#contentamento",
       "#aceitacao"
     ],
-    "apply": "Aquele projeto que você rejeita já está na sua mesa. Pergunte o que dá para fazer bem nele."
+    "apply": "Aquele projeto que você rejeita já está na sua mesa. Pergunte o que dá para fazer bem nele.",
+    "hook": "O projeto que você rejeita já está na mesa.",
+    "hook2": "O que dá para fazer bem nele?"
   },
   {
     "day": 229,
@@ -3693,7 +4059,9 @@
     ],
     "apply": "Liste o que o projeto exige de fato e o que é capricho. Corte um item do segundo grupo hoje.",
     "original": "Non esurire, non sitire, non algere.",
-    "ref": "Cartas a Lucílio, 4.10"
+    "ref": "Cartas a Lucílio, 4.10",
+    "hook": "O que o projeto exige e o que é capricho.",
+    "hook2": "Corte um capricho hoje."
   },
   {
     "day": 230,
@@ -3709,7 +4077,9 @@
       "#riqueza",
       "#carater"
     ],
-    "apply": "Não julgue colega por cargo ou salário. Avalie como ele trata a equipe e cumpre o combinado."
+    "apply": "Não julgue colega por cargo ou salário. Avalie como ele trata a equipe e cumpre o combinado.",
+    "hook": "Cargo e salário não dizem quem o colega é.",
+    "hook2": "Veja como ele trata a equipe."
   },
   {
     "day": 231,
@@ -3725,7 +4095,9 @@
       "#fama",
       "#humildade"
     ],
-    "apply": "Confira uma medição ou revise um relatório que ninguém vai checar. Faça certo sem plateia."
+    "apply": "Confira uma medição ou revise um relatório que ninguém vai checar. Faça certo sem plateia.",
+    "hook": "Ninguém vai checar aquele relatório.",
+    "hook2": "Revise mesmo assim."
   },
   {
     "day": 232,
@@ -3741,7 +4113,9 @@
       "#fama",
       "#virtude"
     ],
-    "apply": "Capriche na qualidade da entrega e deixe o reconhecimento chegar sozinho, como consequência."
+    "apply": "Capriche na qualidade da entrega e deixe o reconhecimento chegar sozinho, como consequência.",
+    "hook": "Reconhecimento não se persegue.",
+    "hook2": "Ele acompanha a boa entrega."
   },
   {
     "day": 233,
@@ -3757,7 +4131,9 @@
       "#ego",
       "#humildade"
     ],
-    "apply": "Cargo e sobrenome não provam nada. Mostre sua competência no resultado do dia."
+    "apply": "Cargo e sobrenome não provam nada. Mostre sua competência no resultado do dia.",
+    "hook": "O crachá não prova sua competência.",
+    "hook2": "O resultado do dia prova."
   },
   {
     "day": 234,
@@ -3773,7 +4149,9 @@
       "#opiniao",
       "#autenticidade"
     ],
-    "apply": "Antes de decidir, anote o que você acha. Só depois pese o que chefe e colegas pensariam."
+    "apply": "Antes de decidir, anote o que você acha. Só depois pese o que chefe e colegas pensariam.",
+    "hook": "Você decide pensando no que vão achar.",
+    "hook2": "Anote antes o que você acha."
   },
   {
     "day": 235,
@@ -3789,7 +4167,9 @@
       "#prazer",
       "#365diasestoicos"
     ],
-    "apply": "Um trabalho bem fechado dá mais alegria que o elogio. Procure essa satisfação hoje."
+    "apply": "Um trabalho bem fechado dá mais alegria que o elogio. Procure essa satisfação hoje.",
+    "hook": "Elogio passa rápido.",
+    "hook2": "O trabalho bem fechado fica."
   },
   {
     "day": 236,
@@ -3805,7 +4185,9 @@
       "#reconhecimento",
       "#humildade"
     ],
-    "apply": "Ninguém notou sua entrega? Trabalhe bem do mesmo jeito. Seu padrão não depende de aplauso."
+    "apply": "Ninguém notou sua entrega? Trabalhe bem do mesmo jeito. Seu padrão não depende de aplauso.",
+    "hook": "Ninguém notou a sua entrega.",
+    "hook2": "O seu padrão não depende disso."
   },
   {
     "day": 237,
@@ -3821,7 +4203,9 @@
       "#valor",
       "#humildade"
     ],
-    "apply": "Fez um bom serviço? Não precisa de elogio para saber. Entregue e siga para o próximo."
+    "apply": "Fez um bom serviço? Não precisa de elogio para saber. Entregue e siga para o próximo.",
+    "hook": "Um bom serviço dispensa elogio.",
+    "hook2": "Entregue e siga para o próximo."
   },
   {
     "day": 238,
@@ -3837,7 +4221,9 @@
       "#frugalidade",
       "#liberdade"
     ],
-    "apply": "Cancele uma reunião ou tarefa que só enche a agenda e use o tempo para pensar no que importa."
+    "apply": "Cancele uma reunião ou tarefa que só enche a agenda e use o tempo para pensar no que importa.",
+    "hook": "A agenda cheia não deixa você pensar.",
+    "hook2": "Cancele uma reunião hoje."
   },
   {
     "day": 239,
@@ -3853,7 +4239,9 @@
       "#controle",
       "#serenidade"
     ],
-    "apply": "Antes de entrar em uma discussão, pergunte: o resultado depende de mim? Se não, siga em frente."
+    "apply": "Antes de entrar em uma discussão, pergunte: o resultado depende de mim? Se não, siga em frente.",
+    "hook": "Nem toda discussão merece a sua energia.",
+    "hook2": "O resultado depende de você?"
   },
   {
     "day": 240,
@@ -3869,7 +4257,9 @@
       "#disciplina",
       "#365diasestoicos"
     ],
-    "apply": "Divida a tarefa maior em partes e faça uma por vez. Se a discussão chegar, siga no que começou."
+    "apply": "Divida a tarefa maior em partes e faça uma por vez. Se a discussão chegar, siga no que começou.",
+    "hook": "A tarefa grande assusta inteira.",
+    "hook2": "Faça uma parte de cada vez."
   },
   {
     "day": 241,
@@ -3885,7 +4275,9 @@
       "#desapego",
       "#minimalismo"
     ],
-    "apply": "Antes de assumir mais um projeto, veja o peso que ele traz junto. Nem todo ganho compensa."
+    "apply": "Antes de assumir mais um projeto, veja o peso que ele traz junto. Nem todo ganho compensa.",
+    "hook": "Mais um projeto, mais um peso.",
+    "hook2": "Nem todo ganho compensa."
   },
   {
     "day": 242,
@@ -3901,7 +4293,9 @@
       "#gratidao",
       "#365diasestoicos"
     ],
-    "apply": "Cargo, sala e equipe são emprestados. Trabalhe como quem cuida do que vai passar a outro."
+    "apply": "Cargo, sala e equipe são emprestados. Trabalhe como quem cuida do que vai passar a outro.",
+    "hook": "Cargo, sala e equipe são emprestados.",
+    "hook2": "Cuide como quem vai devolver."
   },
   {
     "day": 243,
@@ -3917,7 +4311,9 @@
       "#liberdade",
       "#autonomia"
     ],
-    "apply": "Não depender do elogio do chefe é liberdade. Dê hoje uma opinião honesta sem medo da reação."
+    "apply": "Não depender do elogio do chefe é liberdade. Dê hoje uma opinião honesta sem medo da reação.",
+    "hook": "Você não precisa do elogio do chefe.",
+    "hook2": "Dê hoje a sua opinião honesta."
   },
   {
     "day": 244,
@@ -3933,7 +4329,9 @@
       "#autoconhecimento",
       "#examedeconsciencia"
     ],
-    "apply": "No fim do expediente, anote um erro, uma resistência e uma melhoria. Planeje o ajuste de amanhã."
+    "apply": "No fim do expediente, anote um erro, uma resistência e uma melhoria. Planeje o ajuste de amanhã.",
+    "hook": "Três anotações no fim do expediente.",
+    "hook2": "Erro, resistência e melhoria."
   },
   {
     "day": 245,
@@ -3949,7 +4347,9 @@
       "#verdade",
       "#humildade"
     ],
-    "apply": "Recebeu feedback duro? Ouça até o fim, sem justificar, e pergunte o que há de verdadeiro nele."
+    "apply": "Recebeu feedback duro? Ouça até o fim, sem justificar, e pergunte o que há de verdadeiro nele.",
+    "hook": "O feedback duro chegou.",
+    "hook2": "Ouça até o fim, sem se justificar."
   },
   {
     "day": 246,
@@ -3965,7 +4365,9 @@
       "#autoconhecimento",
       "#365diasestoicos"
     ],
-    "apply": "Antes de fechar uma decisão, revise o raciocínio: que dados ele usa e o que deixou de fora?"
+    "apply": "Antes de fechar uma decisão, revise o raciocínio: que dados ele usa e o que deixou de fora?",
+    "hook": "Antes de fechar a decisão, revise.",
+    "hook2": "O que o raciocínio deixou de fora?"
   },
   {
     "day": 247,
@@ -3981,7 +4383,9 @@
       "#reflexao",
       "#autoconhecimento"
     ],
-    "apply": "Ao fim do dia, revise reuniões e entregas com franqueza. Ajuste o que falhou sem se condenar."
+    "apply": "Ao fim do dia, revise reuniões e entregas com franqueza. Ajuste o que falhou sem se condenar.",
+    "hook": "Revise o dia com franqueza.",
+    "hook2": "Corrija sem se condenar."
   },
   {
     "day": 248,
@@ -3997,7 +4401,9 @@
       "#filosofiaprática",
       "#365diasestoicos"
     ],
-    "apply": "No pico da pressão, note se vem revolta, exagero ou fingimento. Nomeie e só então responda."
+    "apply": "No pico da pressão, note se vem revolta, exagero ou fingimento. Nomeie e só então responda.",
+    "hook": "No pico da pressão, observe o que vem.",
+    "hook2": "Dê nome antes de responder."
   },
   {
     "day": 249,
@@ -4013,7 +4419,9 @@
       "#aprendizado",
       "#humildade"
     ],
-    "apply": "Peça a alguém de outra área a opinião sobre seu projeto. Ouça sem ter resposta pronta."
+    "apply": "Peça a alguém de outra área a opinião sobre seu projeto. Ouça sem ter resposta pronta.",
+    "hook": "Você já tem certeza sobre o seu projeto.",
+    "hook2": "Peça a opinião de outra área."
   },
   {
     "day": 250,
@@ -4031,7 +4439,9 @@
     ],
     "apply": "Pratique paciência na próxima reunião tensa. Pequenas repetições mudam seu jeito de trabalhar.",
     "original": "Intellego, Lucili, non emendari me tantum, sed transfigurari.",
-    "ref": "Cartas a Lucílio, 6.1"
+    "ref": "Cartas a Lucílio, 6.1",
+    "hook": "Paciência se treina em reunião tensa.",
+    "hook2": "Uma repetição de cada vez."
   },
   {
     "day": 251,
@@ -4047,7 +4457,9 @@
       "#foco",
       "#365diasestoicos"
     ],
-    "apply": "Feche e-mail e mensagens por uma hora e use esse tempo no que realmente move o projeto."
+    "apply": "Feche e-mail e mensagens por uma hora e use esse tempo no que realmente move o projeto.",
+    "hook": "Uma hora sem e-mail e sem mensagens.",
+    "hook2": "Use no que move o projeto."
   },
   {
     "day": 252,
@@ -4065,7 +4477,9 @@
     ],
     "apply": "Antes da visita à obra ou da reunião, imagine atraso e ruído. Decida agora manter a calma.",
     "original": "Ὅταν ἅπτεσθαί τινος ἔργου μέλλῃς, ὑπομίμνῃσκε σεαυτόν, ὁποῖόν ἐστι τὸ ἔργον.",
-    "ref": "Manual, 4"
+    "ref": "Manual, 4",
+    "hook": "A visita à obra vai ter atraso e ruído.",
+    "hook2": "Decida a calma antes de sair."
   },
   {
     "day": 253,
@@ -4081,7 +4495,9 @@
       "#aprendizado",
       "#sabedoria"
     ],
-    "apply": "Depois de cada entrega, anote uma lição. Quem aprende com o trabalho evolui em qualquer cargo."
+    "apply": "Depois de cada entrega, anote uma lição. Quem aprende com o trabalho evolui em qualquer cargo.",
+    "hook": "Cada entrega ensina alguma coisa.",
+    "hook2": "Anote uma lição ao terminar."
   },
   {
     "day": 254,
@@ -4097,7 +4513,9 @@
       "#filosofiaprática",
       "#365diasestoicos"
     ],
-    "apply": "Não venda sua ética em apresentação. Cumpra o combinado e o time percebe sozinho."
+    "apply": "Não venda sua ética em apresentação. Cumpra o combinado e o time percebe sozinho.",
+    "hook": "Ética não se vende em apresentação.",
+    "hook2": "Cumpra o combinado. O time nota."
   },
   {
     "day": 255,
@@ -4113,7 +4531,9 @@
       "#autoconhecimento",
       "#365diasestoicos"
     ],
-    "apply": "Treine dizer não em pedidos pequenos antes de enfrentar o cliente mais forte."
+    "apply": "Treine dizer não em pedidos pequenos antes de enfrentar o cliente mais forte.",
+    "hook": "O não ao cliente mais forte se treina.",
+    "hook2": "Comece pelos pedidos pequenos."
   },
   {
     "day": 256,
@@ -4129,7 +4549,9 @@
       "#estudo",
       "#aprendizado"
     ],
-    "apply": "Explique a um novato como funciona uma tarefa sua. Ensinar revela o que você ainda não domina."
+    "apply": "Explique a um novato como funciona uma tarefa sua. Ensinar revela o que você ainda não domina.",
+    "hook": "Explique sua tarefa a um novato.",
+    "hook2": "Você descobre o que não domina."
   },
   {
     "day": 257,
@@ -4145,7 +4567,9 @@
       "#clareza",
       "#mente"
     ],
-    "apply": "Quando um e-mail irritar, descreva só os fatos em uma frase: quem pediu, o quê, até quando."
+    "apply": "Quando um e-mail irritar, descreva só os fatos em uma frase: quem pediu, o quê, até quando.",
+    "hook": "Tire o tom do e-mail que irritou.",
+    "hook2": "Quem pediu, o quê, até quando."
   },
   {
     "day": 258,
@@ -4161,7 +4585,9 @@
       "#autoexame",
       "#365diasestoicos"
     ],
-    "apply": "Colega errou? Pergunte que objetivo ele buscava. Entender a lógica corrige mais que o sermão."
+    "apply": "Colega errou? Pergunte que objetivo ele buscava. Entender a lógica corrige mais que o sermão.",
+    "hook": "O colega errou tentando acertar.",
+    "hook2": "Pergunte o que ele buscava."
   },
   {
     "day": 259,
@@ -4177,7 +4603,9 @@
       "#sabedoria",
       "#365diasestoicos"
     ],
-    "apply": "Aplique uma ideia estoica em uma situação real do trabalho, como um feedback ou imprevisto."
+    "apply": "Aplique uma ideia estoica em uma situação real do trabalho, como um feedback ou imprevisto.",
+    "hook": "Estoicismo que fica na leitura é enfeite.",
+    "hook2": "Aplique uma ideia hoje."
   },
   {
     "day": 260,
@@ -4193,7 +4621,9 @@
       "#virtude",
       "#365diasestoicos"
     ],
-    "apply": "A falha do colega irrita? Corrija hoje um hábito seu, como atraso ou resposta seca."
+    "apply": "A falha do colega irrita? Corrija hoje um hábito seu, como atraso ou resposta seca.",
+    "hook": "A falha do colega irrita você.",
+    "hook2": "Corrija hoje um hábito seu."
   },
   {
     "day": 261,
@@ -4211,7 +4641,9 @@
     ],
     "apply": "Peça a alguém franco que critique seu último projeto. Fique com o desconforto antes de se defender.",
     "original": "Ἰατρεῖόν ἐστιν τὸ τοῦ φιλοσόφου σχολεῖον.",
-    "ref": "Discursos, III.23.30"
+    "ref": "Discursos, III.23.30",
+    "hook": "Peça uma crítica franca ao seu projeto.",
+    "hook2": "Fique com o desconforto primeiro."
   },
   {
     "day": 262,
@@ -4227,7 +4659,9 @@
       "#estudo",
       "#aplicacao"
     ],
-    "apply": "Depois de um curso ou treinamento, transforme o que aprendeu em uma mudança concreta na rotina."
+    "apply": "Depois de um curso ou treinamento, transforme o que aprendeu em uma mudança concreta na rotina.",
+    "hook": "O curso acabou e a rotina segue igual.",
+    "hook2": "Transforme a aula em uma mudança."
   },
   {
     "day": 263,
@@ -4243,7 +4677,9 @@
       "#pratica",
       "#estudo"
     ],
-    "apply": "Em vez de mais um curso, aplique algo que você já sabe no projeto desta semana."
+    "apply": "Em vez de mais um curso, aplique algo que você já sabe no projeto desta semana.",
+    "hook": "Você não precisa de mais um curso.",
+    "hook2": "Aplique o que já sabe."
   },
   {
     "day": 264,
@@ -4259,7 +4695,9 @@
       "#sabedoria",
       "#365diasestoicos"
     ],
-    "apply": "Antes de apresentar ao cliente, defina como sucesso ter preparado bem. Depois, solte o resultado."
+    "apply": "Antes de apresentar ao cliente, defina como sucesso ter preparado bem. Depois, solte o resultado.",
+    "hook": "A resposta do cliente não depende de você.",
+    "hook2": "A preparação depende."
   },
   {
     "day": 265,
@@ -4275,7 +4713,9 @@
       "#paz",
       "#365diasestoicos"
     ],
-    "apply": "Não espere trocar de empresa para ter paz. Mude hoje sua atitude diante de uma tensão da equipe."
+    "apply": "Não espere trocar de empresa para ter paz. Mude hoje sua atitude diante de uma tensão da equipe.",
+    "hook": "Trocar de empresa não garante paz.",
+    "hook2": "Mude a atitude onde você está."
   },
   {
     "day": 266,
@@ -4291,7 +4731,9 @@
       "#autoconhecimento",
       "#365diasestoicos"
     ],
-    "apply": "Chefe ou cliente poderoso também tem medos e vaidades. Pese a crítica dele pelo que vale."
+    "apply": "Chefe ou cliente poderoso também tem medos e vaidades. Pese a crítica dele pelo que vale.",
+    "hook": "O chefe poderoso também tem medos.",
+    "hook2": "Pese a crítica pelo que ela vale."
   },
   {
     "day": 267,
@@ -4307,7 +4749,9 @@
       "#persistencia",
       "#mudanca"
     ],
-    "apply": "Vai propor uma melhoria? Prepare-se para resistência e leve dados. A ideia resiste, a piada passa."
+    "apply": "Vai propor uma melhoria? Prepare-se para resistência e leve dados. A ideia resiste, a piada passa.",
+    "hook": "Vai propor uma melhoria no trabalho?",
+    "hook2": "Espere resistência e leve dados."
   },
   {
     "day": 268,
@@ -4323,7 +4767,9 @@
       "#relacionamentos",
       "#amizade"
     ],
-    "apply": "Quer uma equipe leal? Reconheça o trabalho de alguém hoje, com nome e com motivo."
+    "apply": "Quer uma equipe leal? Reconheça o trabalho de alguém hoje, com nome e com motivo.",
+    "hook": "Lealdade de equipe começa por você.",
+    "hook2": "Reconheça alguém hoje, pelo nome."
   },
   {
     "day": 269,
@@ -4339,7 +4785,9 @@
       "#prioridades",
       "#autoconhecimento"
     ],
-    "apply": "Veja onde vai seu tempo de trabalho. Se é em picuinhas, mude o foco para o que gera valor."
+    "apply": "Veja onde vai seu tempo de trabalho. Se é em picuinhas, mude o foco para o que gera valor.",
+    "hook": "Veja onde vai o seu tempo de trabalho.",
+    "hook2": "Troque a picuinha pelo que vale."
   },
   {
     "day": 270,
@@ -4355,7 +4803,9 @@
       "#decisao",
       "#disciplina"
     ],
-    "apply": "Escolha a prioridade do dia e adie o que a atrapalha, sem renegociar a cada hora."
+    "apply": "Escolha a prioridade do dia e adie o que a atrapalha, sem renegociar a cada hora.",
+    "hook": "Escolha a prioridade do dia.",
+    "hook2": "E não renegocie a cada hora."
   },
   {
     "day": 271,
@@ -4371,7 +4821,9 @@
       "#reflexao",
       "#365diasestoicos"
     ],
-    "apply": "Ao fechar o expediente, pergunte o que fez bem, onde errou e o que muda amanhã. Dois minutos."
+    "apply": "Ao fechar o expediente, pergunte o que fez bem, onde errou e o que muda amanhã. Dois minutos.",
+    "hook": "Dois minutos ao fechar o expediente.",
+    "hook2": "O que fiz bem e onde errei."
   },
   {
     "day": 272,
@@ -4387,7 +4839,9 @@
       "#recomeco",
       "#autocompaixao"
     ],
-    "apply": "Falhou numa entrega? Reorganize e recomece na tarefa seguinte, sem martelar o erro o dia todo."
+    "apply": "Falhou numa entrega? Reorganize e recomece na tarefa seguinte, sem martelar o erro o dia todo.",
+    "hook": "Falhou numa entrega.",
+    "hook2": "Recomece na tarefa seguinte."
   },
   {
     "day": 273,
@@ -4403,7 +4857,9 @@
       "#estudo",
       "#filosofiaprática"
     ],
-    "apply": "Estudar gestão só vale se virar ação. Depois do curso, escreva uma mudança que fará na equipe."
+    "apply": "Estudar gestão só vale se virar ação. Depois do curso, escreva uma mudança que fará na equipe.",
+    "hook": "Estudar gestão só vale se virar ação.",
+    "hook2": "Escreva a mudança que vai fazer."
   },
   {
     "day": 274,
@@ -4419,7 +4875,9 @@
       "#proposito",
       "#365diasestoicos"
     ],
-    "apply": "Sem esperar ânimo, faça logo cedo a tarefa mais difícil. Firmeza rende mais que entusiasmo."
+    "apply": "Sem esperar ânimo, faça logo cedo a tarefa mais difícil. Firmeza rende mais que entusiasmo.",
+    "hook": "Não espere ânimo para começar.",
+    "hook2": "Faça cedo a tarefa mais difícil."
   },
   {
     "day": 275,
@@ -4435,7 +4893,9 @@
       "#servico",
       "#365diasestoicos"
     ],
-    "apply": "Ajude um colega com algo que ele não consegue, sem cobrar crédito. Utilidade começa na mesa ao lado."
+    "apply": "Ajude um colega com algo que ele não consegue, sem cobrar crédito. Utilidade começa na mesa ao lado.",
+    "hook": "Ajude um colega sem cobrar crédito.",
+    "hook2": "Utilidade começa na mesa ao lado."
   },
   {
     "day": 276,
@@ -4451,7 +4911,9 @@
       "#paciencia",
       "#moderacao"
     ],
-    "apply": "Promoção, aumento, reconhecimento: faça bem a sua parte e espere sua vez sem atropelar ninguém."
+    "apply": "Promoção, aumento, reconhecimento: faça bem a sua parte e espere sua vez sem atropelar ninguém.",
+    "hook": "A promoção ainda não chegou.",
+    "hook2": "Faça bem a sua parte e espere."
   },
   {
     "day": 277,
@@ -4467,7 +4929,9 @@
       "#proposito",
       "#365diasestoicos"
     ],
-    "apply": "Faça sua parte até o fim do expediente, sem comparar com quem teve projeto maior ou mais tempo."
+    "apply": "Faça sua parte até o fim do expediente, sem comparar com quem teve projeto maior ou mais tempo.",
+    "hook": "Outro teve projeto maior e mais tempo.",
+    "hook2": "Cuide da qualidade do seu papel."
   },
   {
     "day": 278,
@@ -4483,7 +4947,9 @@
       "#proposito",
       "#foco"
     ],
-    "apply": "Reserve uma hora sem celular para um documento que vai servir à equipe nos próximos meses."
+    "apply": "Reserve uma hora sem celular para um documento que vai servir à equipe nos próximos meses.",
+    "hook": "Uma hora sem celular.",
+    "hook2": "Para o que vai servir à equipe."
   },
   {
     "day": 279,
@@ -4499,7 +4965,9 @@
       "#carater",
       "#365diasestoicos"
     ],
-    "apply": "Entregue o que só você faz bem, sem imitar o estilo de ninguém. O time precisa de diferença."
+    "apply": "Entregue o que só você faz bem, sem imitar o estilo de ninguém. O time precisa de diferença.",
+    "hook": "O time não precisa de mais uma cópia.",
+    "hook2": "Entregue o que só você faz bem."
   },
   {
     "day": 280,
@@ -4515,7 +4983,9 @@
       "#atencao",
       "#prioridades"
     ],
-    "apply": "Proteja uma hora de foco na tarefa que mais importa e avise a equipe para não interromper."
+    "apply": "Proteja uma hora de foco na tarefa que mais importa e avise a equipe para não interromper.",
+    "hook": "Você vale aquilo que ocupa a sua atenção.",
+    "hook2": "Proteja uma hora de foco."
   },
   {
     "day": 281,
@@ -4531,7 +5001,9 @@
       "#intencao",
       "#carater"
     ],
-    "apply": "Antes de cada entrega, pergunte por que a faz. Capricho sem plateia mostra a intenção real."
+    "apply": "Antes de cada entrega, pergunte por que a faz. Capricho sem plateia mostra a intenção real.",
+    "hook": "Duas pessoas fazem a mesma tarefa.",
+    "hook2": "O motivo é que dá o peso."
   },
   {
     "day": 282,
@@ -4547,7 +5019,9 @@
       "#proposito",
       "#365diasestoicos"
     ],
-    "apply": "Comece o dia pela entrega que você defenderia como a mais importante, não pela mais barulhenta."
+    "apply": "Comece o dia pela entrega que você defenderia como a mais importante, não pela mais barulhenta.",
+    "hook": "A entrega mais importante do dia.",
+    "hook2": "Comece por ela, não pelo barulho."
   },
   {
     "day": 283,
@@ -4563,7 +5037,9 @@
       "#presente",
       "#365diasestoicos"
     ],
-    "apply": "Antes de aceitar uma reunião, pergunte se ela é útil e justa com quem espera sua entrega."
+    "apply": "Antes de aceitar uma reunião, pergunte se ela é útil e justa com quem espera sua entrega.",
+    "hook": "Antes de aceitar a próxima reunião.",
+    "hook2": "Veja se ela é útil e justa."
   },
   {
     "day": 284,
@@ -4579,7 +5055,9 @@
       "#produtividade",
       "#foco"
     ],
-    "apply": "Ao fim do expediente, liste o que ficou pronto, não o que ficou aberto. Corte o resto amanhã."
+    "apply": "Ao fim do expediente, liste o que ficou pronto, não o que ficou aberto. Corte o resto amanhã.",
+    "hook": "Dia cheio não é dia produtivo.",
+    "hook2": "Liste o que ficou pronto."
   },
   {
     "day": 285,
@@ -4595,7 +5073,9 @@
       "#pratica",
       "#365diasestoicos"
     ],
-    "apply": "Aplique hoje uma prática que você já conhece, como confirmar o escopo por escrito antes de começar."
+    "apply": "Aplique hoje uma prática que você já conhece, como confirmar o escopo por escrito antes de começar.",
+    "hook": "Dez leituras não provam progresso.",
+    "hook2": "Um comportamento diferente prova."
   },
   {
     "day": 286,
@@ -4611,7 +5091,9 @@
       "#bondade",
       "#365diasestoicos"
     ],
-    "apply": "Quando um colega errar, explique o passo certo em vez de reclamar dele para os outros."
+    "apply": "Quando um colega errar, explique o passo certo em vez de reclamar dele para os outros.",
+    "hook": "Reclamar do erro alheio não conserta nada.",
+    "hook2": "Explicar o passo certo, sim."
   },
   {
     "day": 287,
@@ -4627,7 +5109,9 @@
       "#cooperacao",
       "#equipe"
     ],
-    "apply": "Peça ajuda ao colega antes do prazo apertar e ofereça a sua sem esperar que peçam."
+    "apply": "Peça ajuda ao colega antes do prazo apertar e ofereça a sua sem esperar que peçam.",
+    "hook": "Nenhum prazo apertado se segura sozinho.",
+    "hook2": "Peça apoio antes do aperto."
   },
   {
     "day": 288,
@@ -4643,7 +5127,9 @@
       "#vocacao",
       "#razao"
     ],
-    "apply": "Diante de uma decisão difícil, pare um minuto e escolha com a cabeça, não com o humor do dia."
+    "apply": "Diante de uma decisão difícil, pare um minuto e escolha com a cabeça, não com o humor do dia.",
+    "hook": "O humor do dia não devia decidir por você.",
+    "hook2": "Pare um minuto antes."
   },
   {
     "day": 289,
@@ -4659,7 +5145,9 @@
       "#utilidade",
       "#servir"
     ],
-    "apply": "Ofereça a um colega uma ajuda concreta hoje, como revisar algo ou explicar um processo."
+    "apply": "Ofereça a um colega uma ajuda concreta hoje, como revisar algo ou explicar um processo.",
+    "hook": "Ajuda útil ninguém recusa.",
+    "hook2": "Seja essa ajuda hoje."
   },
   {
     "day": 290,
@@ -4675,7 +5163,9 @@
       "#proposito",
       "#365diasestoicos"
     ],
-    "apply": "Trate o estagiário e o diretor com o mesmo respeito. Caráter se mede onde ninguém olha."
+    "apply": "Trate o estagiário e o diretor com o mesmo respeito. Caráter se mede onde ninguém olha.",
+    "hook": "O estagiário e o diretor veem a mesma pessoa?",
+    "hook2": "Caráter não troca de plateia."
   },
   {
     "day": 291,
@@ -4691,7 +5181,9 @@
       "#carater",
       "#365diasestoicos"
     ],
-    "apply": "Quer ser visto como confiável? Cumpra hoje um prazo pequeno que ninguém iria cobrar."
+    "apply": "Quer ser visto como confiável? Cumpra hoje um prazo pequeno que ninguém iria cobrar.",
+    "hook": "Parecer confiável dá menos trabalho que ser.",
+    "hook2": "Cumpra o prazo que ninguém cobra."
   },
   {
     "day": 292,
@@ -4707,7 +5199,9 @@
       "#filosofiaprática",
       "#365diasestoicos"
     ],
-    "apply": "Ao ver um erro em reunião, mostre o jeito certo na sua própria fala, sem apontar o culpado."
+    "apply": "Ao ver um erro em reunião, mostre o jeito certo na sua própria fala, sem apontar o culpado.",
+    "hook": "Dá para corrigir sem apontar o culpado.",
+    "hook2": "Mostre o jeito certo na sua fala."
   },
   {
     "day": 293,
@@ -4723,7 +5217,9 @@
       "#aprendizado",
       "#pratica"
     ],
-    "apply": "Transforme o último curso em prática: aplique uma ideia nova no projeto que está tocando agora."
+    "apply": "Transforme o último curso em prática: aplique uma ideia nova no projeto que está tocando agora.",
+    "hook": "Curso acumulado ainda não é conhecimento.",
+    "hook2": "Aplique uma ideia hoje."
   },
   {
     "day": 294,
@@ -4739,7 +5235,9 @@
       "#limites",
       "#honestidade"
     ],
-    "apply": "Se a agenda já está cheia, diga não ou renegocie o prazo. Entregar menos e bem vale mais."
+    "apply": "Se a agenda já está cheia, diga não ou renegocie o prazo. Entregar menos e bem vale mais.",
+    "hook": "Aceitar tudo não prova que você é capaz.",
+    "hook2": "Dizer não também é cumprir."
   },
   {
     "day": 295,
@@ -4755,7 +5253,9 @@
       "#paciencia",
       "#365diasestoicos"
     ],
-    "apply": "Explique de novo, com calma, ao colega novo. Equipe forte se constrói com paciência diária."
+    "apply": "Explique de novo, com calma, ao colega novo. Equipe forte se constrói com paciência diária.",
+    "hook": "Explicar duas vezes não é perda de tempo.",
+    "hook2": "É assim que se forma equipe."
   },
   {
     "day": 296,
@@ -4771,7 +5271,9 @@
       "#trabalho",
       "#365diasestoicos"
     ],
-    "apply": "Documente o que você faz como se outro fosse assumir amanhã. Quem herdar vai agradecer."
+    "apply": "Documente o que você faz como se outro fosse assumir amanhã. Quem herdar vai agradecer.",
+    "hook": "Alguém vai herdar o que você faz hoje.",
+    "hook2": "Deixe documentado."
   },
   {
     "day": 297,
@@ -4787,7 +5289,9 @@
       "#procrastinacao",
       "#365diasestoicos"
     ],
-    "apply": "Pegue a tarefa adiada, feche as abas e trabalhe vinte minutos nela. Sem esperar clima ideal."
+    "apply": "Pegue a tarefa adiada, feche as abas e trabalhe vinte minutos nela. Sem esperar clima ideal.",
+    "hook": "O momento perfeito para a tarefa não vem.",
+    "hook2": "Vinte minutos agora já servem."
   },
   {
     "day": 298,
@@ -4803,7 +5307,9 @@
       "#proposito",
       "#365diasestoicos"
     ],
-    "apply": "Agradeça hoje, de forma direta, a quem lhe ensinou o ofício, seja chefe, colega ou mestre de obra."
+    "apply": "Agradeça hoje, de forma direta, a quem lhe ensinou o ofício, seja chefe, colega ou mestre de obra.",
+    "hook": "Ninguém aprende o ofício sozinho.",
+    "hook2": "Já agradeceu a quem ensinou?"
   },
   {
     "day": 299,
@@ -4819,7 +5325,9 @@
       "#autoconhecimento",
       "#planejamento"
     ],
-    "apply": "Antes de aceitar o projeto, confira tempo, equipe e competência. Dizer não cedo evita falhar tarde."
+    "apply": "Antes de aceitar o projeto, confira tempo, equipe e competência. Dizer não cedo evita falhar tarde.",
+    "hook": "Antes de aceitar o projeto, avalie a si mesmo.",
+    "hook2": "Dizer não cedo evita falhar tarde."
   },
   {
     "day": 300,
@@ -4835,7 +5343,9 @@
       "#integridade",
       "#365diasestoicos"
     ],
-    "apply": "Se você diz valorizar prazo e honestidade, confira se a agenda de hoje comprova isso."
+    "apply": "Se você diz valorizar prazo e honestidade, confira se a agenda de hoje comprova isso.",
+    "hook": "Você diz que valoriza prazo e honestidade.",
+    "hook2": "Confira na agenda de hoje."
   },
   {
     "day": 301,
@@ -4851,7 +5361,9 @@
       "#trabalho",
       "#365diasestoicos"
     ],
-    "apply": "Se a tarefa for sua, entregue sem alarde. Se faltar competência, chame quem complete, sem vergonha."
+    "apply": "Se a tarefa for sua, entregue sem alarde. Se faltar competência, chame quem complete, sem vergonha.",
+    "hook": "Tarefa bem feita dispensa anúncio.",
+    "hook2": "E pedir reforço dispensa vergonha."
   },
   {
     "day": 302,
@@ -4867,7 +5379,9 @@
       "#ajuda",
       "#humanidade"
     ],
-    "apply": "Veja quem na equipe está sobrecarregado e assuma parte do problema dele, sem esperar pedido."
+    "apply": "Veja quem na equipe está sobrecarregado e assuma parte do problema dele, sem esperar pedido.",
+    "hook": "Tem alguém sobrecarregado na sua equipe.",
+    "hook2": "Não espere o pedido de ajuda."
   },
   {
     "day": 303,
@@ -4883,7 +5397,9 @@
       "#relacoes",
       "#dever"
     ],
-    "apply": "Com o colega difícil, cumpra o que o papel pede: retorno no prazo e educação, mesmo sem simpatia."
+    "apply": "Com o colega difícil, cumpra o que o papel pede: retorno no prazo e educação, mesmo sem simpatia.",
+    "hook": "Colega difícil não cancela o seu dever.",
+    "hook2": "Prazo e educação seguem valendo."
   },
   {
     "day": 304,
@@ -4899,7 +5415,9 @@
       "#presente",
       "#rotina"
     ],
-    "apply": "No fim do expediente, cheque: decidi com clareza, ajudei alguém e aceitei o que não dava mudar?"
+    "apply": "No fim do expediente, cheque: decidi com clareza, ajudei alguém e aceitei o que não dava mudar?",
+    "hook": "Três perguntas para o fim do expediente.",
+    "hook2": "Clareza, utilidade e aceitação."
   },
   {
     "day": 305,
@@ -4915,7 +5433,9 @@
       "#perspectiva",
       "#cosmos"
     ],
-    "apply": "Aquela discussão de e-mail vai importar daqui a um ano? Se não, responda curto e siga."
+    "apply": "Aquela discussão de e-mail vai importar daqui a um ano? Se não, responda curto e siga.",
+    "hook": "A discussão de e-mail encolhe vista de longe.",
+    "hook2": "Responda curto e siga."
   },
   {
     "day": 306,
@@ -4931,7 +5451,9 @@
       "#todo",
       "#humildade"
     ],
-    "apply": "Se a decisão do grupo for boa para o projeto, ceda no seu detalhe e apoie a equipe sem azedar."
+    "apply": "Se a decisão do grupo for boa para o projeto, ceda no seu detalhe e apoie a equipe sem azedar.",
+    "hook": "Ceder no detalhe não é perder.",
+    "hook2": "É apoiar o que serve ao projeto."
   },
   {
     "day": 307,
@@ -4947,7 +5469,9 @@
       "#universo",
       "#conexao"
     ],
-    "apply": "Antes de mudar um processo, pense em quem recebe o resultado depois de você e avise essa pessoa."
+    "apply": "Antes de mudar um processo, pense em quem recebe o resultado depois de você e avise essa pessoa.",
+    "hook": "Mudar um processo mexe com quem vem depois.",
+    "hook2": "Avise essa pessoa antes."
   },
   {
     "day": 308,
@@ -4963,7 +5487,9 @@
       "#espiritualidade",
       "#consciencia"
     ],
-    "apply": "Na decisão de hoje, pergunte: eu assinaria isso se todos soubessem como foi feito?"
+    "apply": "Na decisão de hoje, pergunte: eu assinaria isso se todos soubessem como foi feito?",
+    "hook": "Decida como se todos fossem saber como foi.",
+    "hook2": "Se não assinaria, não faça."
   },
   {
     "day": 309,
@@ -4979,7 +5505,9 @@
       "#cosmopolitismo",
       "#empatia"
     ],
-    "apply": "Ouça com o mesmo respeito o terceirizado e o gerente. Quem é de outra área também é do time."
+    "apply": "Ouça com o mesmo respeito o terceirizado e o gerente. Quem é de outra área também é do time.",
+    "hook": "Quem é de outra área também é do time.",
+    "hook2": "Ouça com o mesmo respeito."
   },
   {
     "day": 310,
@@ -4995,7 +5523,9 @@
       "#visaodoalto",
       "#perspectiva"
     ],
-    "apply": "Diante do pico de pressão, pergunte: isso importa daqui a seis meses? Resolva o que importa."
+    "apply": "Diante do pico de pressão, pergunte: isso importa daqui a seis meses? Resolva o que importa.",
+    "hook": "A pressão de hoje importa daqui a seis meses?",
+    "hook2": "Resolva o que importa."
   },
   {
     "day": 311,
@@ -5013,7 +5543,9 @@
     ],
     "apply": "Corte a pressa que gera retrabalho e a rispidez que gera conflito. Calma também é produtividade.",
     "original": "Idem est ergo beate vivere et secundum naturam.",
-    "ref": "Sobre a Vida Feliz, 8.2"
+    "ref": "Sobre a Vida Feliz, 8.2",
+    "hook": "A pressa de hoje é o retrabalho de amanhã.",
+    "hook2": "Calma também é produtividade."
   },
   {
     "day": 312,
@@ -5029,7 +5561,9 @@
       "#aceitacao",
       "#365diasestoicos"
     ],
-    "apply": "Quando o cronograma desandar, replaneje a partir do que é real, não do que estava no papel."
+    "apply": "Quando o cronograma desandar, replaneje a partir do que é real, não do que estava no papel.",
+    "hook": "O cronograma desandou.",
+    "hook2": "Replaneje a partir do que é real."
   },
   {
     "day": 313,
@@ -5045,7 +5579,9 @@
       "#cosmos",
       "#confianca"
     ],
-    "apply": "Se o imprevisto chegou, trate-o como parte do plano. Reorganize a semana em vez de reclamar."
+    "apply": "Se o imprevisto chegou, trate-o como parte do plano. Reorganize a semana em vez de reclamar.",
+    "hook": "Imprevisto não é exceção ao plano.",
+    "hook2": "Reorganize a semana e siga."
   },
   {
     "day": 314,
@@ -5061,7 +5597,9 @@
       "#humildade",
       "#conhecimento"
     ],
-    "apply": "Ouça a opinião contrária na reunião e revise seu plano se ela tiver fundamento."
+    "apply": "Ouça a opinião contrária na reunião e revise seu plano se ela tiver fundamento.",
+    "hook": "A opinião contrária pode ter fundamento.",
+    "hook2": "Ouça antes de defender seu plano."
   },
   {
     "day": 315,
@@ -5077,7 +5615,9 @@
       "#dignidade",
       "#coragem"
     ],
-    "apply": "Se um superior tentar intimidar, mantenha o tom firme e apresente os fatos. Seu valor não é dele."
+    "apply": "Se um superior tentar intimidar, mantenha o tom firme e apresente os fatos. Seu valor não é dele.",
+    "hook": "Cargo nenhum define o seu valor.",
+    "hook2": "Diante da intimidação, fatos."
   },
   {
     "day": 316,
@@ -5093,7 +5633,9 @@
       "#mudanca",
       "#natureza"
     ],
-    "apply": "Se um projeto acabou ou um processo caiu, pergunte o que dá para reaproveitar no próximo."
+    "apply": "Se um projeto acabou ou um processo caiu, pergunte o que dá para reaproveitar no próximo.",
+    "hook": "Todo projeto que acaba deixa material.",
+    "hook2": "Veja o que serve ao próximo."
   },
   {
     "day": 317,
@@ -5109,7 +5651,9 @@
       "#razao",
       "#universo"
     ],
-    "apply": "Antes de responder o e-mail que irritou, respire e releia. Resposta pensada vale mais que rápida."
+    "apply": "Antes de responder o e-mail que irritou, respire e releia. Resposta pensada vale mais que rápida.",
+    "hook": "O e-mail que irritou pode esperar um minuto.",
+    "hook2": "Respire, releia, depois responda."
   },
   {
     "day": 318,
@@ -5125,7 +5669,9 @@
       "#dignidade",
       "#autoestima"
     ],
-    "apply": "Não entre em fofoca nem em jogo sujo hoje, nem pequeno. Aja como o profissional que quer ser."
+    "apply": "Não entre em fofoca nem em jogo sujo hoje, nem pequeno. Aja como o profissional que quer ser.",
+    "hook": "Jogo sujo pequeno ainda é jogo sujo.",
+    "hook2": "Fique fora dele hoje."
   },
   {
     "day": 319,
@@ -5141,7 +5687,9 @@
       "#pequenez",
       "#perspectiva"
     ],
-    "apply": "Diante de um aborrecimento no trabalho, lembre do projeto inteiro. A maioria dos problemas é pequena."
+    "apply": "Diante de um aborrecimento no trabalho, lembre do projeto inteiro. A maioria dos problemas é pequena.",
+    "hook": "O aborrecimento é menor que o projeto inteiro.",
+    "hook2": "Devolva a ele o tamanho real."
   },
   {
     "day": 320,
@@ -5157,7 +5705,9 @@
       "#contemplacao",
       "#equilibrio"
     ],
-    "apply": "Faça uma pausa de cinco minutos longe da tela entre uma tarefa e outra. Volte com a mente clara."
+    "apply": "Faça uma pausa de cinco minutos longe da tela entre uma tarefa e outra. Volte com a mente clara.",
+    "hook": "Só agir cansa. Só contemplar paralisa.",
+    "hook2": "Faça uma pausa entre as tarefas."
   },
   {
     "day": 321,
@@ -5173,7 +5723,9 @@
       "#integridade",
       "#365diasestoicos"
     ],
-    "apply": "Confira o trabalho que ninguém vai revisar, como se o cliente fosse abrir. Seu padrão é seu."
+    "apply": "Confira o trabalho que ninguém vai revisar, como se o cliente fosse abrir. Seu padrão é seu.",
+    "hook": "O trabalho que ninguém vai revisar.",
+    "hook2": "Confira mesmo assim."
   },
   {
     "day": 322,
@@ -5189,7 +5741,9 @@
       "#astros",
       "#serenidade"
     ],
-    "apply": "Se a cabeça está cheia de miudezas, saia da mesa por cinco minutos e volte à pauta principal."
+    "apply": "Se a cabeça está cheia de miudezas, saia da mesa por cinco minutos e volte à pauta principal.",
+    "hook": "Cabeça cheia de miudezas perde a pauta.",
+    "hook2": "Saia da mesa por cinco minutos."
   },
   {
     "day": 323,
@@ -5205,7 +5759,9 @@
       "#silencio",
       "#natureza"
     ],
-    "apply": "Procure um canto calmo na empresa ou na obra e fique cinco minutos sem celular antes de decidir."
+    "apply": "Procure um canto calmo na empresa ou na obra e fique cinco minutos sem celular antes de decidir.",
+    "hook": "Antes de decidir, procure um canto calmo.",
+    "hook2": "Fique em silêncio, sem celular."
   },
   {
     "day": 324,
@@ -5221,7 +5777,9 @@
       "#confianca",
       "#ordem"
     ],
-    "apply": "Diante de uma contrariedade, como a obra parada, procure o que ela ensina e dê o próximo passo."
+    "apply": "Diante de uma contrariedade, como a obra parada, procure o que ela ensina e dê o próximo passo.",
+    "hook": "A contrariedade chegou e reclamar não resolve.",
+    "hook2": "Procure o que ela ensina."
   },
   {
     "day": 325,
@@ -5237,7 +5795,9 @@
       "#interdependencia",
       "#cosmos"
     ],
-    "apply": "Lembre quem depende do seu trabalho depois de você, como o setor seguinte ou o cliente final."
+    "apply": "Lembre quem depende do seu trabalho depois de você, como o setor seguinte ou o cliente final.",
+    "hook": "Seu trabalho não termina na sua mesa.",
+    "hook2": "Alguém depende dele mais adiante."
   },
   {
     "day": 326,
@@ -5253,7 +5813,9 @@
       "#fraternidade",
       "#humanidade"
     ],
-    "apply": "Cumprimente o porteiro, o motorista e o atendente pelo nome. Respeito vale para todos os níveis."
+    "apply": "Cumprimente o porteiro, o motorista e o atendente pelo nome. Respeito vale para todos os níveis.",
+    "hook": "O porteiro e o motorista têm nome.",
+    "hook2": "Cumprimente cada um por ele."
   },
   {
     "day": 327,
@@ -5269,7 +5831,9 @@
       "#carater",
       "#autenticidade"
     ],
-    "apply": "Antes de cuidar da apresentação, revise se a entrega é honesta e bem-feita."
+    "apply": "Antes de cuidar da apresentação, revise se a entrega é honesta e bem-feita.",
+    "hook": "Apresentação bonita não salva entrega fraca.",
+    "hook2": "Revise primeiro a entrega."
   },
   {
     "day": 328,
@@ -5285,7 +5849,9 @@
       "#brevidade",
       "#proporcao"
     ],
-    "apply": "Troque a preocupação sem saída por uma ação concreta: ligue, envie, resolva um pendente agora."
+    "apply": "Troque a preocupação sem saída por uma ação concreta: ligue, envie, resolva um pendente agora.",
+    "hook": "Preocupação sem saída não resolve pendência.",
+    "hook2": "Ligue, envie, resolva uma agora."
   },
   {
     "day": 329,
@@ -5301,7 +5867,9 @@
       "#virtude",
       "#resiliencia"
     ],
-    "apply": "Mesmo no projeto que você não escolheu, pratique pontualidade e clareza. Ninguém tira seu padrão."
+    "apply": "Mesmo no projeto que você não escolheu, pratique pontualidade e clareza. Ninguém tira seu padrão.",
+    "hook": "Você não escolheu o projeto.",
+    "hook2": "O padrão ainda é escolha sua."
   },
   {
     "day": 330,
@@ -5317,7 +5885,9 @@
       "#fraternidade",
       "#empatia"
     ],
-    "apply": "Ao se irritar com um colega, lembre que ele também carrega pressão. Fale com ele como parceiro."
+    "apply": "Ao se irritar com um colega, lembre que ele também carrega pressão. Fale com ele como parceiro.",
+    "hook": "O colega que irrita também está sob pressão.",
+    "hook2": "Fale com ele como parceiro."
   },
   {
     "day": 331,
@@ -5333,7 +5903,9 @@
       "#amorfati",
       "#aceitacao"
     ],
-    "apply": "Aceite o que já foi decidido, como prazo fixo ou verba, e use a energia no que ainda se negocia."
+    "apply": "Aceite o que já foi decidido, como prazo fixo ou verba, e use a energia no que ainda se negocia.",
+    "hook": "Prazo fixo e verba definida não se discutem.",
+    "hook2": "Gaste energia no que se negocia."
   },
   {
     "day": 332,
@@ -5349,7 +5921,9 @@
       "#consciencia",
       "#honestidade"
     ],
-    "apply": "No fim do dia, reveja uma decisão tomada, como um aceite de prazo, e seja honesto sobre o motivo."
+    "apply": "No fim do dia, reveja uma decisão tomada, como um aceite de prazo, e seja honesto sobre o motivo.",
+    "hook": "Por que você aceitou aquele prazo?",
+    "hook2": "Responda sem justificativas."
   },
   {
     "day": 333,
@@ -5365,7 +5939,9 @@
       "#observacao",
       "#atencao"
     ],
-    "apply": "Observe um processo da rotina que você nunca questionou e note onde há um detalhe a melhorar."
+    "apply": "Observe um processo da rotina que você nunca questionou e note onde há um detalhe a melhorar.",
+    "hook": "A rotina esconde o que pode melhorar.",
+    "hook2": "Olhe de novo um processo antigo."
   },
   {
     "day": 334,
@@ -5381,7 +5957,9 @@
       "#natureza",
       "#aceitacao"
     ],
-    "apply": "Se um problema inesperado surgir, lembre que imprevisto faz parte do projeto. Respire e organize."
+    "apply": "Se um problema inesperado surgir, lembre que imprevisto faz parte do projeto. Respire e organize.",
+    "hook": "Nenhum projeto corre sem surpresa.",
+    "hook2": "Respire e organize."
   },
   {
     "day": 335,
@@ -5397,7 +5975,9 @@
       "#generosidade",
       "#beneficios"
     ],
-    "apply": "Ajude hoje um colega que não costuma agradecer. O trabalho bem feito não depende de aplauso."
+    "apply": "Ajude hoje um colega que não costuma agradecer. O trabalho bem feito não depende de aplauso.",
+    "hook": "Ajudar só quem agradece é fazer negócio.",
+    "hook2": "Ajude também quem não agradece."
   },
   {
     "day": 336,
@@ -5413,7 +5993,9 @@
       "#pratica",
       "#recomeco"
     ],
-    "apply": "Escolha um princípio e defina como ele aparece na sua rotina de trabalho até o fim do ano."
+    "apply": "Escolha um princípio e defina como ele aparece na sua rotina de trabalho até o fim do ano.",
+    "hook": "Já houve leitura suficiente neste ano.",
+    "hook2": "Agora o que conta é aplicar."
   },
   {
     "day": 337,
@@ -5429,7 +6011,9 @@
       "#perspectiva",
       "#365diasestoicos"
     ],
-    "apply": "Entregue a versão boa agora em vez de esperar a perfeita. Dá para refinar depois com feedback."
+    "apply": "Entregue a versão boa agora em vez de esperar a perfeita. Dá para refinar depois com feedback.",
+    "hook": "A versão perfeita ainda não saiu da gaveta.",
+    "hook2": "Entregue a boa e refine depois."
   },
   {
     "day": 338,
@@ -5445,7 +6029,9 @@
       "#autoconhecimento",
       "#365diasestoicos"
     ],
-    "apply": "Nomeie o defeito sem rodeio, como procrastinar ou interromper, e defina uma ação pequena contra ele."
+    "apply": "Nomeie o defeito sem rodeio, como procrastinar ou interromper, e defina uma ação pequena contra ele.",
+    "hook": "Defeito sem nome não tem conserto.",
+    "hook2": "Chame o seu sem rodeio."
   },
   {
     "day": 339,
@@ -5461,7 +6047,9 @@
       "#razao",
       "#365diasestoicos"
     ],
-    "apply": "Reserve quinze minutos sem tela e sem reunião para pensar. Muita decisão melhora no silêncio."
+    "apply": "Reserve quinze minutos sem tela e sem reunião para pensar. Muita decisão melhora no silêncio.",
+    "hook": "Quinze minutos sem tela e sem reunião.",
+    "hook2": "Muita decisão melhora no silêncio."
   },
   {
     "day": 340,
@@ -5477,7 +6065,9 @@
       "#mortalidade",
       "#365diasestoicos"
     ],
-    "apply": "Por mais experiente que seja, peça revisão do seu trabalho hoje. Ninguém está acima de erros."
+    "apply": "Por mais experiente que seja, peça revisão do seu trabalho hoje. Ninguém está acima de erros.",
+    "hook": "Experiência não coloca ninguém acima do erro.",
+    "hook2": "Peça revisão do seu trabalho."
   },
   {
     "day": 341,
@@ -5493,7 +6083,9 @@
       "#virtude",
       "#365diasestoicos"
     ],
-    "apply": "Ao fim do dia, pergunte se suas horas renderam algo digno. Mantenha o que funcionou e mude o resto."
+    "apply": "Ao fim do dia, pergunte se suas horas renderam algo digno. Mantenha o que funcionou e mude o resto.",
+    "hook": "Dia cheio não é o mesmo que dia bem usado.",
+    "hook2": "Confira o que as horas renderam."
   },
   {
     "day": 342,
@@ -5509,7 +6101,9 @@
       "#prudencia",
       "#365diasestoicos"
     ],
-    "apply": "Tenha coragem de propor sua ideia sem saber a reação e cuidado com o texto que vai enviar."
+    "apply": "Tenha coragem de propor sua ideia sem saber a reação e cuidado com o texto que vai enviar.",
+    "hook": "Coragem para propor, cuidado ao escrever.",
+    "hook2": "A reação dos outros não é sua."
   },
   {
     "day": 343,
@@ -5525,7 +6119,9 @@
       "#consciencia",
       "#presenca"
     ],
-    "apply": "Três vezes hoje, pergunte-se: estou em foco ou no piloto automático? Ajuste na hora."
+    "apply": "Três vezes hoje, pergunte-se: estou em foco ou no piloto automático? Ajuste na hora.",
+    "hook": "Foco ou piloto automático?",
+    "hook2": "Pergunte-se três vezes hoje."
   },
   {
     "day": 344,
@@ -5541,7 +6137,9 @@
       "#vidaexaminada",
       "#365diasestoicos"
     ],
-    "apply": "Responda o e-mail pendente e feche a conversa adiada antes de sair. Amanhã começa limpo."
+    "apply": "Responda o e-mail pendente e feche a conversa adiada antes de sair. Amanhã começa limpo.",
+    "hook": "Não leve para amanhã a conversa adiada.",
+    "hook2": "Feche o dia de contas em dia."
   },
   {
     "day": 345,
@@ -5557,7 +6155,9 @@
       "#exame",
       "#365diasestoicos"
     ],
-    "apply": "Quando um comentário do chefe ou do cliente incomodar, veja o que depende de você antes de reagir."
+    "apply": "Quando um comentário do chefe ou do cliente incomodar, veja o que depende de você antes de reagir.",
+    "hook": "O comentário do cliente incomodou.",
+    "hook2": "Veja o que depende de você."
   },
   {
     "day": 346,
@@ -5573,7 +6173,9 @@
       "#progresso",
       "#realismo"
     ],
-    "apply": "Comemore a melhoria pequena do dia, como um relatório mais claro, e não cobre a revolução."
+    "apply": "Comemore a melhoria pequena do dia, como um relatório mais claro, e não cobre a revolução.",
+    "hook": "Esperar a revolução é um jeito de não começar.",
+    "hook2": "Valorize o avanço pequeno de hoje."
   },
   {
     "day": 347,
@@ -5589,7 +6191,9 @@
       "#sintese",
       "#365diasestoicos"
     ],
-    "apply": "Se você valoriza transparência, informe hoje o atraso ao cliente antes que ele pergunte."
+    "apply": "Se você valoriza transparência, informe hoje o atraso ao cliente antes que ele pergunte.",
+    "hook": "Transparência se prova quando há atraso.",
+    "hook2": "Avise antes que perguntem."
   },
   {
     "day": 348,
@@ -5605,7 +6209,9 @@
       "#bem",
       "#365diasestoicos"
     ],
-    "apply": "Na discordância, comece por onde vocês concordam, como qualidade e prazo, e depois discuta o método."
+    "apply": "Na discordância, comece por onde vocês concordam, como qualidade e prazo, e depois discuta o método.",
+    "hook": "Quase toda discordância é sobre o método.",
+    "hook2": "Comece pelo que há em comum."
   },
   {
     "day": 349,
@@ -5621,7 +6227,9 @@
       "#memento",
       "#365diasestoicos"
     ],
-    "apply": "Resolva hoje a conversa ou pendência que você vem evitando. Não deixe nada importante em aberto."
+    "apply": "Resolva hoje a conversa ou pendência que você vem evitando. Não deixe nada importante em aberto.",
+    "hook": "Há uma conversa que você vem evitando.",
+    "hook2": "Não a deixe em aberto."
   },
   {
     "day": 350,
@@ -5637,7 +6245,9 @@
       "#felicidade",
       "#vidafeliz"
     ],
-    "apply": "Liste o que realmente melhora seus dias de trabalho e o que só parece ajudar. Corte o segundo grupo."
+    "apply": "Liste o que realmente melhora seus dias de trabalho e o que só parece ajudar. Corte o segundo grupo.",
+    "hook": "Nem tudo que parece ajudar melhora o seu dia.",
+    "hook2": "Liste e corte o que só parece."
   },
   {
     "day": 351,
@@ -5653,7 +6263,9 @@
       "#exame",
       "#365diasestoicos"
     ],
-    "apply": "Revise o dia: que decisão foi impulso, que informação aceitei sem checar? Anote um ajuste."
+    "apply": "Revise o dia: que decisão foi impulso, que informação aceitei sem checar? Anote um ajuste.",
+    "hook": "Quantas decisões de hoje foram impulso?",
+    "hook2": "Revise o dia e anote um ajuste."
   },
   {
     "day": 352,
@@ -5669,7 +6281,9 @@
       "#presente",
       "#viverbem"
     ],
-    "apply": "Termine uma tarefa antes de abrir a próxima. Feche a aba, silencie o chat e entregue de uma vez."
+    "apply": "Termine uma tarefa antes de abrir a próxima. Feche a aba, silencie o chat e entregue de uma vez.",
+    "hook": "Uma tarefa de cada vez, até o fim.",
+    "hook2": "Feche a aba e silencie o chat."
   },
   {
     "day": 353,
@@ -5685,7 +6299,9 @@
       "#companhia",
       "#autoconhecimento"
     ],
-    "apply": "Almoce com quem lhe faz pensar melhor e reduza a roda de reclamação. Companhia molda o rendimento."
+    "apply": "Almoce com quem lhe faz pensar melhor e reduza a roda de reclamação. Companhia molda o rendimento.",
+    "hook": "A roda de reclamação também molda você.",
+    "hook2": "Escolha melhor a companhia."
   },
   {
     "day": 354,
@@ -5701,7 +6317,9 @@
       "#pausa",
       "#autocontrole"
     ],
-    "apply": "Ao receber o e-mail que irrita, espere dez segundos e leia de novo antes de responder."
+    "apply": "Ao receber o e-mail que irrita, espere dez segundos e leia de novo antes de responder.",
+    "hook": "Entre a irritação e a resposta há um espaço.",
+    "hook2": "Use dez segundos dele."
   },
   {
     "day": 355,
@@ -5717,7 +6335,9 @@
       "#recomecar",
       "#persistencia"
     ],
-    "apply": "Errou no prazo ou na entrega? Reconheça, ajuste e retome a tarefa hoje, sem remoer."
+    "apply": "Errou no prazo ou na entrega? Reconheça, ajuste e retome a tarefa hoje, sem remoer.",
+    "hook": "Errou no prazo ou na entrega.",
+    "hook2": "Reconheça, ajuste e retome."
   },
   {
     "day": 356,
@@ -5733,7 +6353,9 @@
       "#legado",
       "#continuidade"
     ],
-    "apply": "Entregue a sua parte do projeto hoje, mesmo que ele não termine com você. Obra grande é coletiva."
+    "apply": "Entregue a sua parte do projeto hoje, mesmo que ele não termine com você. Obra grande é coletiva.",
+    "hook": "O projeto pode não terminar com você.",
+    "hook2": "Entregue a sua parte hoje."
   },
   {
     "day": 357,
@@ -5749,7 +6371,9 @@
       "#aspiracao",
       "#carater"
     ],
-    "apply": "Aja como o profissional que quer ser: avise o atraso cedo, mesmo sem ser cobrado."
+    "apply": "Aja como o profissional que quer ser: avise o atraso cedo, mesmo sem ser cobrado.",
+    "hook": "Ninguém precisa estar pronto para agir bem.",
+    "hook2": "Comece pela atitude de hoje."
   },
   {
     "day": 358,
@@ -5765,7 +6389,9 @@
       "#carater",
       "#365diasestoicos"
     ],
-    "apply": "Mantenha a calma em uma reunião tensa hoje. À noite, anote onde o bom caráter apareceu."
+    "apply": "Mantenha a calma em uma reunião tensa hoje. À noite, anote onde o bom caráter apareceu.",
+    "hook": "Reunião tensa é onde a calma se prova.",
+    "hook2": "À noite, anote como foi."
   },
   {
     "day": 359,
@@ -5783,7 +6409,9 @@
     ],
     "apply": "Compartilhe hoje com a equipe uma lição ou atalho que aprendeu na obra ou no projeto.",
     "original": "nullius boni sine socio iucunda possessio est.",
-    "ref": "Cartas a Lucílio, 6.4"
+    "ref": "Cartas a Lucílio, 6.4",
+    "hook": "Atalho guardado só para você vale menos.",
+    "hook2": "Compartilhe com a equipe."
   },
   {
     "day": 360,
@@ -5799,7 +6427,9 @@
       "#confianca",
       "#destino"
     ],
-    "apply": "Na incerteza do projeto, faça a sua parte e dê o próximo passo possível, sem esperar garantia."
+    "apply": "Na incerteza do projeto, faça a sua parte e dê o próximo passo possível, sem esperar garantia.",
+    "hook": "Garantia o projeto não vai dar.",
+    "hook2": "Dê o próximo passo possível."
   },
   {
     "day": 361,
@@ -5815,7 +6445,9 @@
       "#decisao",
       "#agora"
     ],
-    "apply": "Para a meta que parece longe, escolha o primeiro passo disponível agora e dê-o ainda hoje."
+    "apply": "Para a meta que parece longe, escolha o primeiro passo disponível agora e dê-o ainda hoje.",
+    "hook": "A meta parece longe porque o começo é adiado.",
+    "hook2": "Dê o primeiro passo ainda hoje."
   },
   {
     "day": 362,
@@ -5833,7 +6465,9 @@
     ],
     "apply": "Ouça uma reunião inteira sem interromper e mostre que entendeu antes de opinar.",
     "original": "Hoc primum philosophia promittit, sensum communem, humanitatem et congregationem",
-    "ref": "Cartas a Lucílio, 5.4"
+    "ref": "Cartas a Lucílio, 5.4",
+    "hook": "Uma reunião inteira sem interromper.",
+    "hook2": "Mostre que entendeu, depois opine."
   },
   {
     "day": 363,
@@ -5849,7 +6483,9 @@
       "#encerramento",
       "#365diasestoicos"
     ],
-    "apply": "Ninguém tira de você o jeito de agir no trabalho. Leve essa liberdade para o próximo ano."
+    "apply": "Ninguém tira de você o jeito de agir no trabalho. Leve essa liberdade para o próximo ano.",
+    "hook": "Há uma coisa que ninguém tira de você.",
+    "hook2": "O seu jeito de agir."
   },
   {
     "day": 364,
@@ -5865,7 +6501,9 @@
       "#vidaexaminada",
       "#365diasestoicos"
     ],
-    "apply": "Mande hoje uma mensagem de agradecimento a um colega ou chefe que ajudou você este ano."
+    "apply": "Mande hoje uma mensagem de agradecimento a um colega ou chefe que ajudou você este ano.",
+    "hook": "O ano não se fez só com o seu esforço.",
+    "hook2": "Agradeça a alguém pelo nome."
   },
   {
     "day": 365,
@@ -5881,6 +6519,8 @@
       "#recomecar",
       "#365dias"
     ],
-    "apply": "Escolha três princípios para guiar suas decisões no trabalho do próximo ano e anote na agenda."
+    "apply": "Escolha três princípios para guiar suas decisões no trabalho do próximo ano e anote na agenda.",
+    "hook": "Você caminhou um ano com os estoicos.",
+    "hook2": "Escolha três princípios e siga."
   }
 ]
