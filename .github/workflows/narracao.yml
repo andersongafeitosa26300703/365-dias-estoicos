@@ -1,0 +1,56 @@
+name: Narracao do dia seguinte
+
+on:
+  schedule:
+    # 15:00 UTC = 12:00 em Brasilia: gera o video narrado de amanha, que o post das 4h publica
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Gerar um dia especifico (1-365). Vazio = o dia de amanha."
+        required: false
+      forcar:
+        description: "Refazer mesmo que ja exista (gasta creditos da ElevenLabs)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Mesma fila do post diario: os dois escrevem na main e nao podem rodar juntos
+concurrency:
+  group: daily-post
+  cancel-in-progress: false
+
+jobs:
+  narrar:
+    runs-on: ubuntu-latest
+    env:
+      DAY_ARG: ${{ github.event.inputs.day && format('--dia {0}', github.event.inputs.day) || '' }}
+      FORCAR_ARG: ${{ github.event.inputs.forcar == 'true' && '--forcar' || '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Garantir ffmpeg
+        run: command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Gerar a voz e o video narrado
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python scripts/narracao.py $DAY_ARG $FORCAR_ARG
+
+      - name: Guardar o video no repositorio
+        run: |
+          git config user.name "365-dias-estoicos-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add reels/
+          git diff --cached --quiet || git commit -m "Video narrado do dia seguinte"
+          git pull --rebase origin main
+          git push

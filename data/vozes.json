@@ -1,0 +1,11 @@
+{
+  "modelo": "eleven_v4",
+  "autores": {
+    "Marco Aurélio": {"voz": "nfiLpQ54jEQninp3nNqL", "nome": "Erik, calmo e introspectivo"},
+    "Sêneca": {"voz": "X3j2R63Qu4Gdv6dsU2hB", "nome": "Moutella, mentor"},
+    "Epicteto": {"voz": "ZJifS0J2hVgU6cVz2sIC", "nome": "Professor Ulisses, autoridade"},
+    "Zenão": {"voz": "4XmhZ74tBbUVCXIYNMMo", "nome": "Leonardo, grave e épico"},
+    "Musônio Rufo": {"voz": "bEYEuRWlSrSpweXZIhwF", "nome": "Mauricio Nocce, grave e imponente"}
+  },
+  "padrao": {"voz": "EeTjZnu1OfgjhGKT6ywY", "nome": "Lax Whisper (autor sem voz cadastrada)"}
+}

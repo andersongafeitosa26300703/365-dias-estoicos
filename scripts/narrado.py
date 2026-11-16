@@ -1,0 +1,151 @@
+"""Gera um vídeo narrado (MP4 1080x1920): imagem de fundo animada, chuva desenhada, texto sincronizado com a voz e um som ambiente baixo.
+
+A voz vem pronta (mp3); o texto entra nos instantes passados em `tempos`, medidos nas pausas da fala.
+Requer ffmpeg, Pillow e numpy.
+
+Uso: python scripts/narrado.py DIA VOZ.mp3 FUNDO.png SAIDA.mp4 quote=0.5 label=5.9 apply=7.1
+     python scripts/narrado.py --estatico DIA VOZ.mp3 SAIDA.mp4 quote=0.5 label=5.9 apply=7.1   (so a voz, fundo estatico)
+"""
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+import numpy as np
+from PIL import Image, ImageDraw
+
+from reel import FPS, ROOT, SH, SW, SONS_DIR, _aplica, _camadas
+
+
+def _chuva(duracao, semente=7, gotas=170):
+    """Gerador de quadros RGBA com riscos de chuva finos e discretos."""
+    rng = np.random.default_rng(semente)
+    x = rng.uniform(0, SW, gotas)
+    y = rng.uniform(0, SH, gotas)
+    comp = rng.uniform(40, 120, gotas)
+    vel = rng.uniform(1100, 1900, gotas)  # px/s
+    alfa = rng.integers(35, 90, gotas)
+    for n in range(int(duracao * FPS)):
+        im = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        for i in range(gotas):
+            d.line([(x[i], y[i]), (x[i] - comp[i] * 0.12, y[i] + comp[i])], fill=(205, 220, 228, int(alfa[i])), width=2 if comp[i] > 90 else 1)
+        yield im
+        y += vel / FPS
+        x -= vel / FPS * 0.12
+        saiu = y > SH
+        y[saiu] = -comp[saiu]
+        x[saiu] = rng.uniform(0, SW + 150, saiu.sum())
+
+
+def _sombra(forca=95):
+    """Faixa escura e suave atras do bloco de texto: melhora o contraste sem escurecer a imagem toda."""
+    y = np.arange(SH)
+    alfa = (forca * np.clip(1 - np.abs(y - 900) / 800, 0, 1) ** 1.2).astype(np.uint8)
+    rgba = np.zeros((SH, SW, 4), dtype=np.uint8)
+    rgba[:, :, 3] = alfa[:, None]
+    return Image.fromarray(rgba, "RGBA")
+
+
+def narrado(entry, voz, fundo_img, saida, tempos, atraso=0.4, cauda=1.6, som="chuva", volume_fundo=0.18):
+    voz, fundo_img, saida = Path(voz), Path(fundo_img), Path(saida)
+    saida.parent.mkdir(parents=True, exist_ok=True)
+    dur_voz = float(subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(voz)],
+        capture_output=True, text=True, check=True).stdout)
+    total = atraso + dur_voz + cauda
+    tempos = {**tempos, "fim": total}
+    base, camadas, _, _ = _camadas(entry, tempos=tempos, fundo=False, tema="dark")
+    n_quadros = int(total * FPS)
+
+    # Fundo: imagem vertical (9:16) ganha um zoom lento e centrado; imagem larga cobre a altura e a janela vertical
+    # desliza devagar da esquerda para a direita. Um leve desfoque disfarca a ampliacao.
+    larg, alt = Image.open(fundo_img).size
+    vertical = larg / alt < 0.7
+    if vertical:
+        anima = (
+            f"[0:v]scale=2304:4096,zoompan=z='1+0.08*on/{n_quadros}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f":d={n_quadros}:s={SW}x{SH}:fps={FPS},"
+        )
+        entrada_fundo = ["-i", str(fundo_img)]
+    else:
+        anima = f"[0:v]scale=-2:2000,crop=1080:1920:x='(iw-1080)*(0.25+0.5*t/{total:.2f})':y='(ih-1920)/2',gblur=sigma=1.6,"
+        entrada_fundo = ["-loop", "1", "-framerate", str(FPS), "-i", str(fundo_img)]
+    fundo = anima + "eq=brightness=0.04:contrast=1.08:saturation=0.9,vignette=PI/6[bg];[bg][1:v]overlay=shortest=1[v]"
+    bed = SONS_DIR / f"{som}.m4a"
+    if bed.exists():
+        audio = (
+            f"[2:a]loudnorm=I=-16:TP=-1.5:LRA=11,aformat=channel_layouts=stereo,adelay={int(atraso*1000)}|{int(atraso*1000)},apad[voz];"
+            f"[3:a]volume={volume_fundo},afade=t=in:d=1.0,afade=t=out:st={max(0.0, total-1.6):.2f}:d=1.6[bed];"
+            f"[voz][bed]amix=inputs=2:duration=longest:normalize=0,atrim=0:{total:.2f}[a]"
+        )
+        entradas_bed = ["-ss", "3", "-t", f"{total:.2f}", "-i", str(bed)]
+    else:
+        audio = f"[2:a]loudnorm=I=-16:TP=-1.5:LRA=11,aformat=channel_layouts=stereo,adelay={int(atraso*1000)}|{int(atraso*1000)},apad,atrim=0:{total:.2f}[a]"
+        entradas_bed = []
+    cmd = [
+        "ffmpeg", "-y", "-loglevel", "error",
+        *entrada_fundo,
+        "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{SW}x{SH}", "-r", str(FPS), "-i", "-",
+        "-i", str(voz), *entradas_bed,
+        "-filter_complex", fundo + ";" + audio,
+        "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-pix_fmt", "yuv420p",
+        "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(saida),
+    ]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    sombra = _sombra()
+    for n, chuva in zip(range(n_quadros), _chuva(total)):
+        texto, _ = _aplica(base, camadas, n / FPS)
+        quadro = sombra.copy()
+        quadro.alpha_composite(chuva)
+        quadro.alpha_composite(texto)
+        proc.stdin.write(quadro.tobytes())
+    proc.stdin.close()
+    if proc.wait() != 0:
+        raise RuntimeError("ffmpeg falhou ao montar o video narrado")
+    return saida, total
+
+
+def estatico(entry, voz, saida, tempos, atraso=0.4, cauda=1.2):
+    """Video narrado simples: fundo estatico do Reel (cores e moldura do dia), texto sincronizado e so a voz, sem som ambiente."""
+    voz, saida = Path(voz), Path(saida)
+    saida.parent.mkdir(parents=True, exist_ok=True)
+    dur_voz = float(subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(voz)],
+        capture_output=True, text=True, check=True).stdout)
+    total = atraso + dur_voz + cauda
+    base, camadas, _, _ = _camadas(entry, tempos={**tempos, "fim": total}, fundo=True)
+    ms = int(atraso * 1000)
+    cmd = [
+        "ffmpeg", "-y", "-loglevel", "error",
+        "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{SW}x{SH}", "-r", str(FPS), "-i", "-",
+        "-i", str(voz),
+        "-filter_complex",
+        f"[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,aformat=channel_layouts=stereo,adelay={ms}|{ms},apad,atrim=0:{total:.2f},"
+        f"afade=t=out:st={max(0.0, total - 0.6):.2f}:d=0.6[a]",
+        "-map", "0:v", "-map", "[a]", "-t", f"{total:.2f}",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
+        "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(saida),
+    ]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    ultima_chave, ultimos_bytes = None, None
+    for n in range(int(total * FPS)):
+        frame, chave = _aplica(base, camadas, n / FPS)
+        if chave != ultima_chave:  # quadros parados nao precisam ser recompostos
+            ultimos_bytes, ultima_chave = frame.convert("RGB").tobytes(), chave
+        proc.stdin.write(ultimos_bytes)
+    proc.stdin.close()
+    if proc.wait() != 0:
+        raise RuntimeError("ffmpeg falhou ao montar o video narrado simples")
+    return saida, total
+
+
+if __name__ == "__main__":
+    simples = "--estatico" in sys.argv
+    args = [a for a in sys.argv[1:] if a != "--estatico"]
+    dia, voz = int(args[0]), args[1]
+    fundo_img, saida, resto = (None, args[2], args[3:]) if simples else (args[2], args[3], args[4:])
+    tempos = {k: float(v) for k, v in (a.split("=") for a in resto)}
+    entry = next(e for e in json.loads((ROOT / "data" / "calendar.json").read_text(encoding="utf-8")) if e["day"] == dia)
+    print(estatico(entry, voz, saida, tempos) if simples else narrado(entry, voz, fundo_img, saida, tempos))

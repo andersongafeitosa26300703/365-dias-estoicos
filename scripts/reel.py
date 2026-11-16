@@ -35,9 +35,10 @@ def _audio(entry, fim):
     return ["-ss", str(inicio), "-t", f"{fim:.2f}", "-i", str(arquivo)], ["-af", fades]
 
 
-def _camadas(entry):
+def _camadas(entry, tempos=None, fundo=True, tema=None):
     """Devolve (base, camadas, fim, instante_da_capa). Cada camada e (imagem RGBA do quadro, instante de entrada em s)."""
-    t = THEMES["dark" if entry["day"] % 2 else "light"]
+    tempos = tempos or {}  # instantes (s) para sincronizar com uma narracao: quote, label, apply, fim
+    t = THEMES[tema or ("dark" if entry["day"] % 2 else "light")]
     BG, GOLD, TEXT, MUTED = t["bg"], t["accent"], t["text"], t["muted"]
     tmp = ImageDraw.Draw(Image.new("RGB", (SW, SH)))
     max_w = SW - 2 * 100
@@ -49,9 +50,10 @@ def _camadas(entry):
         im = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
         return im, ImageDraw.Draw(im)
 
-    base = Image.new("RGBA", (SW, SH), BG + (255,))
+    base = Image.new("RGBA", (SW, SH), BG + (255,) if fundo else (0, 0, 0, 0))
     bd = ImageDraw.Draw(base)
-    bd.rectangle([40, 40, SW - 40, SH - 40], outline=GOLD, width=2)
+    if fundo:
+        bd.rectangle([40, 40, SW - 40, SH - 40], outline=GOLD, width=2)
 
     camadas = []
     # cabecalho
@@ -80,7 +82,7 @@ def _camadas(entry):
                 break
         q_top, q_bottom = 470, 1330
 
-    inicio = 0.8
+    inicio = tempos.get("quote", 0.8)
     if tem_apply and original:
         im, d = nova()
         y = 410 + (200 - len(olines) * olh) / 2
@@ -88,7 +90,7 @@ def _camadas(entry):
             centered(d, y, ln, of, GOLD)
             y += olh
         camadas.append((im, inicio))
-        inicio = 2.2
+        inicio = inicio + (0.0 if "quote" in tempos else 1.4)
     im, d = nova()
     y = q_top + ((q_bottom - q_top) - len(qlines) * qlh) / 2
     for ln in qlines:
@@ -111,9 +113,9 @@ def _camadas(entry):
     else:
         d.line([(SW / 2 - 50, 1420), (SW / 2 + 50, 1420)], fill=GOLD, width=2)
         centered(d, 1460, label, lf, GOLD)
-    t_label = t_quote + max(2.6, len(entry["quote"]) / 17)
+    t_label = tempos.get("label", t_quote + max(2.6, len(entry["quote"]) / 17))
     camadas.append((im, t_label))
-    fim = t_label + 3.5
+    fim = tempos.get("fim", t_label + 3.5)
 
     # complemento "No trabalho"
     if tem_apply:
@@ -125,12 +127,12 @@ def _camadas(entry):
         for ln in alines:
             centered(d, y, ln, af, TEXT)
             y += alh
-        t_apply = t_label + 1.8
+        t_apply = tempos.get("apply", t_label + 1.8)
         camadas.append((im, t_apply))
-        fim = t_apply + max(4.2, len(entry["apply"]) / 15) + 1.0
+        fim = tempos.get("fim", t_apply + max(4.2, len(entry["apply"]) / 15) + 1.0)
 
     # perfil, sempre visivel
-    centered(bd, 1640 if tem_apply else 1600, HANDLE, load_font(FONT_CANDIDATES, 30 if tem_apply else 32), MUTED)
+    centered(bd, 1640 if tem_apply else 1600, HANDLE, load_font(FONT_CANDIDATES, 30 if tem_apply else 32), MUTED if fundo else TEXT)
     return base, camadas, fim, max(0.0, fim - 1.0)
 
 
