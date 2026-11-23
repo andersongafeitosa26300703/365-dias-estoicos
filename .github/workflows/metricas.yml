@@ -1,0 +1,30 @@
+name: Metricas do perfil
+
+# Somente leitura: consulta curtidas, comentarios e (se a permissao existir) alcance de cada publicacao.
+# Roda so manualmente. Curtidas e comentarios aparecem no log; os insights vao so para o artefato (1 dia).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Ler metricas
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python scripts/metricas.py --saida metricas.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: metricas
+          path: metricas.json
+          retention-days: 1
