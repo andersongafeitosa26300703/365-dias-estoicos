@@ -69,6 +69,13 @@ Para ligar:
 
 Teste local sem gastar creditos: `python scripts/narracao.py --dia 43 --audio voz.mp3 --forcar` (usa uma voz ja gravada).
 
+## Reel narrado do carrossel (formato atual do video narrado)
+Com `"narracao_formato": "carrossel"` em `config.json`, o video narrado de cada dia com gancho (`hook`) le as 5 laminas do
+carrossel (`scripts/reel_carrossel.py`): gancho; citacao e autor; "O que significa"; "No trabalho"; chamada final. O video e
+vertical (1080x1920, uns 40 s) e a lamina muda nas pausas da fala; a capa e a lamina do gancho (2 s). Dias sem gancho e
+`"narracao_formato"` ausente continuam com o narrado curto. O texto da voz vem de `narracao.texto_do_dia(entry)`. Cada video
+gasta cerca de 540 creditos da ElevenLabs, o dobro do narrado curto.
+
 ## Observações
 - O agendador do GitHub pode atrasar de alguns minutos até ~30 min em horários de pico. Se precisar de hora exata, dá para trocar por outro agendador.
 - Se uma execução falhar, o GitHub envia e-mail. Para reenviar um dia: Run workflow com o campo `day`.
