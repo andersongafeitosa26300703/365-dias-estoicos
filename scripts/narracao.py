@@ -28,6 +28,8 @@ import requests
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from narrado import estatico  # noqa: E402
 from reel import ROOT  # noqa: E402
+from reel_carrossel import CAPA_MS, reel_carrossel, texto_carrossel  # noqa: E402
+from reel_carrossel import usa_formato as reel_carrossel_usa  # noqa: E402
 
 TZ = ZoneInfo("America/Sao_Paulo")
 REELS_DIR = ROOT / "reels"
@@ -45,6 +47,14 @@ def texto_narracao(entry):
     if entry.get("apply"):
         partes.append(f"[slowly] No trabalho… {entry['apply']}")
     return " ".join(partes)
+
+
+def texto_do_dia(entry, cfg=None):
+    """Texto da voz do dia: o do carrossel narrado (config narracao_formato = "carrossel", dia com gancho) ou o curto."""
+    cfg = cfg if cfg is not None else json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+    if cfg.get("narracao_formato") == "carrossel" and reel_carrossel_usa(entry):
+        return texto_carrossel(entry)
+    return texto_narracao(entry)
 
 
 def voz_do_autor(autor):
@@ -117,13 +127,20 @@ def gerar(dia, audio=None, forcar=False):
         print(f"Dia {dia}: video narrado ja existe; nada a fazer.")
         return destino
     voz_id, modelo, nome_voz = voz_do_autor(entry["author"])
+    # Formato "carrossel": o Reel le as 5 laminas do carrossel (so em dias com gancho); senao, o narrado curto
+    longo = cfg.get("narracao_formato") == "carrossel" and reel_carrossel_usa(entry)
     if audio is None:
         audio = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / f"narracao-{dia:03d}.mp3"
-        gerar_voz(texto_narracao(entry), voz_id, modelo, audio)
-    tempos = tempos_da_fala(audio, entry)
-    mp4, total = estatico(entry, audio, destino, tempos, atraso=ATRASO)
-    meta.write_text(json.dumps({"duracao_s": round(total, 1), "capa_ms": int(max(0, total - 1.0) * 1000), "narrado": True,
-                                "voz": nome_voz}), encoding="utf-8")
+        gerar_voz(texto_do_dia(entry, cfg), voz_id, modelo, audio)
+    if longo:
+        mp4, total = reel_carrossel(entry, audio, destino)
+        meta.write_text(json.dumps({"duracao_s": round(total, 1), "capa_ms": CAPA_MS, "narrado": True, "voz": nome_voz,
+                                    "formato": "carrossel narrado"}, ensure_ascii=False), encoding="utf-8")
+    else:
+        tempos = tempos_da_fala(audio, entry)
+        mp4, total = estatico(entry, audio, destino, tempos, atraso=ATRASO)
+        meta.write_text(json.dumps({"duracao_s": round(total, 1), "capa_ms": int(max(0, total - 1.0) * 1000), "narrado": True,
+                                    "voz": nome_voz}), encoding="utf-8")
     print(f"Dia {dia}: video narrado de {total:.0f} s com a voz de {nome_voz} em {mp4}")
     return mp4
 
