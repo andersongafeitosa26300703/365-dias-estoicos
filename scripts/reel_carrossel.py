@@ -60,13 +60,17 @@ def inicios_das_laminas(audio, entry, n):
         acc += p
         prop.append(ATRASO + dur * acc / total)
 
-    quantas = n - 1
-    maiores = sorted(sorted(pausas, key=lambda p: -p[2])[:quantas], key=lambda p: p[0])
-    if len(maiores) == quantas and all(p[2] >= 0.9 for p in maiores):
-        det = [0.0] + [ATRASO + p[1] - 0.2 for p in maiores]
-        # confere com a divisao proporcional: se destoar muito, as pausas foram confundidas
-        if all(abs(d - q) < 6.0 for d, q in zip(det[1:], prop[1:])) and all(b - a > 1.5 for a, b in zip(det, det[1:])):
-            return det
+    # Para cada troca de lamina, escolhe a MAIOR pausa que termina perto do instante esperado pela divisao proporcional.
+    # (O tamanho da pausa varia de uma geracao para outra; so a posicao aproximada e confiavel.)
+    det = [0.0]
+    for k in range(1, n):
+        perto = [p for p in pausas if abs(ATRASO + p[1] - prop[k]) < 3.5 and p[1] > det[-1] + 1.0]
+        if not perto:
+            det = None
+            break
+        det.append(ATRASO + max(perto, key=lambda p: p[2])[1] - 0.2)
+    if det and all(b - a > 1.5 for a, b in zip(det, det[1:])):
+        return det
     print("[tempos] pausas nao identificadas; usando divisao proporcional")
     return prop
 
